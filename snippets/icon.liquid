@@ -144,10 +144,10 @@ Supported variables
     </svg>
 
   {%- when 'account' -%}
-    <svg aria-hidden="true" fill="none" focusable="false" width="{{ width | default: 24 }}" class="{{ class | strip }}" viewBox="0 0 24 24">
-      <path d="M16.125 8.75c-.184 2.478-2.063 4.5-4.125 4.5s-3.944-2.021-4.125-4.5c-.187-2.578 1.64-4.5 4.125-4.5 2.484 0 4.313 1.969 4.125 4.5Z" stroke="currentColor" stroke-width="{{ stroke_width | default: settings.icon_stroke_width }}" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M3.017 20.747C3.783 16.5 7.922 14.25 12 14.25s8.217 2.25 8.984 6.497" stroke="currentColor" stroke-width="{{ stroke_width | default: settings.icon_stroke_width }}" stroke-miterlimit="10"/>
-    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="29" height="32" viewBox="0 0 29 32" fill="none">
+<path d="M27.6667 31V27.6667C27.6667 25.8986 26.9643 24.2029 25.714 22.9526C24.4638 21.7024 22.7681 21 21 21H7.66667C5.89856 21 4.20286 21.7024 2.95262 22.9526C1.70238 24.2029 1 25.8986 1 27.6667V31" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.3337 14.3333C18.0156 14.3333 21.0003 11.3486 21.0003 7.66667C21.0003 3.98477 18.0156 1 14.3337 1C10.6518 1 7.66699 3.98477 7.66699 7.66667C7.66699 11.3486 10.6518 14.3333 14.3337 14.3333Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
 
   {%- when 'search' -%}
 
@@ -156,10 +156,11 @@ Supported variables
 <path d="M30.9998 31L23.8945 23.8948" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
   {%- when 'cart' -%}
-    <svg aria-hidden="true" fill="none" focusable="false" width="{{ width | default: 24 }}" class="{{ class | strip }}" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="30" viewBox="0 0 25 30" fill="none">
       {%- case settings.cart_icon -%}
         {%- when 'shopping_bag' -%}
-          <path d="M4.75 8.25A.75.75 0 0 0 4 9L3 19.125c0 1.418 1.207 2.625 2.625 2.625h12.75c1.418 0 2.625-1.149 2.625-2.566L20 9a.75.75 0 0 0-.75-.75H4.75Zm2.75 0v-1.5a4.5 4.5 0 0 1 4.5-4.5v0a4.5 4.5 0 0 1 4.5 4.5v1.5" stroke="currentColor" stroke-width="{{ stroke_width | default: settings.icon_stroke_width }}" stroke-linecap="round" stroke-linejoin="round"/>
+         <path d="M24.9728 26.4037L22.8532 8.60805C22.7898 8.28682 22.5413 8.03083 22.2295 8.03083H17.6759V6.23141C17.6759 2.50459 15.6806 0 12.6863 0C9.69203 0 7.69668 2.50459 7.69668 6.23141V8.03083H2.77042C2.45857 8.03083 2.21006 8.28682 2.14671 8.60805L0.0271206 26.4037C-0.0971336 27.3022 0.214718 28.2659 0.775066 28.9083C1.33543 29.6161 2.21008 30 3.08227 30H21.857C22.7292 30 23.6039 29.6135 24.1642 28.9083C24.7855 28.2684 25.0973 27.3047 24.9731 26.4037H24.9728ZM8.94421 6.29388C8.94421 3.97998 9.94313 1.34741 12.6864 1.34741C15.4297 1.34741 16.4286 3.98255 16.4286 6.29388V8.0933H8.94421V6.29388ZM23.2894 28.0748C22.9142 28.4613 22.4172 28.7173 21.9177 28.7173H3.08252C2.52216 28.7173 2.02272 28.4613 1.71087 28.0748C1.39902 27.6883 1.21142 27.1111 1.27477 26.5339L3.33105 9.37811H21.6667L23.7254 26.5969C23.7888 27.1113 23.6012 27.6885 23.2893 28.075L23.2894 28.0748Z" fill="black"/>
+
 
         {%- when 'shopping_bag_sharp' -%}
           <path d="M21.5 21.5v-15h-19v15h19ZM8 6V5a4 4 0 1 1 8 0v1" stroke="currentColor" stroke-width="{{ stroke_width | default: settings.icon_stroke_width }}"/>
