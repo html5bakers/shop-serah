@@ -150,11 +150,11 @@ Supported variables
     </svg>
 
   {%- when 'search' -%}
-    <svg aria-hidden="true" fill="none" focusable="false" width="{{ width | default: 24 }}" class="{{ class | strip }}" viewBox="0 0 24 24">
-      <path d="M10.364 3a7.364 7.364 0 1 0 0 14.727 7.364 7.364 0 0 0 0-14.727Z" stroke="currentColor" stroke-width="{{ stroke_width | default: settings.icon_stroke_width }}" stroke-miterlimit="10"/>
-      <path d="M15.857 15.858 21 21.001" stroke="currentColor" stroke-width="{{ stroke_width | default: settings.icon_stroke_width }}" stroke-miterlimit="10" stroke-linecap="round"/>
-    </svg>
 
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+<path d="M14.4211 27.8421C21.8333 27.8421 27.8421 21.8333 27.8421 14.4211C27.8421 7.00881 21.8333 1 14.4211 1C7.00881 1 1 7.00881 1 14.4211C1 21.8333 7.00881 27.8421 14.4211 27.8421Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M30.9998 31L23.8945 23.8948" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
   {%- when 'cart' -%}
     <svg aria-hidden="true" fill="none" focusable="false" width="{{ width | default: 24 }}" class="{{ class | strip }}" viewBox="0 0 24 24">
       {%- case settings.cart_icon -%}
