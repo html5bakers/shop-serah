@@ -157,7 +157,6 @@ Output a list of social media icons based on the social URL settings.
     <li class="social-media__item branding-colors--21buttons">
       <a href="{{ settings.social_21buttons }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: '21 Buttons' }}">
         {%- render 'icon' with '21buttons' -%}
-        {%- if settings.buttons_title != blank %}<span>{{ settings.buttons_title }}</span>{% endif %}
       </a>
     </li>
   {%- endif -%}
