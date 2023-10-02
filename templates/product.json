@@ -103,6 +103,30 @@
             "text_color": "#6b6b6b",
             "border_color": ""
           }
+        },
+        "d4aa7b09-74ab-4626-9d26-a744da69552b": {
+          "type": "feature_with_icon",
+          "settings": {
+            "text": "Free Shipping Available",
+            "link": "",
+            "icon": "none",
+            "icon_width": 16,
+            "background": "#ffffff",
+            "text_color": "#6b6b6b",
+            "border_color": ""
+          }
+        },
+        "4c57674f-30a9-438d-998a-db15c5bf79eb": {
+          "type": "feature_with_icon",
+          "settings": {
+            "text": "Feature",
+            "link": "",
+            "icon": "none",
+            "icon_width": 16,
+            "background": "#ffffff",
+            "text_color": "#6b6b6b",
+            "border_color": ""
+          }
         }
       },
       "block_order": [
@@ -118,7 +142,9 @@
         "complementary_products",
         "225d4566-c117-4fb4-861e-1d0b18c4b8e6",
         "75818f52-a09e-4bb1-9142-1a7ad2c4ccb0",
-        "f652e963-bef0-4dc2-9203-e2905dbb9b89"
+        "f652e963-bef0-4dc2-9203-e2905dbb9b89",
+        "d4aa7b09-74ab-4626-9d26-a744da69552b",
+        "4c57674f-30a9-438d-998a-db15c5bf79eb"
       ],
       "settings": {
         "container_size": "lg",
@@ -133,26 +159,9 @@
         "enable_image_zoom": true,
         "max_image_zoom_level": 3
       }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "recommendations_count": 10,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "",
-        "title": "You Might Also Like",
-        "content": ""
-      }
     }
   },
   "order": [
-    "main",
-    "related-products"
+    "main"
   ]
 }
