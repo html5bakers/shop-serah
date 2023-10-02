@@ -113,6 +113,13 @@ Supported variables
         {%- case block.type -%}
           {%- when '@app' -%}
             {%- render block -%}
+            {%- when 'type' -%}
+            {%- if product != blank -%}
+              {%- render 'product-type' with product.type, class: 'h6 link-faded' -%}
+            {%- else -%}
+              {%- assign placeholder_vendor = 'general.on_boarding.product_vendor' | t -%}
+              {%- render 'product-type' with placeholder_vendor, class: 'h6 link-faded' -%}
+            {%- endif -%}
 
           {%- when 'vendor' -%}
             {%- if product != blank -%}
