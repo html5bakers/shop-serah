@@ -767,9 +767,19 @@
         "label": "YouTube"
       },
       {
+        "type": "text",
+        "id": "youtube_title",
+        "label": "YouTube Title"
+      },
+      {
         "type": "url",
         "id": "social_tiktok",
         "label": "TikTok"
+      },
+      {
+        "type": "text",
+        "id": "tiktok_title",
+        "label": "TikTok Title"
       },
       {
         "type": "url",
@@ -777,9 +787,19 @@
         "label": "LinkedIn"
       },
       {
+        "type": "text",
+        "id": "linkedin_title",
+        "label": "LinkedIn Title"
+      },
+      {
         "type": "url",
         "id": "social_snapchat",
         "label": "Snapchat"
+      },
+      {
+        "type": "text",
+        "id": "snapchat_title",
+        "label": "Snapchat Title"
       },
       {
         "type": "url",
@@ -787,9 +807,19 @@
         "label": "WeChat"
       },
       {
+        "type": "text",
+        "id": "wechat_title",
+        "label": "WeChat Title"
+      },
+      {
         "type": "url",
         "id": "social_reddit",
         "label": "Reddit"
+      },
+      {
+        "type": "text",
+        "id": "reddit_title",
+        "label": "Reddit Title"
       },
       {
         "type": "url",
@@ -797,14 +827,29 @@
         "label": "LINE"
       },
       {
+        "type": "text",
+        "id": "line_title",
+        "label": "LINE Title"
+      },
+      {
         "type": "url",
         "id": "social_spotify",
         "label": "Spotify"
       },
       {
+        "type": "text",
+        "id": "spotify_title",
+        "label": "Spotify Title"
+      },
+      {
         "type": "url",
         "id": "social_21buttons",
         "label": "21 Buttons"
+      },
+      {
+        "type": "text",
+        "id": "21buttons_title",
+        "label": "21 Buttons Title"
       }
     ]
   },
