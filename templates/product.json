@@ -77,7 +77,7 @@
           "settings": {
             "show_below_gallery": false,
             "icon": "none",
-            "title": "<strong>Shipping<\/strong>",
+            "title": "Shipping",
             "content": "<p>For orders placed before 7am IST, we endeavour to process the same business day. Orders placed after 11am IST will be processed the next business day.<\/p>",
             "page": ""
           }
