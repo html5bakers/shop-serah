@@ -4,8 +4,8 @@
     "theme_name": "Prestige",
     "theme_author": "Maestrooo",
     "theme_version": "7.3.6",
-    "theme_documentation_url": "https://support.maestrooo.com/",
-    "theme_support_url": "https://support.maestrooo.com/article/203-contact-us"
+    "theme_documentation_url": "https:\/\/support.maestrooo.com\/",
+    "theme_support_url": "https:\/\/support.maestrooo.com\/article\/203-contact-us"
   },
   {
     "name": "t:theme_settings.appearance.name",
@@ -686,7 +686,7 @@
         "type": "url",
         "id": "cart_empty_cart_link",
         "label": "t:theme_settings.cart.empty_cart_link",
-        "default": "/collections/all"
+        "default": "\/collections\/all"
       },
       {
         "type": "header",
@@ -740,6 +740,11 @@
         "type": "url",
         "id": "social_instagram",
         "label": "Instagram"
+      },
+      {
+        "type": "text",
+        "id": "instagram_title",
+        "label": "Instagram Title"
       },
       {
         "type": "url",
