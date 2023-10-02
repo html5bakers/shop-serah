@@ -722,9 +722,19 @@
         "label": "Facebook"
       },
       {
+        "type": "text",
+        "id": "facebook_title",
+        "label": "Facebook Title"
+      },
+      {
         "type": "url",
         "id": "social_twitter",
         "label": "X (formerly Twitter)"
+      },
+      {
+        "type": "text",
+        "id": "twitter_title",
+        "label": "Twitter Title"
       },
       {
         "type": "url",
@@ -732,9 +742,19 @@
         "label": "Pinterest"
       },
       {
+        "type": "text",
+        "id": "pinterest_title",
+        "label": "Pinterest Title"
+      },
+      {
         "type": "url",
         "id": "social_threads",
         "label": "Threads"
+      },
+      {
+        "type": "text",
+        "id": "threads_title",
+        "label": "Threads Title"
       },
       {
         "type": "url",
@@ -752,14 +772,29 @@
         "label": "Vimeo"
       },
       {
+        "type": "text",
+        "id": "vimeo_title",
+        "label": "Vimeo Title"
+      },
+      {
         "type": "url",
         "id": "social_whatsapp",
         "label": "WhatsApp"
       },
       {
+        "type": "text",
+        "id": "whatsapp_title",
+        "label": "WhatsApp Title"
+      },
+      {
         "type": "url",
         "id": "social_tumblr",
         "label": "Tumblr"
+      },
+      {
+        "type": "text",
+        "id": "tumblr_title",
+        "label": "Tumblr Title"
       },
       {
         "type": "url",
