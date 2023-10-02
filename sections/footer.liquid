@@ -34,6 +34,16 @@
                   {%- endif -%}
 
                 {%- when 'text' -%}
+                  {%- if block.settings.image != blank -%}
+                    {%- capture sizes -%}{{ block.settings.image_width }}px{%- endcapture -%}
+                    {%- capture widths -%}{{ block.settings.image_width }}, {{ block.settings.image_width | times: 2 | at_most: block.settings.image.width }}{%- endcapture -%}
+                    {%- capture style -%}--image-max-width: {{ block.settings.image_width }}px{%- endcapture -%}
+                    <div class="footer_logo">
+                      <a href="{{ shop.url }}">
+                        {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: sizes: sizes, widths: widths, style: style, class: 'constrained-image' -}}
+                      </a>
+                    </div>
+                  {%- endif -%}
                   {%- if block.settings.title != blank or block.settings.content != blank or shop.features.follow_on_shop? and block.settings.enable_follow_on_shop -%}
                     <div class="v-stack gap-4 sm:gap-5">
                       {%- if block.settings.title != blank -%}
