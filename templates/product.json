@@ -81,6 +81,16 @@
             "content": "<p>For orders placed before 7am IST, we endeavour to process the same business day. Orders placed after 11am IST will be processed the next business day.<\/p>",
             "page": ""
           }
+        },
+        "75818f52-a09e-4bb1-9142-1a7ad2c4ccb0": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "RETURNS",
+            "content": "<p>You can choose between a refund or a credit note on full priced items.Item(s) must be returned in their original condition and packaging: unworn, unwashed and with all tags attached.Earrings cannot be returned due to health and safety reasons.Return shipping methods and associated costs are the responsibility of the customer.Sale items can not be refunded for change of mind.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -94,7 +104,8 @@
         "quantity_selector",
         "buy_buttons",
         "complementary_products",
-        "225d4566-c117-4fb4-861e-1d0b18c4b8e6"
+        "225d4566-c117-4fb4-861e-1d0b18c4b8e6",
+        "75818f52-a09e-4bb1-9142-1a7ad2c4ccb0"
       ],
       "settings": {
         "container_size": "lg",
