@@ -171,28 +171,6 @@
 
         <p class="heading text-subdued text-xxs">Serah Ltd. {{ 'now' | date: '%Y' }} | {{ powered_by_link }}</p>
 
-        {%- if section.settings.show_payment_icons  -%}
-          <div class="payment-methods">
-           <p>We Accept</p>
-            {%- for block in section.blocks -%}
-              {%- case block.type -%}
-                 {%- when 'image' -%}
-                    <ul class="Footer__PaymentList HorizontalList">
-                      {% if block.settings.visa != blank %}<li class="HorizontalList__Item">{{ block.settings.visa }}</li>{% endif %}
-                      {% if block.settings.mastercard != blank %}<li class="HorizontalList__Item">{{ block.settings.mastercard }}</li>{% endif %}
-                      {% if block.settings.paypal != blank %}<li class="HorizontalList__Item">{{ block.settings.paypal }}</li>{% endif %}
-                      {% if block.settings.amex != blank %}<li class="HorizontalList__Item">{{ block.settings.amex }}</li>{% endif %}
-                      {% if block.settings.dinerclub != blank %}<li class="HorizontalList__Item">{{ block.settings.dinerclub }}</li>{% endif %}
-                      {% if block.settings.maestro != blank %}<li class="HorizontalList__Item">{{ block.settings.maestro }}</li>{% endif %}
-                      {% if block.settings.other != blank %}<li class="HorizontalList__Item">{{ block.settings.other }}</li>{% endif %}
-                    </ul>
-              {%- endcase -%}
-            {%- endfor -%}
-            {%- for type in shop.enabled_payment_types -%}
-              {{- type | payment_type_svg_tag -}}
-            {%- endfor -%}
-          </div>
-        {%- endif -%}
       </div>
     </div>
   </div>
