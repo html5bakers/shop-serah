@@ -29,6 +29,7 @@ Supported variables
 
     {%- if block.settings[heading_setting] != blank or block.settings[text_setting] != blank -%}
       <div class="v-stack text-center {% if context == 'menu' %}gap-2.5{% else %}gap-0.5{% endif %}">
+      <div class="left-megamenu-image">
         {%- if block.settings[heading_setting] != blank -%}
           <p class="h6">{{ block.settings[heading_setting] }}</p>
         {%- endif -%}
@@ -36,6 +37,10 @@ Supported variables
         {%- if block.settings[text_setting] != blank -%}
           <p class="smallcaps text-xs text-subdued">{{ block.settings[text_setting] }}</p>
         {%- endif -%}
+      </div>
+      <div class="right-megamenu-image">
+            {%- render 'button', content: block.settings.link_text, 'outline' -%}
+      </div>
       </div>
     {%- endif -%}
   {%- endcapture -%}
