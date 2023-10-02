@@ -62,6 +62,42 @@
             "payment_button_text_color": ""
           }
         },
+        "f652e963-bef0-4dc2-9203-e2905dbb9b89": {
+          "type": "feature_with_icon",
+          "settings": {
+            "text": "Manufactured in UAE",
+            "link": "",
+            "icon": "none",
+            "icon_width": 16,
+            "background": "#ffffff",
+            "text_color": "#6b6b6b",
+            "border_color": ""
+          }
+        },
+        "d4aa7b09-74ab-4626-9d26-a744da69552b": {
+          "type": "feature_with_icon",
+          "settings": {
+            "text": "Free Shipping Available",
+            "link": "",
+            "icon": "none",
+            "icon_width": 16,
+            "background": "#ffffff",
+            "text_color": "#6b6b6b",
+            "border_color": ""
+          }
+        },
+        "4c57674f-30a9-438d-998a-db15c5bf79eb": {
+          "type": "feature_with_icon",
+          "settings": {
+            "text": "14-Day Return Policy",
+            "link": "",
+            "icon": "none",
+            "icon_width": 16,
+            "background": "#ffffff",
+            "text_color": "#6b6b6b",
+            "border_color": ""
+          }
+        },
         "complementary_products": {
           "type": "complementary_products",
           "settings": {
@@ -91,42 +127,6 @@
             "content": "<p>You can choose between a refund or a credit note on full priced items.Item(s) must be returned in their original condition and packaging: unworn, unwashed and with all tags attached.Earrings cannot be returned due to health and safety reasons.Return shipping methods and associated costs are the responsibility of the customer.Sale items can not be refunded for change of mind.<\/p>",
             "page": ""
           }
-        },
-        "f652e963-bef0-4dc2-9203-e2905dbb9b89": {
-          "type": "feature_with_icon",
-          "settings": {
-            "text": "Manufactured in UAE",
-            "link": "",
-            "icon": "none",
-            "icon_width": 16,
-            "background": "#ffffff",
-            "text_color": "#6b6b6b",
-            "border_color": ""
-          }
-        },
-        "d4aa7b09-74ab-4626-9d26-a744da69552b": {
-          "type": "feature_with_icon",
-          "settings": {
-            "text": "Free Shipping Available",
-            "link": "",
-            "icon": "none",
-            "icon_width": 16,
-            "background": "#ffffff",
-            "text_color": "#6b6b6b",
-            "border_color": ""
-          }
-        },
-        "4c57674f-30a9-438d-998a-db15c5bf79eb": {
-          "type": "feature_with_icon",
-          "settings": {
-            "text": "Feature",
-            "link": "",
-            "icon": "none",
-            "icon_width": 16,
-            "background": "#ffffff",
-            "text_color": "#6b6b6b",
-            "border_color": ""
-          }
         }
       },
       "block_order": [
@@ -139,12 +139,12 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "complementary_products",
-        "225d4566-c117-4fb4-861e-1d0b18c4b8e6",
-        "75818f52-a09e-4bb1-9142-1a7ad2c4ccb0",
         "f652e963-bef0-4dc2-9203-e2905dbb9b89",
         "d4aa7b09-74ab-4626-9d26-a744da69552b",
-        "4c57674f-30a9-438d-998a-db15c5bf79eb"
+        "4c57674f-30a9-438d-998a-db15c5bf79eb",
+        "complementary_products",
+        "225d4566-c117-4fb4-861e-1d0b18c4b8e6",
+        "75818f52-a09e-4bb1-9142-1a7ad2c4ccb0"
       ],
       "settings": {
         "container_size": "lg",
