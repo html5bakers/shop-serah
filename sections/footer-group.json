@@ -66,6 +66,7 @@
         "0a7b62b8-98d1-446e-b7cb-ae4254cffd4e": {
           "type": "text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/logo.svg",
             "title": "",
             "content": "<p>Locally sourced and produced in the UAE, Serah is an exclusive, slow fashion brand grounded in the daily celebration of style, strength and confidence.<\/p>",
             "enable_follow_on_shop": true
