@@ -150,7 +150,7 @@
             <p>We Accept</p>
             {%- for block in section.blocks -%}
               {%- case block.type -%}
-                 {%- when 'image' -%}
+                 {%- when 'payment' -%}
                     <ul class="Footer__PaymentList HorizontalList">
                       {% if block.settings.visa != blank %}<li class="HorizontalList__Item">{{ block.settings.visa }}</li>{% endif %}
                       {% if block.settings.mastercard != blank %}<li class="HorizontalList__Item">{{ block.settings.mastercard }}</li>{% endif %}
