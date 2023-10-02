@@ -25,7 +25,7 @@ Supported variables
           {%- if sub_link.links.size > 0 -%}
             <ul class="v-stack gap-2.5 unstyled-list">
               {%- for sub_sub_link in sub_link.links -%}
-                <li>
+                <li {% if sub_sub_link.title == 'Stay tuned for updates' %}class="stay-tune"{% endif %}>
                   <a href="{{ sub_sub_link.url }}" class="link-faded">{{ sub_sub_link.title }}</a>
                 </li>
               {%- endfor -%}
