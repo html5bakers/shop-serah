@@ -38,9 +38,12 @@ Supported variables
           <p class="smallcaps text-xs text-subdued">{{ block.settings[text_setting] }}</p>
         {%- endif -%}
       </div>
+       {%- if block.settings[btn_setting] != blank -%}
       <div class="right-megamenu-image">
-            {%- render 'button', href: '#', content: 'explore', style: 'link' -%}
+            <span>{{ block.settings[btn_setting] }}</span>
       </div>
+        {%- endif -%}
+         
       </div>
     {%- endif -%}
   {%- endcapture -%}
