@@ -28,7 +28,7 @@ Supported variables
     {%- endif -%}
 
     {%- if block.settings[heading_setting] != blank or block.settings[text_setting] != blank -%}
-      <div class="v-stack text-center {% if context == 'menu' %}gap-2.5{% else %}gap-0.5{% endif %}">
+      <div class="v-stack text-center megamenu-image {% if context == 'menu' %}gap-2.5{% else %}gap-0.5{% endif %}">
       <div class="left-megamenu-image">
         {%- if block.settings[heading_setting] != blank -%}
           <p class="h6">{{ block.settings[heading_setting] }}</p>
