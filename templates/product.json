@@ -71,6 +71,16 @@
             "stack_products": false,
             "show_quick_buy": true
           }
+        },
+        "225d4566-c117-4fb4-861e-1d0b18c4b8e6": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "<strong>Shipping<\/strong>",
+            "content": "<p>For orders placed before 7am IST, we endeavour to process the same business day. Orders placed after 11am IST will be processed the next business day.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -83,7 +93,8 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "complementary_products"
+        "complementary_products",
+        "225d4566-c117-4fb4-861e-1d0b18c4b8e6"
       ],
       "settings": {
         "container_size": "lg",
