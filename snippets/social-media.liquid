@@ -29,6 +29,7 @@ Output a list of social media icons based on the social URL settings.
     <li class="social-media__item branding-colors--instagram">
       <a href="{{ settings.social_instagram | default: shop.brand.metafields.social_links.instagram }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: 'Instagram' }}">
         {%- render 'icon' with 'instagram' -%}
+        {%- if settings.instagram_title != blank %}<span>{{ settings.instagram_title }}</span>{% endif %}
       </a>
     </li>
   {%- endif -%}
