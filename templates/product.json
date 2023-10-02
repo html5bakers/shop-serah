@@ -101,7 +101,7 @@
         "complementary_products": {
           "type": "complementary_products",
           "settings": {
-            "title": "Pairs well with",
+            "title": "Buy It With",
             "products_count": 2,
             "show_below_gallery": false,
             "stack_products": false,
