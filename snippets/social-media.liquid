@@ -13,6 +13,7 @@ Output a list of social media icons based on the social URL settings.
     <li class="social-media__item branding-colors--facebook">
       <a href="{{ settings.social_facebook | default: shop.brand.metafields.social_links.facebook }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: 'Facebook' }}">
         {%- render 'icon' with 'facebook' -%}
+        {%- if settings.facebook_title != blank %}<span>{{ settings.facebook_title }}</span>{% endif %}
       </a>
     </li>
   {%- endif -%}
@@ -21,6 +22,7 @@ Output a list of social media icons based on the social URL settings.
     <li class="social-media__item branding-colors--twitter">
       <a href="{{ settings.social_twitter | default: shop.brand.metafields.social_links.twitter }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: 'Twitter' }}">
         {%- render 'icon' with 'twitter' -%}
+        {%- if settings.twitter_title != blank %}<span>{{ settings.twitter_title }}</span>{% endif %}
       </a>
     </li>
   {%- endif -%}
@@ -38,6 +40,7 @@ Output a list of social media icons based on the social URL settings.
     <li class="social-media__item branding-colors--instagram">
       <a href="{{ settings.social_threads | default: shop.brand.metafields.social_links.threads }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: 'Threads' }}">
         {%- render 'icon' with 'threads' -%}
+        {%- if settings.threads_title != blank %}<span>{{ settings.threads_title }}</span>{% endif %}
       </a>
     </li>
   {%- endif -%}
@@ -46,6 +49,7 @@ Output a list of social media icons based on the social URL settings.
     <li class="social-media__item branding-colors--pinterest">
       <a href="{{ settings.social_pinterest | default: shop.brand.metafields.social_links.pinterest }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: 'Pinterest' }}">
         {%- render 'icon' with 'pinterest' -%}
+        {%- if settings.pinterest_title != blank %}<span>{{ settings.pinterest_title }}</span>{% endif %}
       </a>
     </li>
   {%- endif -%}
@@ -54,6 +58,7 @@ Output a list of social media icons based on the social URL settings.
     <li class="social-media__item branding-colors--youtube">
       <a href="{{ settings.social_youtube | default: shop.brand.metafields.social_links.youtube }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: 'YouTube' }}">
         {%- render 'icon' with 'youtube' -%}
+        {%- if settings.youtube_title != blank %}<span>{{ settings.youtube_title }}</span>{% endif %}
       </a>
     </li>
   {%- endif -%}
@@ -62,6 +67,7 @@ Output a list of social media icons based on the social URL settings.
     <li class="social-media__item branding-colors--tiktok">
       <a href="{{ settings.social_tiktok | default: shop.brand.metafields.social_links.tiktok }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: 'TikTok' }}">
         {%- render 'icon' with 'tiktok' -%}
+        {%- if settings.tiktok_title != blank %}<span>{{ settings.tiktok_title }}</span>{% endif %}
       </a>
     </li>
   {%- endif -%}
@@ -70,6 +76,7 @@ Output a list of social media icons based on the social URL settings.
     <li class="social-media__item branding-colors--vimeo">
       <a href="{{ settings.social_vimeo | default: shop.brand.metafields.social_links.vimeo }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: 'Vimeo' }}">
         {%- render 'icon' with 'vimeo' -%}
+        {%- if settings.vimeo_title != blank %}<span>{{ settings.vimeo_title }}</span>{% endif %}
       </a>
     </li>
   {%- endif -%}
@@ -78,6 +85,7 @@ Output a list of social media icons based on the social URL settings.
     <li class="social-media__item branding-colors--linkedin">
       <a href="{{ settings.social_linkedin }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: 'LinkedIn' }}">
         {%- render 'icon' with 'linkedin' -%}
+        {%- if settings.linkedin_title != blank %}<span>{{ settings.linkedin_title }}</span>{% endif %}
       </a>
     </li>
   {%- endif -%}
@@ -86,6 +94,7 @@ Output a list of social media icons based on the social URL settings.
     <li class="social-media__item branding-colors--snapchat">
       <a href="{{ settings.social_snapchat | default: shop.brand.metafields.social_links.snapchat }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: 'Snapchat' }}">
         {%- render 'icon' with 'snapchat' -%}
+        {%- if settings.snapchat_title != blank %}<span>{{ settings.snapchat_title }}</span>{% endif %}
       </a>
     </li>
   {%- endif -%}
@@ -94,6 +103,7 @@ Output a list of social media icons based on the social URL settings.
     <li class="social-media__item branding-colors--whatsapp">
       <a href="{{ settings.social_whatsapp }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: 'WhatsApp' }}">
         {%- render 'icon' with 'whatsapp' -%}
+        {%- if settings.whatsapp_title != blank %}<span>{{ settings.whatsapp_title }}</span>{% endif %}
       </a>
     </li>
   {%- endif -%}
@@ -102,6 +112,7 @@ Output a list of social media icons based on the social URL settings.
     <li class="social-media__item branding-colors--tumblr">
       <a href="{{ settings.social_tumblr | default: shop.brand.metafields.social_links.tumblr }}" class="tap-area"  target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: 'Tumblr' }}">
         {%- render 'icon' with 'tumblr' -%}
+        {%- if settings.tumblr_title != blank %}<span>{{ settings.tumblr_title }}</span>{% endif %}
       </a>
     </li>
   {%- endif -%}
@@ -110,6 +121,7 @@ Output a list of social media icons based on the social URL settings.
     <li class="social-media__item branding-colors--wechat">
       <a href="{{ settings.social_wechat }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: 'WeChat' }}">
         {%- render 'icon' with 'wechat' -%}
+        {%- if settings.wechat_title != blank %}<span>{{ settings.wechat_title }}</span>{% endif %}
       </a>
     </li>
   {%- endif -%}
@@ -118,6 +130,7 @@ Output a list of social media icons based on the social URL settings.
     <li class="social-media__item branding-colors--reddit">
       <a href="{{ settings.social_reddit }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: 'Reddit' }}">
         {%- render 'icon' with 'reddit' -%}
+        {%- if settings.reddit_title != blank %}<span>{{ settings.reddit_title }}</span>{% endif %}
       </a>
     </li>
   {%- endif -%}
@@ -126,6 +139,7 @@ Output a list of social media icons based on the social URL settings.
     <li class="social-media__item branding-colors--line">
       <a href="{{ settings.social_line }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: 'LINE' }}">
         {%- render 'icon' with 'line' -%}
+        {%- if settings.line_title != blank %}<span>{{ settings.line_title }}</span>{% endif %}
       </a>
     </li>
   {%- endif -%}
@@ -134,6 +148,7 @@ Output a list of social media icons based on the social URL settings.
     <li class="social-media__item branding-colors--spotify">
       <a href="{{ settings.social_spotify }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: 'Spotify' }}">
         {%- render 'icon' with 'spotify' -%}
+        {%- if settings.spotify_title != blank %}<span>{{ settings.spotify_title }}</span>{% endif %}
       </a>
     </li>
   {%- endif -%}
@@ -142,6 +157,7 @@ Output a list of social media icons based on the social URL settings.
     <li class="social-media__item branding-colors--21buttons">
       <a href="{{ settings.social_21buttons }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: '21 Buttons' }}">
         {%- render 'icon' with '21buttons' -%}
+        {%- if settings.21buttons_title != blank %}<span>{{ settings.21buttons_title }}</span>{% endif %}
       </a>
     </li>
   {%- endif -%}
