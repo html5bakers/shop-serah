@@ -15,6 +15,7 @@
       "block_order": [
         "message-1"
       ],
+      "disabled": true,
       "settings": {
         "enable_sticky": false,
         "autoplay": true,
