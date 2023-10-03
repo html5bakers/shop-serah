@@ -26,7 +26,7 @@ Supported variables
       <a href="{{ product.url }}" class="product-title h6" data-instant>{{ product.title }}</a>
       {%- render 'price-list', product: product, context: 'card' -%}
     </div>
-
+==== {{ viewproduct }}
     {%- if product.available and show_quick_buy -%}
       {%- if product.variants.size == 1 -%}
         {%- comment -%}With one variant, we can simply render a form for direct add{%- endcomment -%}
