@@ -34,7 +34,7 @@ Color swatch specific parameters:
 {%- capture id -%}swatch-{{ id_prefix }}-{{ section.id }}-{{ form }}-{{ name }}-{{ value | handle }}{%- endcapture -%}
 
 {%- liquid
-  if swatch == 'color' or swatch == 'block' and show_color
+  if swatch == 'color' or swatch == 'Colours' or swatch == 'colours' or swatch == 'block' and show_color
     assign swatch_config = settings.color_swatch_config | newline_to_br | split: '<br />'
 
     assign value_downcase = value | downcase | strip
