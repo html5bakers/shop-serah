@@ -297,6 +297,10 @@ product-recommendations .sec_heading{
 sale-price.h6.text-subdued {
   color: #AFAFAF;
 }
+.top-arrow {
+  text-align: center;
+  margin: 0 auto;
+}
 @media screen and (max-width: 700px){
   .shopify-section--main-product .product-title {
     font-size: var(--text-h4);
@@ -306,5 +310,8 @@ sale-price.h6.text-subdued {
   }
   sale-price.h4 {
     font-size: var(--text-h5);
+  }
+  .product-info__block-list>:not(:last-child) {
+    --product-info-gap: 0.5rem;
   }
 }
