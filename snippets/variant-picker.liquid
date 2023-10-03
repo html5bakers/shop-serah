@@ -110,6 +110,7 @@ Supported variables
 
           <div data-option-selector class="variant-picker__option-values {{ list_classes }}">
             {%- for value in option.values -%}
+              {{ option_selector_type }}
               {% liquid
                 assign selected = false
 
