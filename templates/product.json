@@ -20,11 +20,6 @@
             "show_taxes_notice": false
           }
         },
-        "payment_terms": {
-          "type": "payment_terms",
-          "settings": {
-          }
-        },
         "separator": {
           "type": "separator",
           "settings": {
@@ -133,7 +128,6 @@
         "686e31a9-6ed0-4008-9394-ef4a49f42376",
         "title",
         "price",
-        "payment_terms",
         "separator",
         "description",
         "variant_picker",
