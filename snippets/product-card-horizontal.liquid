@@ -25,8 +25,12 @@ Supported variables
       <span class="product-type h6 link-faded">{{ product.type }}</span>
       <a href="{{ product.url }}" class="product-title h6" data-instant>{{ product.title }}</a>
       {%- render 'price-list', product: product, context: 'card' -%}
-    </div>
 
+      {% if viewproduct == true %}
+        <a href="{{ product.url }}" class="outline view-product">view product</a>
+      {% endif %}
+    </div>
+ {% if viewproduct != true %}
     {%- if product.available and show_quick_buy -%}
       {%- if product.variants.size == 1 -%}
         {%- comment -%}With one variant, we can simply render a form for direct add{%- endcomment -%}
@@ -49,6 +53,7 @@ Supported variables
         <button aria-controls="{{ modal_id }}" class="@narrow:horizontal-product-card__button link">{{ 'product.general.add_to_cart_button' | t }}</button>
         <button aria-controls="{{ modal_id }}" class="@large:horizontal-product-card__button button button--outline button--subdued">{{ 'product.general.add_to_cart_button' | t }}</button>
       {%- endif -%}
+    {%- endif -%}
     {%- endif -%}
   </div>
 </div>
