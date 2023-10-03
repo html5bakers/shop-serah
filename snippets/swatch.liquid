@@ -65,7 +65,7 @@ Color swatch specific parameters:
 {%- if href == blank -%}
   <input class="sr-only" type="{% if allow_multiple %}checkbox{% else %}radio{% endif %}" name="{{ name }}" id="{{ id | escape }}" {% if form %}form="{{ form | escape }}"{% endif %} value="{{ value | escape }}" {% if disabled %}disabled{% endif %} {% if selected %}checked="checked"{% endif %}>
 {%- endif -%}
-
+===== {{ swatch }}
 {%- case swatch -%}
   {%- when 'media' -%}
     {%- if media != blank -%}
