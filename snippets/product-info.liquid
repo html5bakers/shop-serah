@@ -213,9 +213,6 @@ Supported variables
 
           {%- when 'variant_picker' -%}
             {%- if product != blank -%}
-
-            color_selector_type===   {{ block.settings.color_selector_type  }}<br>
-            selector_type===   {{ block.settings.selector_type  }}
               {%- render 'variant-picker',
                   product: product,
                   form_id: product_form_id,
