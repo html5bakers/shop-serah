@@ -114,7 +114,7 @@ Supported variables
           {%- when '@app' -%}
             {%- render block -%}
             {%- when 'type' -%}
-              {% if product.type %}
+              {% if product.type != blank %}
                 <span class="product-type h6 link-faded">{{ product.type }}</span>
               {% endif %}
           {%- when 'vendor' -%}

@@ -22,7 +22,7 @@ Supported variables
 
   <div class="horizontal-product-card__info">
     <div class="v-stack gap-1 justify-items-start">
-      {% if product.type %}
+      {% if product.type != blank %}
         <span class="product-type h6 link-faded">{{ product.type }}</span>
       {% endif %}
       <a href="{{ product.url }}" class="product-title h6" data-instant>{{ product.title }}</a>
