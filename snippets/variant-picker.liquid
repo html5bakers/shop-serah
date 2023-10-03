@@ -18,7 +18,7 @@ Supported variables
 * size_chart_page: the page to use for the size chart
 {%- endcomment -%}
 
-{%- assign color_label_list = 'colours' | t | replace: ', ', ',' | downcase | split: ',' -%}
+{%- assign color_label_list = 'general.label.color' | t | replace: ', ', ',' | downcase | split: ',' -%}
 {%- assign size_label_list = 'general.label.size' | t | replace: ', ', ',' | downcase | split: ',' -%}
 
 {%- unless product.has_only_default_variant or hide_sold_out_variants and product.available == false -%}
@@ -47,8 +47,8 @@ Supported variables
       <fieldset class="variant-picker__option v-stack gap-2 no-js:hidden">
         <div class="variant-picker__option-info h-stack justify-between gap-2">
           <div class="h-stack gap-1">
-            <legend>{{ option.name }}</legend>
-{{ option_selector_type }}
+            <legend>{{ option.name }}:</legend>
+
             {%- if option_selector_type == 'color' or option_selector_type == 'variant' -%}
               <variant-option-value form="{{ form_id }}" for="option{{ option.position }}">{{ option.selected_value }}</variant-option-value>
             {%- endif -%}
@@ -110,7 +110,6 @@ Supported variables
 
           <div data-option-selector class="variant-picker__option-values {{ list_classes }}">
             {%- for value in option.values -%}
-              {{ option_selector_type }}
               {% liquid
                 assign selected = false
 
