@@ -252,7 +252,7 @@ Supported variables
                       <span>{{ product.metafields[metafield_namespace][metafield_key].value | escape }}</span>
                     </div>
                   {%- endif -%}
-
+======{{ block.settings.color_selector_type }}
                   <div class="variant-picker__option-values h-stack gap-2.5 wrap">
                     {%- liquid
                       for product_variation in block.settings.products
