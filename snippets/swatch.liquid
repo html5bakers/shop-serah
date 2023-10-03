@@ -34,7 +34,7 @@ Color swatch specific parameters:
 {%- capture id -%}swatch-{{ id_prefix }}-{{ section.id }}-{{ form }}-{{ name }}-{{ value | handle }}{%- endcapture -%}
 
 {%- liquid
-  if swatch == 'color' or swatch == 'Colours' or swatch == 'colours' or swatch == 'block' and show_color
+  if swatch == 'color' or swatch == 'block' and show_color
     assign swatch_config = settings.color_swatch_config | newline_to_br | split: '<br />'
 
     assign value_downcase = value | downcase | strip
@@ -65,7 +65,7 @@ Color swatch specific parameters:
 {%- if href == blank -%}
   <input class="sr-only" type="{% if allow_multiple %}checkbox{% else %}radio{% endif %}" name="{{ name }}" id="{{ id | escape }}" {% if form %}form="{{ form | escape }}"{% endif %} value="{{ value | escape }}" {% if disabled %}disabled{% endif %} {% if selected %}checked="checked"{% endif %}>
 {%- endif -%}
-===== {{ swatch }}
+
 {%- case swatch -%}
   {%- when 'media' -%}
     {%- if media != blank -%}
@@ -104,7 +104,6 @@ Color swatch specific parameters:
     {%- endif -%}
 
   {%- when 'color' -%}
-  ==========
     {%- assign white_label = 'general.label.white' | t | downcase -%}
     {%- assign value_downcase = value | downcase -%}
 
