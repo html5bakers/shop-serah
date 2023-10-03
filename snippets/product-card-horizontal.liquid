@@ -27,7 +27,7 @@ Supported variables
       {%- render 'price-list', product: product, context: 'card' -%}
 
       {% if viewproduct == true %}
-        <a href="{{ product.url }}" class="button button--outline  view-product">view product</a>
+        {%- render 'button', href: product.url, content: 'View product', style: 'link',  text_color: '#1c1c1c' -%}
       {% endif %}
     </div>
  {% if viewproduct != true %}
