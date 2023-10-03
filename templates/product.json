@@ -70,7 +70,7 @@
             "icon": "none",
             "icon_width": 16,
             "background": "#f5f4ed",
-            "text_color": "#6b6b6b",
+            "text_color": "#afafaf",
             "border_color": "#afafaf"
           }
         },
@@ -81,8 +81,8 @@
             "link": "",
             "icon": "none",
             "icon_width": 16,
-            "background": "#ffffff",
-            "text_color": "#6b6b6b",
+            "background": "#f5f4ed",
+            "text_color": "#afafaf",
             "border_color": "#afafaf"
           }
         },
@@ -93,8 +93,8 @@
             "link": "",
             "icon": "none",
             "icon_width": 16,
-            "background": "#ffffff",
-            "text_color": "#6b6b6b",
+            "background": "#f5f4ed",
+            "text_color": "#afafaf",
             "border_color": "#afafaf"
           }
         },
