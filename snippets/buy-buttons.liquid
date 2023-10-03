@@ -64,7 +64,8 @@ Supported variables
       {%- endif -%}
 
       <buy-buttons class="buy-buttons {% if show_payment_button %}buy-buttons--has-dynamic{% endif %}" template="{{ product.template_suffix | escape }}" form="{{ form_id }}">
-        {%- if show_payment_button and atc_button_background == blank and atc_button_text_color == blank -%}
+    ===={{ atc_button_text_color }}    
+    {%- if show_payment_button and atc_button_background == blank and atc_button_text_color == blank -%}
           {%- assign atc_button_style = 'outline' -%}
         {%- else -%}
           {%- assign atc_button_style = 'solid' -%}
