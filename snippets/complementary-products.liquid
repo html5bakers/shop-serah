@@ -37,7 +37,7 @@ Supported variables
 
       {%- capture complementary_products -%}
         {%- for product in recommendations.products -%}
-          {%- render 'product-card-horizontal', product: product, show_quick_buy: block.settings.show_quick_buy -%}
+          {%- render 'product-card-horizontal', product: product, show_quick_buy: block.settings.show_quick_buy, viewproduct: true -%}
         {%- endfor -%}
       {%- endcapture -%}
 
