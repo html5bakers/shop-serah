@@ -163,7 +163,7 @@
     "12e836dd-8ecd-43ca-961e-fc53dcb659c0": {
       "type": "related-products",
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": false,
         "recommendations_count": 10,
