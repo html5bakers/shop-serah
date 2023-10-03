@@ -24,7 +24,7 @@
     "text_font_size_desktop": 16,
     "text_font_letter_spacing": 6,
     "button_letter_spacing": 5,
-    "round_color_swatches": true,
+    "round_color_swatches": false,
     "color_swatch_config": "Black:#1C1C1C\nGrey:#AFAFAF",
     "social_instagram": "https:\/\/www.instagram.com\/",
     "instagram_title": "@NAMEOFPAGE",
