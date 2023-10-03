@@ -22,6 +22,7 @@ Supported variables
 
   <div class="horizontal-product-card__info">
     <div class="v-stack gap-1 justify-items-start">
+      <span class="product-type h6 link-faded">{{ product.type }}</span>
       <a href="{{ product.url }}" class="product-title h6" data-instant>{{ product.title }}</a>
       {%- render 'price-list', product: product, context: 'card' -%}
     </div>
