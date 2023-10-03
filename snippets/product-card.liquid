@@ -118,7 +118,9 @@ Supported variables
           {%- capture vendor_class -%}smallcaps {% if settings.product_card_text_font == 'heading' %}heading{% endif %}{% endcapture %}
           {%- render 'vendor' with product.vendor, class: vendor_class -%}
         {%- endif -%}
-
+      {% if product.type %}
+        <span class="product-type h6 link-faded">{{ product.type }}</span>
+      {% endif %}
         {%- if show_title or show_prices -%}
           <div class="v-stack justify-items-center gap-1">
             {%- if show_title -%}
