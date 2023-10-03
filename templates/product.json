@@ -114,7 +114,7 @@
             "show_below_gallery": false,
             "icon": "none",
             "title": "Returns",
-            "content": "<p>You can choose between a refund or a credit note on full priced items.Item(s) must be returned in their original condition and packaging: unworn, unwashed and with all tags attached.Earrings cannot be returned due to health and safety reasons.Return shipping methods and associated costs are the responsibility of the customer.Sale items can not be refunded for change of mind.<\/p>",
+            "content": "<p>You can choose between a refund or a credit note on full priced items.<br\/><\/p><ul><li>Item(s) must be returned in their original condition and packaging: unworn, unwashed and with all tags attached.<\/li><li>Earrings cannot be returned due to health and safety reasons.<\/li><li>Return shipping methods and associated costs are the responsibility of the customer.<\/li><li>Sale items can not be refunded for change of mind.<\/li><\/ul>",
             "page": ""
           }
         },
