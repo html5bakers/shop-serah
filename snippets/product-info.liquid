@@ -213,6 +213,9 @@ Supported variables
 
           {%- when 'variant_picker' -%}
             {%- if product != blank -%}
+
+            color_selector_type===   {{ block.settings.color_selector_type  }}<br>
+            selector_type===   {{ block.settings.selector_type  }}
               {%- render 'variant-picker',
                   product: product,
                   form_id: product_form_id,
@@ -252,7 +255,7 @@ Supported variables
                       <span>{{ product.metafields[metafield_namespace][metafield_key].value | escape }}</span>
                     </div>
                   {%- endif -%}
-======{{ block.settings.color_selector_type }}
+
                   <div class="variant-picker__option-values h-stack gap-2.5 wrap">
                     {%- liquid
                       for product_variation in block.settings.products
