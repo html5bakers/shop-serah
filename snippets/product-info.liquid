@@ -89,6 +89,9 @@ Supported variables
         elsif block.type == 'description' and product.description != blank and block.settings.collapse_content and next_block.type == 'accordion' and next_block.settings.show_below_gallery != true
           assign block_group_class = 'accordion-group'
           assign block_group_name = 'accordion-group'
+        elsif block.type == 'product_usps' and next_block.type == 'product_usps'
+          assign block_group_class = 'product-usps'
+          assign block_group_name = 'product-usps'
         elsif block.type == 'feature_with_icon' and next_block.type == 'feature_with_icon'
           assign block_group_class = 'feature-badge-list'
           assign block_group_name = 'feature-badge-list'
