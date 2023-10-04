@@ -1,0 +1,58 @@
+<div class="containers">
+  <div class="v-stack gap-8">
+    {%- capture section_content -%}
+      {%- if product.metafields.custom.feature_heading.size > 1 -%}
+        {% for feature in product.metafields.custom.feature_image.value -%}
+          {% assign index = forloop.index | minus:1 %}
+          <div class="product-usp text-with-icons__item {% if forloop.first %}is-selected{% endif %} {% unless section.settings.stack_on_mobile %}snap-center{% endunless %}" role="group" aria-label="{{ 'general.accessibility.item_nth_of_count' | t: index: forloop.index, count: section.blocks.size }}" {{ block.shopify_attributes }}>
+            {{-  feature  | image_url: width:  feature.width | image_tag:  loading: 'lazy' , widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', class: 'constrained-image' -}}
+            {%- if product.metafields.custom.feature_heading.value[index]!= blank -%}
+              <div>{{ product.metafields.custom.feature_heading.value[index] }}</div>
+            {%- endif -%}
+          </div>
+        {%- endfor -%}
+      {%- else -%}
+        {%- for i in (1..3) -%}
+             {%- assign image_setting = 'image_' | append: i -%}
+            {%- assign heading_setting = 'heading_' | append: i -%}
+            {%- if block.settings[image_setting] -%}
+            <div class="product-usp text-with-icons__item is-selected snap-center" role="group" aria-label="Item 1 of 13">
+            {%- if block.settings[image_setting] -%}
+            <img src="{{  block.settings[image_setting] | image_url }}" alt="" width="60" height="60" loading="eager" class="constrained-image">
+            {% endif %}
+             {%- if block.settings[heading_setting] != blank %}
+            <div>
+             {{  block.settings[heading_setting] }}
+            </div>
+          {% endif %}
+        </div>
+          {% endif %}
+    {% endfor %}
+        
+      {%- endif -%}
+    {%- endcapture -%}
+
+    {%- if section.settings.stack_on_mobile -%}
+      <div class="product-usps-main product-usps--stacked" role="region" style="{% render 'surface', text_color: section.settings.text_color %}">
+        {{- section_content -}}
+      </div>
+    {%- else -%}
+      {%- assign carousel_id = 'text-with-icons-' | append: section.id -%}
+
+      <text-with-icons-carousel-main autoplay="5" disabled-on="sm" allow-swipe id="{{ carousel_id }}" class="product-usps-main text-with-iconss full-bleed sm:unbleed" role="region" style="{% render 'surface', text_color: section.settings.text_color %}">
+        {{- section_content -}}
+      </text-with-icons-carousel-main>
+
+      {%- if product.metafields.custom.feature_heading.size > 1 -%}
+        <carousel-navigation aria-controls="{{ carousel_id }}" class="page-dots sm:hidden">
+          {%- for i in (1..product.metafields.custom.feature_heading.size) -%}
+            <button class="tap-area" aria-current="{% if forloop.first %}true{% else %}false{% endif %}">
+              <span class="sr-only">{{ 'general.accessibility.go_to_item' | t: index: forloop.index }}</span>
+            </button>
+          {%- endfor -%}
+        </carousel-navigation>
+      {%- endif -%}
+    {%- endif -%}
+  </div>
+</div>
+
