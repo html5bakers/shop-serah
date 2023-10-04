@@ -16,7 +16,7 @@
              {%- assign image_setting = 'image_' | append: i -%}
             {%- assign heading_setting = 'heading_' | append: i -%}
             {%- if block.settings[image_setting] or block.settings[heading_setting] -%}
-            <div class="product-usp text-with-icons__item is-selected snap-center" data-block-type="feature-with-icon">
+            <div class="product-usp text-with-icons__item is-selected snap-center" >
             {%- if block.settings[image_setting] -%}
             <img src="{{  block.settings[image_setting] | image_url }}" alt="" width="60" height="60" loading="eager" class="constrained-image">
             {% endif %}
