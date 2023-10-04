@@ -408,6 +408,10 @@ Supported variables
               endif
             -%}
 
+          {%- when 'product_usps' -%}
+            <div class="product-usps">
+            {% render 'product-usps', block: block  %}    
+            </div>
           {%- when 'feature_with_icon' -%}
             {%- if block.settings.text != blank or block.settings.icon != 'none' or block.settings.custom_icon != blank -%}
               {%- capture feature_content -%}
