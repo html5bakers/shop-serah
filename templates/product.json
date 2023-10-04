@@ -57,42 +57,6 @@
             "payment_button_text_color": ""
           }
         },
-        "f652e963-bef0-4dc2-9203-e2905dbb9b89": {
-          "type": "feature_with_icon",
-          "settings": {
-            "text": "Manufactured in UAE",
-            "link": "",
-            "icon": "none",
-            "icon_width": 16,
-            "background": "#f5f4ed",
-            "text_color": "#afafaf",
-            "border_color": "#afafaf"
-          }
-        },
-        "d4aa7b09-74ab-4626-9d26-a744da69552b": {
-          "type": "feature_with_icon",
-          "settings": {
-            "text": "Free Shipping Available",
-            "link": "",
-            "icon": "none",
-            "icon_width": 16,
-            "background": "#f5f4ed",
-            "text_color": "#afafaf",
-            "border_color": "#afafaf"
-          }
-        },
-        "4c57674f-30a9-438d-998a-db15c5bf79eb": {
-          "type": "feature_with_icon",
-          "settings": {
-            "text": "14-Day Return Policy",
-            "link": "",
-            "icon": "none",
-            "icon_width": 16,
-            "background": "#f5f4ed",
-            "text_color": "#afafaf",
-            "border_color": "#afafaf"
-          }
-        },
         "464d3b1e-9e98-405a-a459-3ecde5b0d8e6": {
           "type": "product_usps",
           "settings": {
@@ -146,9 +110,6 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "f652e963-bef0-4dc2-9203-e2905dbb9b89",
-        "d4aa7b09-74ab-4626-9d26-a744da69552b",
-        "4c57674f-30a9-438d-998a-db15c5bf79eb",
         "464d3b1e-9e98-405a-a459-3ecde5b0d8e6",
         "225d4566-c117-4fb4-861e-1d0b18c4b8e6",
         "75818f52-a09e-4bb1-9142-1a7ad2c4ccb0",
