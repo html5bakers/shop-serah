@@ -96,6 +96,7 @@
         "225d4566-c117-4fb4-861e-1d0b18c4b8e6": {
           "type": "accordion",
           "settings": {
+            "open": true,
             "show_below_gallery": false,
             "icon": "none",
             "title": "Shipping",
@@ -106,6 +107,7 @@
         "75818f52-a09e-4bb1-9142-1a7ad2c4ccb0": {
           "type": "accordion",
           "settings": {
+            "open": false,
             "show_below_gallery": false,
             "icon": "none",
             "title": "Returns",
