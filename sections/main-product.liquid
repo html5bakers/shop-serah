@@ -78,7 +78,7 @@
                   assign accordion_content = block.settings.page.content | default: block.settings.content
 
                   if accordion_title != blank and accordion_content != blank
-                    render 'accordion', title: accordion_title, content: accordion_content, size: 'lg', prose_content: true, icon: block.settings.icon, custom_icon: block.settings.custom_icon, block: block
+                    render 'accordion',open: block.settings.open, title: accordion_title, content: accordion_content, size: 'lg', prose_content: true, icon: block.settings.icon, custom_icon: block.settings.custom_icon, block: block
                   endif
                 -%}
 
@@ -1269,6 +1269,11 @@ quick buy information in a template, that will be extracted in JS, which ensures
       "type": "accordion",
       "name": "t:sections.main_product.blocks.collapsible_text.name",
       "settings": [
+        {
+          "type": "checkbox",
+          "id": "open",
+          "label": "Deafult open"
+        },
         {
           "type": "checkbox",
           "id": "show_below_gallery",
