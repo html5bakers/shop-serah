@@ -18,13 +18,13 @@ Supported variables
 {% if subheading != blank or heading != blank or content != blank %}
   <div class="section-header justify-self-{{ text_alignment | default: 'center' }} text-{{ text_alignment | default: 'center' }}">
     {%- if subheading != blank or heading != blank or content != blank -%}
-      <div class="prose">
+      <div class="prose animate show_up ad-1">
         {%- if subheading != blank -%}
-          <p class="h6">{{- subheading -}}</p>
+          <p class="h6 animate show_up ad-1">{{- subheading -}}</p>
         {%- endif -%}
 
         {%- if heading != blank -%}
-          <h2 class="h2 sec_heading">{{- heading -}}</h2>
+          <h2 class="h2 sec_heading animate show_up ad-1">{{- heading -}}</h2>
         {%- endif -%}
 
         {{- content -}}
