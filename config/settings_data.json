@@ -27,6 +27,7 @@
     "round_color_swatches": false,
     "color_swatch_config": "Black:#1C1C1C\nGrey:#AFAFAF",
     "product_color_display": "hide",
+    "show_quick_buy": false,
     "social_instagram": "https:\/\/www.instagram.com\/",
     "instagram_title": "@NAMEOFPAGE",
     "heading_color": "#303030",
