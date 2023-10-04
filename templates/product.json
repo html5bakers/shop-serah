@@ -96,9 +96,9 @@
         "464d3b1e-9e98-405a-a459-3ecde5b0d8e6": {
           "type": "product_usps",
           "settings": {
-            "background": "#ffffff",
-            "text_color": "#6b6b6b",
-            "border_color": "",
+            "background": "#f5f4ed",
+            "text_color": "#afafaf",
+            "border_color": "#afafaf",
             "heading_1": "<p>Manufactured in UAE<\/p>",
             "heading_2": "<p>Free Shipping Available<\/p>",
             "heading_3": "<p>14-Day Return Policy<\/p>"
