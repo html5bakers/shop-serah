@@ -2,7 +2,7 @@
       {%- if product.metafields.custom.feature_heading.size > 1 -%}
         {% for feature in product.metafields.custom.feature_image.value -%}
           {% assign index = forloop.index | minus:1 %}
-          <div data-block-type="feature-with-icon" class="product-usp text-with-icons__item {% if forloop.first %}is-selected{% endif %} {% unless section.settings.stack_on_mobile %}snap-center{% endunless %}" role="group" aria-label="{{ 'general.accessibility.item_nth_of_count' | t: index: forloop.index, count: section.blocks.size }}" {{ block.shopify_attributes }}>
+          <div class="product-usp text-with-icons__item {% if forloop.first %}is-selected{% endif %} {% unless section.settings.stack_on_mobile %}snap-center{% endunless %}" role="group" aria-label="{{ 'general.accessibility.item_nth_of_count' | t: index: forloop.index, count: section.blocks.size }}" {{ block.shopify_attributes }}>
             {%- if feature != blank -%}
                 {{-  feature  | image_url: width:  feature.width | image_tag:  loading: 'lazy' , widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', class: 'constrained-image' -}}
                 {% endif %}
@@ -32,6 +32,8 @@
       {%- endif -%}
     {%- endcapture -%}
 
-  
+      <div class="product-usps-main product-usps--stacked" role="region" style="{% render 'surface', text_color: section.settings.text_color %}">
+        {{- section_content -}}
+      </div>
 
 
