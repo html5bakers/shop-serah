@@ -32,7 +32,7 @@
       {%- endif -%}
     {%- endcapture -%}
 
-      <div class="product-usps-main product-usps--stacked"  role="region" style="{% render 'surface', text_color: section.settings.text_color %}">
+      <div class="product-usps-main product-usps--stacked"  role="region" style="{% render 'surface', background: block.settings.background, text_color: block.settings.text_color, border_color: block.settings.border_color %}">
         {{- section_content -}}
       </div>
 
