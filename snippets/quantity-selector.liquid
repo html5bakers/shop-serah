@@ -17,8 +17,8 @@ Supported variables
 * form: an optional form ID to submit to
 * show_rules: if true, the quantity rules are displayed below the selector
 {%- endcomment -%}
-<label class="quantity-label">Quantity</label>
-<quantity-selector {% if form != blank %}form="{{ form }}"{% endif %} class="quantity-selector {% if size %}quantity-selector--{{ size }}{% endif %}">
+<label class="quantity-label animate show_up ad-1">Quantity</label>
+<quantity-selector {% if form != blank %}form="{{ form }}"{% endif %} class="quantity-selector animate show_up ad-1 {% if size %}quantity-selector--{{ size }}{% endif %}">
   {%- comment -%}
   IMPLEMENTATION NOTE: we distinguish the case of a product quantity selector and a cart quantity selector. In the case
   of cart, we reload the page fully when the quantity changes (or re-render it in Ajax for the mini-cart). This is done
