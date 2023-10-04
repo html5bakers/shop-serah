@@ -115,14 +115,14 @@ Supported variables
             {%- render block -%}
             {%- when 'type' -%}
               {% if product.type != blank %}
-                <span class="product-type h6 link-faded">{{ product.type }}</span>
+                <span class="product-type h6 link-faded animate show_up ad-1">{{ product.type }}</span>
               {% endif %}
           {%- when 'vendor' -%}
             {%- if product != blank -%}
-              {%- render 'vendor' with product.vendor, class: 'h6 link-faded' -%}
+              {%- render 'vendor' with product.vendor, class: 'h6 link-faded animate show_up ad-1' -%}
             {%- else -%}
               {%- assign placeholder_vendor = 'general.on_boarding.product_vendor' | t -%}
-              {%- render 'vendor' with placeholder_vendor, class: 'h6 link-faded' -%}
+              {%- render 'vendor' with placeholder_vendor, class: 'h6 link-faded animate show_up ad-1' -%}
             {%- endif -%}
 
           {%- when 'title' -%}
@@ -133,11 +133,11 @@ Supported variables
             {%- endif -%}
 
             {%- if request.page_type == 'product' and update_url -%}
-              <h1 class="product-title {{ block.settings.heading_tag }}">
+              <h1 class="product-title  animate show_up ad-1 {{ block.settings.heading_tag }}">
                 {{- product_title -}}
               </h1>
             {%- else -%}
-              <h2 class="product-title {{ block.settings.heading_tag }}">
+              <h2 class="product-title  animate show_up ad-1 {{ block.settings.heading_tag }}">
                 <a href="{{ product.url }}">{{ product_title }}</a>
               </h2>
             {%- endif -%}
@@ -153,7 +153,7 @@ Supported variables
             {%- endif -%}
 
           {%- when 'price' -%}
-            <div class="v-stack">
+            <div class="v-stack animate show_up ad-1">
               {%- render 'price-list', product: product, variant: product.selected_or_first_available_variant, context: 'product', form_id: product_form_id -%}
 
               {%- if block.settings.show_taxes_notice -%}
@@ -205,7 +205,7 @@ Supported variables
                 {%- assign accordion_title = 'product.general.description' | t -%}
                 {%- render 'accordion', title: accordion_title, content: product_description, prose_content: true, block: block -%}
               {%- else -%}
-                <div class="prose">
+                <div class="prose animate show_up ad-1">
                   {{- product_description -}}
                 </div>
               {%- endif -%}
@@ -240,7 +240,7 @@ Supported variables
                 visually similar to a variant picker, although it does not share the functionality
               {%- endcomment -%}
 
-              <div class="variant-picker v-stack gap-4">
+              <div class="variant-picker v-stack gap-4 animate show_up ad-1">
                 <div class="variant-picker__option v-stack gap-2">
                   {%- assign metafield_parts = block.settings.option_value_metafield | split: '.' -%}
                   {%- assign metafield_namespace = metafield_parts | first -%}
@@ -432,11 +432,11 @@ Supported variables
               {%- endif -%}
 
               {%- if block.settings.link -%}
-                <a href="{{ block.settings.link }}" class="feature-badge {% if has_border %}border{% endif %}" style="{% render 'surface', background: block.settings.background, text_color: block.settings.text_color, border_color: block.settings.border_color %}">
+                <a href="{{ block.settings.link }}" class="feature-badge animate show_up ad-1 {% if has_border %}border{% endif %}" style="{% render 'surface', background: block.settings.background, text_color: block.settings.text_color, border_color: block.settings.border_color %}">
                   {{- feature_content -}}
                 </a>
               {%- else -%}
-                <div class="feature-badge {% if has_border %}border{% endif %}" style="{% render 'surface', background: block.settings.background, text_color: block.settings.text_color, border_color: block.settings.border_color %}">
+                <div class="feature-badge animate show_up ad-1 {% if has_border %}border{% endif %}" style="{% render 'surface', background: block.settings.background, text_color: block.settings.text_color, border_color: block.settings.border_color %}">
                   {{- feature_content -}}
                 </div>
               {%- endif -%}
