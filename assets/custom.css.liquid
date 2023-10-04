@@ -301,7 +301,6 @@ product-recommendations .sec_heading{
 .product-info {
   --product-info-gap: 0rem;
 }
-/* ========= */
 .complementary-products .price-list .text-subdued {
     color: #AFAFAF;
     font-size: 1.00rem;
@@ -338,6 +337,8 @@ sale-price.h6.text-subdued {
 .shopify-section--related-products {
   margin-top: 100px;
 }
+@media screen and (min-width: 999px){
+}
 @media screen and (max-width: 700px){
   .shopify-section--main-product .product-title {
     font-size: var(--text-h4);
@@ -350,5 +351,12 @@ sale-price.h6.text-subdued {
   }
   .product-info__block-list>:not(:last-child) {
     --product-info-gap: 0.5rem;
+  }
+}
+@media screen and (max-width: 600px){
+  .product-info__block-item[data-block-type=feature-with-icon], .product-usp {
+    max-width: 50%;
+    flex: 0 0 50%;
+    padding: 0 5px;
   }
 }
