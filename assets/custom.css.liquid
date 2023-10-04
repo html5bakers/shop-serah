@@ -210,16 +210,22 @@ footer {
     column-gap: 19rem;
   }
 }
-@media screen and (max-width: 1100px){
+@media screen and (min-width: 1150px){
   .footer__block-list {
     justify-content: flex-start;
-    column-gap: 11.75rem;
   }
   footer .footer_menu_link {
     padding: 10px 0;
   }
 }
-
+@media screen and (max-width: 1150px){
+    .footer__block-list {
+      column-gap: 11rem;
+    }
+   .footer__block-list {
+    column-gap: 11.75rem;
+  }
+}
 @media screen and (max-width: 700px){
   .footer-share {
     flex-wrap: wrap;
