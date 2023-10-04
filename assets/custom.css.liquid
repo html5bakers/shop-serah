@@ -375,3 +375,31 @@ sale-price.h6.text-subdued {
     padding-top: 20px;
   }
 }
+.top-arrow svg{
+   width: 0px;
+}
+.top-arrow:hover svg{
+    position: absolute;
+    background-color: #ffffff;
+    width: 100px;
+    height: 10px;
+    border-radius: 15px;
+    animation: progres 4s infinite linear;    
+}
+@keyframes progres{
+    0%{
+      width: 0%;
+    }
+    25%{
+        width: 50%;
+    }
+    50%{
+        width: 75%;
+    }
+    75%{
+        width: 85%;
+    }
+    100%{
+        width: 100%;
+    }
+};
