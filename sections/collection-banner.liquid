@@ -50,10 +50,7 @@
   </style>
 
   <collection-banner {% if section.settings.reveal %}reveal-on-scroll="true"{% endif %} class="collection-banner" {% if section.settings.allow_transparent_header %}allow-transparent-header{% endif %} style="{% render 'surface', background: section.settings.background, text_color: section.settings.text_color %}">
-    {%- unless section.settings.allow_transparent_header -%}
-      {{- collection_breadcrumb -}}
-    {%- endunless -%}
-
+     
     <div class="content-over-media content-over-media--{{ section.settings.image_size }}">
       <picture>
         {%- if section.settings.enable_parallax -%}
