@@ -67,15 +67,17 @@ Supported variables
               <span class="h5" slot="header">{{ size_chart_title }}</span>
 
               <div class="prose">
-            {% if size_chart_page != '' %}
+            
+
+            {% if product.metafields.custom.size_chart %}
+              {{ product.metafields.custom.size_chart }}
+              {% else %}
+              {% if size_chart_page != '' %}
                 {{- size_chart_page.content -}}
               {% endif %}
             {% if size_chart_content %}
               {{ size_chart_content }}
             {% endif %}
-
-            {% if product.metafields.custom.size_chart != '' %}
-              {{ product.metafields.custom.size_chart }}
             {% endif %}
               </div>
             </x-modal>
