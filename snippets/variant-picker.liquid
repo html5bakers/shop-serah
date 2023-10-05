@@ -56,7 +56,6 @@ Supported variables
       
           </div>
 
-          {%- if size_chart_page != blank and size_label_list contains option_downcase -%}
             {%- capture id -%}size-chart-{{ section.id }}-{{ block.id }}{%- endcapture -%}
 
             <button type="button" class="link" aria-controls="{{ id | escape }}" aria-expanded="false">
@@ -70,7 +69,6 @@ Supported variables
                 {{- size_chart_page.content -}}
               </div>
             </x-modal>
-          {%- endif -%}
         </div>
 
         {%- assign name = 'option' | append: option.position -%}
