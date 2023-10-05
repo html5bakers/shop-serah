@@ -8,7 +8,10 @@
   <style>
     #shopify-section-{{ section.id }} {
       --image-with-text-content-max-width: {% if section.settings.content_width == 'sm' %}430px{% elsif section.settings.content_width == 'md' %}780px{% else %}100%{% endif %};
-    }
+      color:{% if section.settings.font_color %}{{ section.settings.font_color }}{% endif %};
+      {% if section.settings.background1 != blank %} background-color:{{ section.settings.background1 }};{% endif %}
+  }
+  
   </style>
 
   {%- comment -%}
@@ -101,6 +104,16 @@
       "id": "separate_section_with_border",
       "label": "t:global.section.separate_section_with_border",
       "default": true
+    },
+     {
+      "type": "color",
+      "id": "background1",
+      "label": "t:global.colors.background"
+    },
+    {
+      "type": "color",
+      "id": "font_color",
+      "label": "Font colors"
     },
     {
       "type": "image_picker",
