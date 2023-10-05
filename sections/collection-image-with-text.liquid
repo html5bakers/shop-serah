@@ -52,7 +52,7 @@
             {%- when 'heading' -%}
               {%- if block.settings.text != blank -%}
                 <h2 class="sec_heading {{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</h2>
-                <h2 class="section_heading {{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</h2>
+                <h2 class="section_heading {{ block.settings.heading_tag1 }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</h2>
               {%- endif -%}
 
             {%- when 'richtext' -%}
@@ -233,6 +233,8 @@
         }
       ]
     },
+
+    
     {
       "type": "richtext",
       "name": "t:sections.image_with_text.blocks.paragraph.name",
