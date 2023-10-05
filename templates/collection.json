@@ -39,10 +39,56 @@
         "show_color_swatch": false,
         "open_filters_by_default": false
       }
+    },
+    "10e8e0fa-f114-4a8a-a239-983856ee39cc": {
+      "type": "collection-image-with-text",
+      "blocks": {
+        "template--20866689237301__10e8e0fa-f114-4a8a-a239-983856ee39cc-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "EXCLUSIVELY     yours",
+            "heading_tag": "h1"
+          }
+        },
+        "template--20866689237301__10e8e0fa-f114-4a8a-a239-983856ee39cc-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "products you won’t find everywhere."
+          }
+        },
+        "template--20866689237301__10e8e0fa-f114-4a8a-a239-983856ee39cc-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Serah is an slow fashion movement where every piece is as unique as its wearer. We believe in the power of exclusivity, creating limited pieces of each of our designs, ensuring you shine in a crowd of your own.<\/p>"
+          }
+        },
+        "1aea4c35-ba7f-4eb4-b63a-7573a08d9dea": {
+          "type": "link",
+          "settings": {
+            "text": "DAY & NIGHT COLLECTION",
+            "url": "shopify:\/\/collections\/new-arrivals"
+          }
+        }
+      },
+      "block_order": [
+        "template--20866689237301__10e8e0fa-f114-4a8a-a239-983856ee39cc-heading-1",
+        "template--20866689237301__10e8e0fa-f114-4a8a-a239-983856ee39cc-subheading-1",
+        "template--20866689237301__10e8e0fa-f114-4a8a-a239-983856ee39cc-richtext-1",
+        "1aea4c35-ba7f-4eb4-b63a-7573a08d9dea"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "image": "shopify:\/\/shop_images\/collection-image-with-text.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
     }
   },
   "order": [
     "collection-banner",
-    "main"
+    "main",
+    "10e8e0fa-f114-4a8a-a239-983856ee39cc"
   ]
 }
