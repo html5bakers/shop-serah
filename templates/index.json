@@ -285,8 +285,8 @@
           "settings": {
             "text": "Before",
             "link_text": "",
-            "link_url": "",
-            "link_style": "link",
+            "link_url": "shopify:\/\/products\/off-white-crop-top",
+            "link_style": "solid",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#1c1c1c"
@@ -295,7 +295,7 @@
         "after": {
           "type": "after",
           "settings": {
-            "text": "After",
+            "text": "",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
