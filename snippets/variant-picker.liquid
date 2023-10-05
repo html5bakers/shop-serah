@@ -56,7 +56,7 @@ Supported variables
       
           </div>
 =={{ size_label_list }} ==={{ option_downcase }}
-          {%- if size_chart_page != blank and size_label_list contains option_downcase -%}
+          {%- if  size_label_list contains option_downcase -%}
             {%- capture id -%}size-chart-{{ section.id }}-{{ block.id }}{%- endcapture -%}
 
             <button type="button" class="link" aria-controls="{{ id | escape }}" aria-expanded="false">
