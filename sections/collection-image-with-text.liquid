@@ -51,7 +51,7 @@
 
             {%- when 'heading' -%}
               {%- if block.settings.text != blank -%}
-                <h2 class="sec_heading {{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</h2>
+                <h2 class="sec_heading heading_font {{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</h2>
                 
               {%- endif -%}
 
@@ -194,7 +194,7 @@
       "name": "t:sections.image_with_text.blocks.heading.name",
       "settings": [
         {
-          "type": "inline_richtext",
+          "type": "textarea",
           "id": "text",
           "label": "t:global.text.text",
           "default": "Heading"
