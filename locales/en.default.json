@@ -26,7 +26,7 @@
     "label": {
       "color": "Color,Colours",
       "white": "White",
-      "size": "Size"
+      "size": "Sizes"
     },
     "social": {
       "follow_on": "Follow on {{ social_media }}",
