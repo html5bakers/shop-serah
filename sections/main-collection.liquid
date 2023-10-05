@@ -153,7 +153,7 @@ LIQUID
               {%- assign selected_sort_by_value = collection.sort_by | default: collection.default_sort_by -%}
 
               <div class="collection-toolbar__button-container">
-                <button type="button" aria-controls="sort-by-popover" class="collection-toolbar__button heading text-xxs w-full">
+                <button type="button" aria-controls="sort-by-popover" class="collection-toolbar__button heading w-full">
                   <span class="text-with-icon justify-center">
                     {{- 'collection.faceting.sort_by' | t -}}
                     {% comment %}{%- render 'icon' with 'chevron-down' -%}{% endcomment %}
