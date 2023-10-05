@@ -59,7 +59,7 @@ Supported variables
           {%- if color_label_list contains option_downcase -%}
             {%- capture id -%}size-chart-{{ section.id }}-{{ block.id }}{%- endcapture -%}
 
-            <button type="button" class="link" aria-controls="{{ id | escape }}" aria-expanded="false">
+            <button type="button" class="size_chart link" aria-controls="{{ id | escape }}" aria-expanded="false">
               {{- 'product.general.size_chart' | t -}}
             </button>
 
