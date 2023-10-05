@@ -70,7 +70,7 @@ Supported variables
             
 
             {% if product.metafields.custom.size_chart %}
-              <img src="{{ product.metafields.custom.size_chart | img_url }}">
+              <img src="{{ product.metafields.custom.size_chart | img_url:'master' }}">
               {% else %}
               {% if size_chart_page != '' %}
                 {{- size_chart_page.content -}}
