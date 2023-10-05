@@ -46,7 +46,7 @@
         "template--20866689237301__10e8e0fa-f114-4a8a-a239-983856ee39cc-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Exclusively     yours",
+            "text": "Exclusively  <span>   yours  <\/span>",
             "heading_tag": "h1"
           }
         },
