@@ -10,7 +10,6 @@
         "enable_parallax": true,
         "show_collection_title": true,
         "show_collection_description": true,
-        "show_breadcrumb": true,
         "content_width": "md",
         "background": "#000000",
         "text_color": "#ffffff",
@@ -21,6 +20,7 @@
     "main": {
       "type": "main-collection",
       "settings": {
+        "show_breadcrumb": true,
         "hide_product_information": false,
         "products_per_page": 48,
         "products_per_row_mobile": "2",
@@ -29,7 +29,7 @@
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
         "filter_layout": "sidebar",
-        "quick_links_menu": "",
+        "quick_links_menu": "categories",
         "show_sort_by": true,
         "show_filters": true,
         "show_results_count": true,
