@@ -38,7 +38,6 @@ $(document).ready(function(){
       }
   });
 });
-if(document.querySelector(".collections")){
   var pInfScrLoading = false;
   var pInfScrDelay = 100;
 
@@ -86,4 +85,3 @@ if(document.querySelector(".collections")){
 
       }
   }
-}
