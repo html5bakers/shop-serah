@@ -526,9 +526,15 @@ a.link.col-button-text svg {
 }
 @keyframes loaderAnimation {
   0% {
-      opacity: 0.3;
+      opacity: 0;
+  }
+  20% {
+      opacity: 0.2;
   }
   50% {
+      opacity: 0.3;
+  }
+  80% {
       opacity: 0.5;
   }
   100% {
@@ -537,7 +543,7 @@ a.link.col-button-text svg {
 }
 
 a.link.col-button-text:hover svg line {
-  animation: loaderAnimation 1s;
+  animation: loaderAnimation 2s;
   opacity: 1;
 }
 @media screen and (min-width: 700px){
