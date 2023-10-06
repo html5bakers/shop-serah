@@ -131,7 +131,7 @@ Supported variables
         {%- endcapture -%}
 
         {%- if filter_content != blank -%}
-          {%- render 'accordion', title: filter.label, content: filter_content, open: open_filters_by_default, show_arrow: true -%}
+          {%- render 'accordion', title: filter.label, content: filter_content, open: open_filters_by_default, show_arrow: false -%}
         {%- endif -%}
       {%- endfor -%}
     {%- endif -%}
