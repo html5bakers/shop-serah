@@ -199,7 +199,7 @@ LIQUID
       {%- endif -%}
 
       <div class="collection">
-        {%- paginate collection.products by section.settings.products_per_page -%}
+        {%- paginate collection.products by 3 -%}
           {%- if show_filters -%}
             <facets-drawer id="facets-drawer" class="facets-drawer drawer drawer--sm {% if section.settings.filter_layout == 'sidebar' %}md:hidden{% endif %}">
               <p class="h4" slot="header">{{ 'collection.faceting.filters' | t }}</p>
