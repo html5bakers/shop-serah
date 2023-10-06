@@ -23,10 +23,12 @@ $(window).scroll(function(){
   });
 });
  if(document.querySelector(".collections")){
+   pInfScrExecute()
   var pInfScrLoading = false;
   var pInfScrDelay = 100;
 
   function pInfScrExecute() {
+    alert('dddd');
     var elm = document.querySelector('.collections');
     var scrollHeight = elm.scrollHeight;
     var scrollTop = elm.scrollTop;
