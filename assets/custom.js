@@ -27,7 +27,7 @@ $(document).ready(function(){
  
     $('body').on('click', '.show_more',function(){
       if(document.querySelector(".collections")){
-        $.doTimeout( 'scroll', pInfScrDelay, pInfScrExecute);
+        $.doTimeout( 'scroll', pInfScrDelay, pInfScrExecute1);
         var elm = document.querySelector('.collections');
         var scrollHeight = elm.scrollHeight;
         var scrollTop = elm.scrollTop;
@@ -43,7 +43,7 @@ $(document).ready(function(){
   var pInfScrLoading = false;
   var pInfScrDelay = 100;
 
-  function pInfScrExecute() {
+  function pInfScrExecute1() {
     alert('dddd');
     var elm = document.querySelector('.collections');
     var scrollHeight = elm.scrollHeight;
