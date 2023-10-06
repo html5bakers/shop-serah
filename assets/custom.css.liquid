@@ -429,7 +429,11 @@ sale-price.h6.text-subdued {
 }
 /* Collection page */
 .breadcrumb__list-item+.breadcrumb__list-item:before{
-  content: ">";
+  content: none;
+}
+.breadcrumb__list-item {
+  display: flex;
+  align-items: center;
 }
 .breadcrumb {
   padding: 28px 0;
