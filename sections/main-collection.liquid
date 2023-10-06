@@ -143,7 +143,7 @@ LIQUID
       </div>
     {%- else -%}
       {%- if show_filters or section.settings.show_sort_by or section.settings.show_grid_mode_selector or section.settings.show_results_count -%}
-        <height-observer variable="collection-toolbar" class="collection-toolbar animate show_up ad-1">
+        <height-observer variable="collection-toolbar" class="collection-toolbar">
           <div class="collection-toolbar__button-list">
             {%- if show_filters -%}
               <div class="collection-toolbar__button-container {% if section.settings.filter_layout == 'sidebar' %}md:hidden{% endif %}">
