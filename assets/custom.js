@@ -22,28 +22,10 @@ $(window).scroll(function(){
     }
   });
 });
-
-$(document).ready(function(){
- 
-    $('body').on('click', '.show_more',function(){
-      if(document.querySelector(".collections")){
-        $.doTimeout( 'scroll', pInfScrDelay, pInfScrExecute1);
-        var elm = document.querySelector('.collections');
-        var scrollHeight = elm.scrollHeight;
-        var scrollTop = elm.scrollTop;
-        var clientHeight = elm.clientHeight;
-        console.log(clientHeight);
-        if(scrollHeight-scrollTop == clientHeight){
-          pInfScrDelay = 100;
-        }
-      }
-  });
-
-   if(document.querySelector(".collections")){
   var pInfScrLoading = false;
   var pInfScrDelay = 100;
 
-  function pInfScrExecute1() {
+  function pInfScrExecute() {
     alert('dddd');
     var elm = document.querySelector('.collections');
     var scrollHeight = elm.scrollHeight;
@@ -87,5 +69,21 @@ $(document).ready(function(){
 
       }
   }
-}
+$(document).ready(function(){
+ 
+    $('body').on('click', '.show_more',function(){
+      if(document.querySelector(".collections")){
+        $.doTimeout( 'scroll', pInfScrDelay, pInfScrExecute);
+        var elm = document.querySelector('.collections');
+        var scrollHeight = elm.scrollHeight;
+        var scrollTop = elm.scrollTop;
+        var clientHeight = elm.clientHeight;
+        console.log(clientHeight);
+        if(scrollHeight-scrollTop == clientHeight){
+          pInfScrDelay = 100;
+        }
+      }
+  });
+
+
 });
