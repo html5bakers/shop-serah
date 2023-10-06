@@ -531,6 +531,20 @@ a.link.col-button-text svg {
   position: relative;
   top: 2px;
 }
+a.link.col-button-text:hover svg {
+    opacity: 1;
+    animation: slideRight 0.5s forwards; /* Apply the animation on hover */
+}
+@keyframes slideRight {
+    0% {
+        opacity: 0.5;
+        transform: translateX(-10px); /* Start from the left */
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0); /* End at the original position */
+    }
+}
 .product-card__info .product-title.h6 {
   font-weight: bold;
 }
