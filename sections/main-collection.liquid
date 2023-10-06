@@ -118,7 +118,11 @@ LIQUID
         </li>
 {% endcomment %}
         <li class="breadcrumb__list-item">
-          <a href="{{ collection.url }}" aria-current="page" class=" {% unless show_image %}link-faded{% endunless %}">{{ collection.title }}</a>
+          <a href="{{ collection.url }}" aria-current="page" class=" {% unless show_image %}link-faded{% endunless %}">
+    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14" fill="none">
+<path d="M1 1L11 7L1 13" stroke="#7D7D7D"/>
+</svg>
+    {{ collection.title }}</a>
         </li>
       </ol>
     </nav>
