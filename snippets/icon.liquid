@@ -21,6 +21,15 @@ Supported variables
 
 {%- case icon -%}
   {%- comment -%} UI {%- endcomment -%}
+   {%- when 'hover-arrow' -%}
+  <svg xmlns="http://www.w3.org/2000/svg" width="120" height="17" viewBox="0 0 120 17" fill="none">
+<mask id="mask0_455_157" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="120" height="17">
+<rect width="120" height="17" fill="#F5F4ED"/>
+</mask>
+<g mask="url(#mask0_455_157)">
+<line opacity="0.5" y1="7" x2="120" y2="7" stroke="white" stroke-width="2"/>
+</g>
+</svg>
   {%- when 'chevron-down' -%}
     <svg aria-hidden="true" focusable="false" fill="none" width="{{ width | default: 10 }}" class="{{ class | strip }}" viewBox="0 0 10 10">
       <path d="m1 3 4 4 4-4" stroke="currentColor" stroke-linecap="square"/>
