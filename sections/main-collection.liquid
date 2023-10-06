@@ -107,7 +107,7 @@ LIQUID
 {%- endcomment -%}
 {%- capture collection_breadcrumb -%}
   {%- if section.settings.show_breadcrumb -%}
-    <nav class="breadcrumb" aria-label="{{ 'general.breadcrumb.label' | t | escape }}">
+    <nav class="breadcrumb animate show_up ad-1" aria-label="{{ 'general.breadcrumb.label' | t | escape }}">
       <ol class="breadcrumb__list unstyled-list">
         <li class="breadcrumb__list-item">
           <a href="{{ routes.root_url }}" class=" {% unless show_image %}link-faded{% endunless %}">{{ 'general.breadcrumb.home' | t }}</a>
