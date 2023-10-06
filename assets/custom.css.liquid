@@ -518,7 +518,7 @@ p.collection-toolbar__products-count {
   padding-right: 110px;
   padding-left: 135px;
 }
-a.link.col-button-text {
+.col-button-text {
   background: none;
   display: flex;
   align-items: center;
@@ -526,10 +526,19 @@ a.link.col-button-text {
   letter-spacing: 3px;
   font-size: var(--text-h4);
 }
-a.link.col-button-text svg {
-  margin-left: 10px;
-  position: relative;
-  top: 2px;
+.border-hover{
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: block;
+    max-width: 100px;
+    height: 1px;
+    display: block;
+    background: linear-gradient(to right, black 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    opacity: 0.5;
+
 }
 .product-card__info .product-title.h6 {
   font-weight: bold;
