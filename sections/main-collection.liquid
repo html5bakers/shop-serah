@@ -112,11 +112,11 @@ LIQUID
         <li class="breadcrumb__list-item">
           <a href="{{ routes.root_url }}" class=" {% unless show_image %}link-faded{% endunless %}">{{ 'general.breadcrumb.home' | t }}</a>
         </li>
-
+{% comment %}
         <li class="breadcrumb__list-item">
           <a href="{{ routes.all_products_collection_url }}" class=" {% unless show_image %}link-faded{% endunless %}">{{ 'general.breadcrumb.shop' | t }}</a>
         </li>
-
+{% endcomment %}
         <li class="breadcrumb__list-item">
           <a href="{{ collection.url }}" aria-current="page" class=" {% unless show_image %}link-faded{% endunless %}">{{ collection.title }}</a>
         </li>
