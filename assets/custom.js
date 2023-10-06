@@ -22,9 +22,7 @@ $(window).scroll(function(){
     }
   });
 });
-
-$(document).ready(function(){
-  if(document.querySelector(".collections")){
+ if(document.querySelector(".collections")){
   var pInfScrLoading = false;
   var pInfScrDelay = 100;
 
@@ -72,6 +70,8 @@ $(document).ready(function(){
       }
   }
 }
+$(document).ready(function(){
+ 
     $('body').on('click', '.show_more',function(){
       if(document.querySelector(".collections")){
         $.doTimeout( 'scroll', pInfScrDelay, pInfScrExecute);
