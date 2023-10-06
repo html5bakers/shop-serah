@@ -236,9 +236,13 @@ LIQUID
                 {%- for product in collection.products -%}
                   {%- render 'product-card', product: product, reveal: settings.stagger_products_apparition,show_badges: false, hide_product_information: section.settings.hide_product_information, stacked: true -%}
                 {%- endfor -%}
+              {% if paginate.next %}
+              <div class="more"> <a href="{{ paginate.next.url }}"></a></div>  
+              <div class="show_more button button--outline">Load More</div>
+              {% endif %}
               </product-list>
 
-              {%- render 'pagination', paginate: paginate, facet: true -%}
+              {% comment %}{%- render 'pagination', paginate: paginate, facet: true -%}{% endcomment %}
             </div>
           {%- endif -%}
         {%- endpaginate -%}
