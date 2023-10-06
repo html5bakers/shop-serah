@@ -43,6 +43,7 @@ if(document.querySelector(".collections")){
   var pInfScrDelay = 100;
 
   function pInfScrExecute() {
+    alert('dddd');
     var elm = document.querySelector('.collections');
     var scrollHeight = elm.scrollHeight;
     var scrollTop = elm.scrollTop;
