@@ -191,6 +191,34 @@
         "content": ""
       }
     },
+    "dcf77ae7-0d9f-4866-887f-fbdd69fb86eb": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--20866689696053__dcf77ae7-0d9f-4866-887f-fbdd69fb86eb-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "template--20866689696053__dcf77ae7-0d9f-4866-887f-fbdd69fb86eb-collection-1"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Featured collection"
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -533,6 +561,7 @@
     "featured-collections",
     "6a1aed12-a625-42f7-b8e4-01589b079ca9",
     "multi-column",
+    "dcf77ae7-0d9f-4866-887f-fbdd69fb86eb",
     "collection-list",
     "before-after",
     "image-with-text-scroll",
