@@ -97,15 +97,55 @@
         "subheading": ""
       }
     },
+    "6a1aed12-a625-42f7-b8e4-01589b079ca9": {
+      "type": "collection-image-with-text",
+      "blocks": {
+        "template--20866689696053__6a1aed12-a625-42f7-b8e4-01589b079ca9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "EXCLUSIVELY     yours",
+            "heading_tag": "h1"
+          }
+        },
+        "template--20866689696053__6a1aed12-a625-42f7-b8e4-01589b079ca9-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "products you won’t find everywhere."
+          }
+        },
+        "template--20866689696053__6a1aed12-a625-42f7-b8e4-01589b079ca9-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Best to write some short description for Sets here.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20866689696053__6a1aed12-a625-42f7-b8e4-01589b079ca9-heading-1",
+        "template--20866689696053__6a1aed12-a625-42f7-b8e4-01589b079ca9-subheading-1",
+        "template--20866689696053__6a1aed12-a625-42f7-b8e4-01589b079ca9-richtext-1"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "background1": "",
+        "font_color": "",
+        "image": "shopify:\/\/shop_images\/collection-image-with-text.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
     "multi-column": {
       "type": "multi-column",
       "blocks": {
         "column-1": {
           "type": "image_with_text",
           "settings": {
-            "title": "Column title",
-            "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Exclusively_yours.png",
+            "title": "Exclusively yours",
+            "heading_tag": "h2",
+            "content": "<p>Limited-edition pieces that are sure to turn heads.<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -114,7 +154,7 @@
           "type": "image_with_text",
           "settings": {
             "title": "Column title",
-            "heading_tag": "h3",
+            "heading_tag": "h2",
             "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_url": "",
             "link_text": ""
@@ -489,6 +529,7 @@
   "order": [
     "slideshow",
     "featured-collections",
+    "6a1aed12-a625-42f7-b8e4-01589b079ca9",
     "multi-column",
     "collection-list",
     "before-after",
