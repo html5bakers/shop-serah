@@ -219,26 +219,44 @@
         "subheading": ""
       }
     },
+    "14bb2704-8916-410d-81e4-459b99962071": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--20866689696053__14bb2704-8916-410d-81e4-459b99962071-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "The Brunch Club",
+            "heading_tag": "h4"
+          }
+        },
+        "template--20866689696053__14bb2704-8916-410d-81e4-459b99962071-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>EXPLORE<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20866689696053__14bb2704-8916-410d-81e4-459b99962071-heading-1",
+        "template--20866689696053__14bb2704-8916-410d-81e4-459b99962071-richtext-1"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/end-of-summer_sale.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
         "collection-2": {
           "type": "collection",
           "settings": {
@@ -323,15 +341,32 @@
             "button_background": "",
             "button_text_color": ""
           }
+        },
+        "20a9d00f-ff7b-4dcd-90ab-f9f63d9f238a": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
-        "collection-1",
         "collection-2",
         "collection-3",
         "collection-4",
         "collection-5",
-        "collection-6"
+        "collection-6",
+        "20a9d00f-ff7b-4dcd-90ab-f9f63d9f238a"
       ],
       "settings": {
         "separate_section_with_border": true,
@@ -562,6 +597,7 @@
     "6a1aed12-a625-42f7-b8e4-01589b079ca9",
     "multi-column",
     "dcf77ae7-0d9f-4866-887f-fbdd69fb86eb",
+    "14bb2704-8916-410d-81e4-459b99962071",
     "collection-list",
     "before-after",
     "image-with-text-scroll",
