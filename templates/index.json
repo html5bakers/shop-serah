@@ -167,7 +167,7 @@
         "template--20866689696053__fd2d0b7e-103c-4c5a-91be-7bed0d5b6866-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "dresses",
             "image": "shopify:\/\/shop_images\/Dresses.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
