@@ -23,12 +23,12 @@
         "48dfc529-b254-4e1b-87f8-2307a4bd808b"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "image": "shopify:\/\/shop_images\/home-banner.png",
-        "reveal_on_scroll": true,
+        "reveal_on_scroll": false,
         "image_position": "end",
         "content_width": "lg",
-        "remove_vertical_spacing": true
+        "remove_vertical_spacing": false
       }
     },
     "featured-collections": {
