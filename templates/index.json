@@ -175,8 +175,8 @@
             "title": "",
             "button_text": "Dresses",
             "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
+            "text_color": "#1c1c1c",
+            "overlay_color": "#ffffff",
             "overlay_opacity": 0,
             "button_background": "#ffffff",
             "button_text_color": "#000000"
