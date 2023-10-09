@@ -80,12 +80,20 @@
           "settings": {
             "content": "<p>Best to write some short description for Sets here.<\/p>"
           }
+        },
+        "b94f3341-9dea-41b5-be4c-82a38665eb2d": {
+          "type": "link",
+          "settings": {
+            "text": "EXPLORE SETS",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "template--20866689696053__6a1aed12-a625-42f7-b8e4-01589b079ca9-heading-1",
         "template--20866689696053__6a1aed12-a625-42f7-b8e4-01589b079ca9-subheading-1",
-        "template--20866689696053__6a1aed12-a625-42f7-b8e4-01589b079ca9-richtext-1"
+        "template--20866689696053__6a1aed12-a625-42f7-b8e4-01589b079ca9-richtext-1",
+        "b94f3341-9dea-41b5-be4c-82a38665eb2d"
       ],
       "settings": {
         "separate_section_with_border": true,
@@ -95,7 +103,7 @@
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "sm",
-        "remove_vertical_spacing": false
+        "remove_vertical_spacing": true
       }
     },
     "multi-column": {
