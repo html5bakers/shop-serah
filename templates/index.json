@@ -256,7 +256,7 @@
           "type": "heading",
           "settings": {
             "text": "The Brunch Club",
-            "heading_tag": "h4"
+            "heading_tag": "h1"
           }
         },
         "template--20866689696053__14bb2704-8916-410d-81e4-459b99962071-richtext-1": {
@@ -276,9 +276,9 @@
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": true,
-        "content_width": "md",
+        "content_width": "lg",
         "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "desktop_text_position": "sm:place-self-end-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
