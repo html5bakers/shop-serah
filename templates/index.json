@@ -213,7 +213,7 @@
             "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 0,
             "button_background": "#ffffff",
             "button_text_color": "#000000"
           }
