@@ -83,7 +83,7 @@
                 {%- assign button_link = block.settings.link_url | default: block.settings.collection.url | default: '#' -%}
 
                 <div class="justify-self-center">
-                  {%- render 'button', href: button_link, content: block.settings.link_text -%}
+                  {%- render 'button', href: button_link, content: block.settings.link_text,style: 'link' -%}
                 </div>
               {%- endif -%}
             </div>
