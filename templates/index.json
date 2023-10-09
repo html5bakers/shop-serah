@@ -153,32 +153,79 @@
         "content": ""
       }
     },
-    "dcf77ae7-0d9f-4866-887f-fbdd69fb86eb": {
-      "type": "featured-collections",
+    "fd2d0b7e-103c-4c5a-91be-7bed0d5b6866": {
+      "type": "collection-list",
       "blocks": {
-        "template--20866689696053__dcf77ae7-0d9f-4866-887f-fbdd69fb86eb-collection-1": {
+        "template--20866689696053__fd2d0b7e-103c-4c5a-91be-7bed0d5b6866-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "frontpage",
-            "products_count": 8,
-            "title": "SHOP by CATEGORY",
-            "link_url": "",
-            "link_text": ""
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Dresses.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "Dresses",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "template--20866689696053__fd2d0b7e-103c-4c5a-91be-7bed0d5b6866-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "template--20866689696053__fd2d0b7e-103c-4c5a-91be-7bed0d5b6866-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
           }
         }
       },
       "block_order": [
-        "template--20866689696053__dcf77ae7-0d9f-4866-887f-fbdd69fb86eb-collection-1"
+        "template--20866689696053__fd2d0b7e-103c-4c5a-91be-7bed0d5b6866-collection-1",
+        "template--20866689696053__fd2d0b7e-103c-4c5a-91be-7bed0d5b6866-collection-2",
+        "template--20866689696053__fd2d0b7e-103c-4c5a-91be-7bed0d5b6866-collection-3"
       ],
       "settings": {
         "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.2,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 4,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
       }
     },
     "14bb2704-8916-410d-81e4-459b99962071": {
@@ -267,7 +314,7 @@
     "featured-collections",
     "6a1aed12-a625-42f7-b8e4-01589b079ca9",
     "multi-column",
-    "dcf77ae7-0d9f-4866-887f-fbdd69fb86eb",
+    "fd2d0b7e-103c-4c5a-91be-7bed0d5b6866",
     "14bb2704-8916-410d-81e4-459b99962071",
     "before-after"
   ]
