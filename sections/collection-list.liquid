@@ -6,34 +6,6 @@
   {%- endcomment -%}
 
   <style>
-      #shopify-section-{{ section.id }}:before{
-      {%- if section.settings.bg_image1 -%}
-        background-image: url({{ section.settings.bg_image1 | img_url:'master' }});
-        content: '';
-        position: absolute;
-        background-size: 250px;
-        width: 250px;
-        height: 100%;
-        background-repeat: no-repeat;
-        opacity: 0.2;
-      {% endif %}
-    }
-    #shopify-section-{{ section.id }}:after{
-      {%- if section.settings.bg_image2 -%}
-        background-image: url({{ section.settings.bg_image2 | img_url:'master' }});
-        content: '';
-        position: absolute;
-        background-size: 100px;
-        width: 100px;
-        height: 100%;
-        background-repeat: no-repeat;
-        opacity: 0.2;
-        right: 0;
-        z-index: 1;
-        bottom: -110px;
-        background-position: bottom;
-      {% endif %}
-    }
     #shopify-section-{{ section.id }} {
       {%- if section.settings.stack_collections -%}
         --collection-list-items-per-row: 1;

@@ -6,6 +6,34 @@
   {%- endcomment -%}
 
   <style>
+  #shopify-section-{{ section.id }}:before{
+      {%- if section.settings.bg_image1 -%}
+        background-image: url({{ section.settings.bg_image1 | img_url:'master' }});
+        content: '';
+        position: absolute;
+        background-size: 250px;
+        width: 250px;
+        height: 100%;
+        background-repeat: no-repeat;
+        opacity: 0.2;
+      {% endif %}
+    }
+    #shopify-section-{{ section.id }}:after{
+      {%- if section.settings.bg_image2 -%}
+        background-image: url({{ section.settings.bg_image2 | img_url:'master' }});
+        content: '';
+        position: absolute;
+        background-size: 100px;
+        width: 100px;
+        height: 100%;
+        background-repeat: no-repeat;
+        opacity: 0.2;
+        right: 0;
+        z-index: 1;
+        bottom: -110px;
+        background-position: bottom;
+      {% endif %}
+    }
     #shopify-section-{{ section.id }} {
       --image-with-text-content-max-width: {% if section.settings.content_width == 'sm' %}430px{% elsif section.settings.content_width == 'md' %}780px{% else %}100%{% endif %};
     }
@@ -104,6 +132,16 @@
       "id": "separate_section_with_border",
       "label": "t:global.section.separate_section_with_border",
       "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_image1",
+      "label": "Background Image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_image2",
+      "label": "Background Image 2"
     },
     {
       "type": "image_picker",
