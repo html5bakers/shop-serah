@@ -196,11 +196,12 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/Co-Ords.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "",
-            "button_text": "View products",
+            "button_text": "Co-Ords",
             "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
