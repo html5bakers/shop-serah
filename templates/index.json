@@ -157,7 +157,7 @@
         "overlap_image": false,
         "content_alignment": "center",
         "text_alignment": "center",
-        "spacing": "lg",
+        "spacing": "md",
         "subheading": "",
         "title": "",
         "content": ""
