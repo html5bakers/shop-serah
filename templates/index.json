@@ -188,8 +188,8 @@
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
+            "button_background": "#ffffff",
+            "button_text_color": "#000000"
           }
         },
         "template--20866689696053__fd2d0b7e-103c-4c5a-91be-7bed0d5b6866-collection-3": {
@@ -206,8 +206,8 @@
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
+            "button_background": "#ffffff",
+            "button_text_color": "#000000"
           }
         },
         "7db65e18-0864-43a9-a388-f3906b9f0f7f": {
@@ -223,9 +223,9 @@
             "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
+            "overlay_opacity": 0,
+            "button_background": "#ffffff",
+            "button_text_color": "#000000"
           }
         }
       },
