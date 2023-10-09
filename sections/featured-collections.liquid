@@ -32,7 +32,7 @@
               {%- endfor -%}
             </carousel-navigation>
           {%- else -%}
-            <p class="h2">{{ section.blocks.first.settings.title | default: section.blocks.first.settings.collection.title | default: 'Collection' }}</p>
+            <p class="h2 sec_heading">{{ section.blocks.first.settings.title | default: section.blocks.first.settings.collection.title | default: 'Collection' }}</p>
           {%- endif -%}
         </div>
 
