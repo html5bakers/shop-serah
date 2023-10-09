@@ -197,11 +197,11 @@
         "template--20866689696053__dcf77ae7-0d9f-4866-887f-fbdd69fb86eb-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "frontpage",
             "products_count": 8,
-            "title": "",
+            "title": "SHOP by CATEGORY",
             "link_url": "",
-            "link_text": "View all"
+            "link_text": ""
           }
         }
       },
