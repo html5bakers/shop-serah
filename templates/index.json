@@ -246,7 +246,7 @@
         "7db65e18-0864-43a9-a388-f3906b9f0f7f"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "image_size": "auto",
         "show_text_outside": true,
         "space_items": true,
