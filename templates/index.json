@@ -42,8 +42,8 @@
             "collection": "frontpage",
             "products_count": 8,
             "title": "BESTSELLERS",
-            "link_url": "",
-            "link_text": ""
+            "link_url": "shopify:\/\/collections\/new-arrivals",
+            "link_text": "SHOP BESTSELLERS"
           }
         }
       },
