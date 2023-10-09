@@ -254,140 +254,13 @@
         "overlay_opacity": 30
       }
     },
-    "collection-list": {
-      "type": "collection-list",
-      "blocks": {
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection-4": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection-5": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection-6": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "20a9d00f-ff7b-4dcd-90ab-f9f63d9f238a": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-2",
-        "collection-3",
-        "collection-4",
-        "collection-5",
-        "collection-6",
-        "20a9d00f-ff7b-4dcd-90ab-f9f63d9f238a"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "image_size": "auto",
-        "show_text_outside": false,
-        "space_items": true,
-        "stack_collections": true,
-        "collections_per_row_desktop": 3,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
-      }
-    },
     "before-after": {
       "type": "before-after",
       "blocks": {
         "before": {
           "type": "before",
           "settings": {
+            "image": "shopify:\/\/shop_images\/before_image.jpg",
             "text": "Before",
             "link_text": "",
             "link_url": "shopify:\/\/products\/off-white-crop-top",
@@ -400,6 +273,7 @@
         "after": {
           "type": "after",
           "settings": {
+            "image": "shopify:\/\/shop_images\/After_image.jpg",
             "text": "",
             "link_text": "",
             "link_url": "",
@@ -598,7 +472,6 @@
     "multi-column",
     "dcf77ae7-0d9f-4866-887f-fbdd69fb86eb",
     "14bb2704-8916-410d-81e4-459b99962071",
-    "collection-list",
     "before-after",
     "image-with-text-scroll",
     "multiple-media-with-text",
