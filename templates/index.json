@@ -299,6 +299,34 @@
         "cursor_arrows_color": "#000000"
       }
     },
+    "f2096e24-4cce-45ee-87cb-01f1cef58b6b": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--20866689696053__f2096e24-4cce-45ee-87cb-01f1cef58b6b-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage",
+            "products_count": 8,
+            "title": "CONNECT WITH US",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20866689696053__f2096e24-4cce-45ee-87cb-01f1cef58b6b-collection-1"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.2,
+        "vertical_spacing_factor": 1,
+        "subheading": "@take to Instagram Page"
+      }
+    },
     "image-with-text-scroll": {
       "type": "images-with-text-scroll",
       "blocks": {
@@ -473,6 +501,7 @@
     "dcf77ae7-0d9f-4866-887f-fbdd69fb86eb",
     "14bb2704-8916-410d-81e4-459b99962071",
     "before-after",
+    "f2096e24-4cce-45ee-87cb-01f1cef58b6b",
     "image-with-text-scroll",
     "multiple-media-with-text",
     "newsletter",
