@@ -209,12 +209,31 @@
             "button_background": "",
             "button_text_color": ""
           }
+        },
+        "7db65e18-0864-43a9-a388-f3906b9f0f7f": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Bottoms.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "Bottoms",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
         "template--20866689696053__fd2d0b7e-103c-4c5a-91be-7bed0d5b6866-collection-1",
         "template--20866689696053__fd2d0b7e-103c-4c5a-91be-7bed0d5b6866-collection-2",
-        "template--20866689696053__fd2d0b7e-103c-4c5a-91be-7bed0d5b6866-collection-3"
+        "template--20866689696053__fd2d0b7e-103c-4c5a-91be-7bed0d5b6866-collection-3",
+        "7db65e18-0864-43a9-a388-f3906b9f0f7f"
       ],
       "settings": {
         "separate_section_with_border": true,
