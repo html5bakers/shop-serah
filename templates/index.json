@@ -16,6 +16,7 @@
       ],
       "settings": {
         "separate_section_with_border": true,
+        "image": "shopify:\/\/shop_images\/home-banner.png",
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "sm",
