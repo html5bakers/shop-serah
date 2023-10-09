@@ -253,8 +253,8 @@
       "settings": {
         "separate_section_with_border": true,
         "subheading": "",
-        "title": "Before\/after",
-        "content": "<p>Showcase your product benefit by using before\/after image comparison.<\/p>",
+        "title": "",
+        "content": "",
         "cursor_direction": "horizontal",
         "cursor_initial_position": 50,
         "cursor_background": "#ffffff",
