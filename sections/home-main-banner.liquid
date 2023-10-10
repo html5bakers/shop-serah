@@ -6,6 +6,9 @@
   {%- endcomment -%}
 
   <style>
+   #shopify-section-{{ section.id }} .container{
+     position: relative;
+   }
   #shopify-section-{{ section.id }} .container:before{
       {%- if section.settings.bg_image1 -%}
         background-image: url({{ section.settings.bg_image1 | img_url:'master' }});
