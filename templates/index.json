@@ -250,7 +250,7 @@
         "image_size": "auto",
         "show_text_outside": true,
         "space_items": true,
-        "stack_collections": true,
+        "stack_collections": false,
         "collections_per_row_desktop": 4,
         "subheading": "",
         "title": "SHOP BY CATEGORY",
