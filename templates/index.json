@@ -320,10 +320,10 @@
             "image": "shopify:\/\/shop_images\/After_image.jpg",
             "product_select": "off-white-crop-top-1",
             "text": "",
-            "link_text": "",
-            "link_url": "",
+            "link_text": "VIEW PRODUCT",
+            "link_url": "shopify:\/\/products\/off-white-crop-top-1",
             "link_style": "link",
-            "text_color": "#ffffff",
+            "text_color": "#1c1c1c",
             "button_background": "#ffffff",
             "button_text_color": "#1c1c1c"
           }
