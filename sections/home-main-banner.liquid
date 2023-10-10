@@ -6,7 +6,7 @@
   {%- endcomment -%}
 
   <style>
-  #shopify-section-{{ section.id }}:before{
+  #shopify-section-{{ section.id }} .container:before{
       {%- if section.settings.bg_image1 -%}
         background-image: url({{ section.settings.bg_image1 | img_url:'master' }});
         content: '';
@@ -19,7 +19,7 @@
         left: -15px;
       {% endif %}
     }
-    #shopify-section-{{ section.id }}:after{
+    #shopify-section-{{ section.id }} .container:after{
       {%- if section.settings.bg_image2 -%}
         background-image: url({{ section.settings.bg_image2 | img_url:'master' }});
         content: '';
@@ -39,8 +39,7 @@
     }
   </style>
 
-  <div class="left-svg">
-  </div>
+  
   {%- comment -%}
   ------------------------------------------------------------------------------------------------------------------------
   LIQUID
