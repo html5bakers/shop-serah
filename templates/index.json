@@ -247,7 +247,7 @@
       ],
       "settings": {
         "separate_section_with_border": false,
-        "image_size": "sm",
+        "image_size": "auto",
         "show_text_outside": true,
         "space_items": true,
         "stack_collections": true,
