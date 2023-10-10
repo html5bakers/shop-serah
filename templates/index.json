@@ -304,6 +304,7 @@
           "type": "before",
           "settings": {
             "image": "shopify:\/\/shop_images\/end-of-summer_sale.jpg",
+            "product_select": "off-white-crop-top",
             "text": "Off-White Crop Top",
             "link_text": "VIEW PRODUCT",
             "link_url": "shopify:\/\/products\/off-white-crop-top",
