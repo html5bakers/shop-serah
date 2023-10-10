@@ -256,7 +256,9 @@
         "title": "SHOP BY CATEGORY",
         "content": "",
         "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
+        "circle_button_text_color": "#1c1c1c",
+        "link_url": "",
+        "link_text": "Shop all"
       }
     },
     "14bb2704-8916-410d-81e4-459b99962071": {
