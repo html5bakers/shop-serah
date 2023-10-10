@@ -2,6 +2,8 @@
   #shopify-section-{{ section.id }} {
     --before-after-initial-cursor-position: {{ section.settings.cursor_initial_position }}%;
     --before-after-cursor-background: {{ section.settings.cursor_background.rgb }};
+       color:{% if section.settings.font_color %}{{ section.settings.font_color }}{% endif %};
+      {% if section.settings.background1 != blank %} background-color:{{ section.settings.background1 }};{% endif %}
   }
 
 </style>
@@ -130,6 +132,16 @@
       "id": "separate_section_with_border",
       "label": "t:global.section.separate_section_with_border",
       "default": true
+    },
+    {
+      "type": "color",
+      "id": "background1",
+      "label": "t:global.colors.background"
+    },
+    {
+      "type": "color",
+      "id": "font_color",
+      "label": "Font colors"
     },
     {
       "type": "inline_richtext",
