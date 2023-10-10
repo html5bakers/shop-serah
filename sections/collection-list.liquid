@@ -142,6 +142,14 @@
             </button>
           </div>
         {% endif %}
+
+         {%- if section.settings.link_text != blank -%}
+                {%- assign button_link = section.settings.link_url   | default: '#' -%}
+
+                <div class="justify-self-center btn-wrap">
+                  {%- render 'button', href: button_link, content: section.settings.link_text,style: 'link' -%}
+                </div>
+              {%- endif -%}
     </div>
   </div>
 {%- endif -%}
@@ -262,6 +270,18 @@
       "id": "circle_button_text_color",
       "label": "t:sections.collection_list.navigation_button_text_color",
       "default": "#1c1c1c"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "t:global.text.link_url",
+      "info": "t:sections.featured_collections.blocks.collection.default_link_url"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "t:global.text.link_text",
+      "default": "View all"
     }
   ],
   "blocks": [
