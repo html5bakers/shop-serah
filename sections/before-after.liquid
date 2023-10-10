@@ -54,9 +54,14 @@
 
                 {{- placeholder_image | placeholder_svg_tag: placeholder_class | replace: '<svg', '<svg preserveAspectRatio="xMinYMin slice"' -}}
               {%- endif -%}
-
-              {%- if block.settings.text != blank or block.settings.button_text != blank -%}
+              
+              {%- if block.settings.text != blank or block.settings.button_text != blank or block.settings.product_select  != blank -%}
                 <div class="before-after__content-wrapper v-stack {% if block.settings.link_style == 'link' %}gap-2{% else %}gap-4{% endif %}">
+
+                    {% if block.settings.product_select %}
+                  ======{{ block.settings.product_select }}
+                {% endif %}
+                
                   {%- if block.settings.text != blank -%}
                     <p class="h6 sm:h5">{{ block.settings.text }}</p>
                   {%- endif -%}
@@ -183,7 +188,7 @@
         },
         {
           "type": "product",
-          "id": "product",
+          "id": "product_select",
           "label": "Select Product"
         },
         {
