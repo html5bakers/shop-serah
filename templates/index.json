@@ -304,8 +304,8 @@
           "type": "before",
           "settings": {
             "image": "shopify:\/\/shop_images\/end-of-summer_sale.jpg",
-            "product_select": "off-white-crop-top",
-            "text": "Off-White Crop Top",
+            "product_select": "off-white-crop-top-2",
+            "text": "",
             "link_text": "VIEW PRODUCT",
             "link_url": "shopify:\/\/products\/off-white-crop-top",
             "link_style": "link",
@@ -318,6 +318,7 @@
           "type": "after",
           "settings": {
             "image": "shopify:\/\/shop_images\/After_image.jpg",
+            "product_select": "off-white-crop-top-1",
             "text": "",
             "link_text": "",
             "link_url": "",
