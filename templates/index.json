@@ -303,12 +303,12 @@
         "before": {
           "type": "before",
           "settings": {
-            "image": "shopify:\/\/shop_images\/before_image.jpg",
-            "text": "Before",
-            "link_text": "",
+            "image": "shopify:\/\/shop_images\/end-of-summer_sale.jpg",
+            "text": "Off-White Crop Top",
+            "link_text": "VIEW PRODUCT",
             "link_url": "shopify:\/\/products\/off-white-crop-top",
-            "link_style": "solid",
-            "text_color": "#ffffff",
+            "link_style": "link",
+            "text_color": "#1c1c1c",
             "button_background": "#ffffff",
             "button_text_color": "#1c1c1c"
           }
