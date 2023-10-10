@@ -53,7 +53,28 @@
 }
 /* Comman css */
 .page-dots{
-    --dot-size: 0.625rem;
+  --dot-size: 0.625rem;
+}
+.border-hover{
+  width: 100%;
+  max-width: 120px;
+  height: 2px;
+  display: block;
+  background: linear-gradient(to right,white 50%, #AFAFAF 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: .5s ease-out;
+  opacity: .5;
+  margin-left: 15px;
+}
+.btn-hover-animation:hover span{
+  background-position: left bottom;
+  opacity: 1;
+}
+@media screen and (max-width: 700px){
+  .border-hover{
+    max-width: 70px;
+  }
 }
 /* Heading */
 .sec_heading {
@@ -539,22 +560,6 @@ p.collection-toolbar__products-count {
   align-items: center;
   text-transform: uppercase;
 }
-.border-hover{
-    width: 100%;
-    max-width: 120px;
-    height: 2px;
-    display: block;
-    background: linear-gradient(to right,white 50%, #AFAFAF 50%);
-    background-size: 200% 100%;
-    background-position: right bottom;
-    transition: .5s ease-out;
-    opacity: .5;
-    margin-left: 15px;
-}
-.btn-hover-animation:hover span{
-  background-position: left bottom;
-  opacity: 1;
-}
 .product-card__info .product-title.h6 {
   font-weight: bold;
 }
@@ -611,6 +616,7 @@ p.collection-toolbar__products-count {
     max-width: 190px;
     padding: 18px;
   }
+  
 }
 /* Home page */
 /* Home Banner */
