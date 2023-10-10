@@ -3,6 +3,9 @@
     --before-after-initial-cursor-position: {{ section.settings.cursor_initial_position }}%;
     --before-after-cursor-background: {{ section.settings.cursor_background.rgb }};
   }
+  .sale-price.h6.text-subdued{
+    color: {{ block.settings.text_color }}
+  }
 </style>
 
 {%- if request.design_mode or section.blocks.size > 0 -%}
