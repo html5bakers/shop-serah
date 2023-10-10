@@ -78,7 +78,7 @@
                               {%- render 'price-list', product: product, context: 'card' -%}
                               {%- if block.settings.link_text != blank -%}
                                 <div {{ block.shopify_attributes }}>
-                                  <a href="{{ block.settings.url }}">
+                                  <a href="{{ block.settings.link_url }}">
                                     {{ block.settings.link_text }}
                                   </a>
                                 </div>
