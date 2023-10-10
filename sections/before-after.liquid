@@ -3,9 +3,7 @@
     --before-after-initial-cursor-position: {{ section.settings.cursor_initial_position }}%;
     --before-after-cursor-background: {{ section.settings.cursor_background.rgb }};
   }
-  #shopify-section-{{ section.id }} .sale-price.h6.text-subdued{
-    color: {{ block.settings.text_color }}
-  }
+
 </style>
 
 {%- if request.design_mode or section.blocks.size > 0 -%}
@@ -34,7 +32,11 @@
               {%- assign container_class = 'before-after__after-image' -%}
               {%- assign image_class = 'image-background' -%}
             {%- endif -%}
-
+            <style>
+              #shopify-section-{{ section.id }} .sale-price.h6.text-subdued{
+                color: {{ block.settings.text_color }}
+              }
+            </style>
             <div class="{{ container_class }}" style="{% render 'surface', text_color: block.settings.text_color %}" {{ block.shopify_attributes }}>
               {%- capture sizes -%}(max-width: 999px) 100vw, min(1260px, 100vw){%- endcapture -%}
 
