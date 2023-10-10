@@ -61,7 +61,7 @@
                     {% if block.settings.product_select %}
                       {% assign product = all_products[block.settings.product_select] %}
                         <div class="product-card__info empty:hidden">
-                          <div class="v-stack justify-items-center gap-2">
+                          <div class="v-stack justify-items-start gap-2">
                               {% if product.type != blank %}
                               <span class="product-type h6 link-faded">{{ product.type }}</span>
                               {% endif %}
