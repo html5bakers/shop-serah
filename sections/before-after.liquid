@@ -74,10 +74,10 @@
                               {{- product.title -}}
                               </a>
                               {%- render 'price-list', product: product, context: 'card' -%}
-                              {%- if block.settings.text != blank -%}
+                              {%- if block.settings.link_text != blank -%}
                                 <div {{ block.shopify_attributes }}>
                                   <a href="{{ block.settings.url }}">
-                                    {{ block.settings.text }}
+                                    {{ block.settings.link_text }}
                                   </a>
                                 </div>
                               {%- endif -%}
