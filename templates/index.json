@@ -317,7 +317,7 @@
         "after": {
           "type": "after",
           "settings": {
-            "image": "shopify:\/\/shop_images\/After_image.jpg",
+            "image": "shopify:\/\/shop_images\/collection-image-with-text.jpg",
             "product_select": "off-white-crop-top-1",
             "text": "",
             "link_text": "VIEW PRODUCT",
