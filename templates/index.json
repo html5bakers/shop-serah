@@ -256,7 +256,9 @@
         "title": "SHOP BY CATEGORY",
         "content": "",
         "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
+        "circle_button_text_color": "#1c1c1c",
+        "link_url": "",
+        "link_text": "Shop all"
       }
     },
     "14bb2704-8916-410d-81e4-459b99962071": {
@@ -269,16 +271,17 @@
             "heading_tag": "h1"
           }
         },
-        "template--20866689696053__14bb2704-8916-410d-81e4-459b99962071-richtext-1": {
-          "type": "richtext",
+        "adc4b965-0bf0-4154-b29b-05a680141b48": {
+          "type": "link",
           "settings": {
-            "content": "<p>EXPLORE<\/p>"
+            "text": "EXPLORE",
+            "url": "shopify:\/\/collections\/all"
           }
         }
       },
       "block_order": [
         "template--20866689696053__14bb2704-8916-410d-81e4-459b99962071-heading-1",
-        "template--20866689696053__14bb2704-8916-410d-81e4-459b99962071-richtext-1"
+        "adc4b965-0bf0-4154-b29b-05a680141b48"
       ],
       "settings": {
         "image_size": "auto",
