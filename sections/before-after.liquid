@@ -104,17 +104,10 @@
           {%- endcomment -%}
 
           <div class="before-after__cursor">
-
             <svg xmlns="http://www.w3.org/2000/svg" width="55" height="34" viewBox="0 0 55 34" fill="none">
-<rect y="34" width="34" height="55" rx="17" transform="rotate(-90 0 34)" fill="{{ section.settings.cursor_background }}"/>
-<path d="M18 9L11 17L18 25" stroke="#AFAFAF" stroke-width="2"/>
-<path d="M37 25L44 17L37 9" stroke="#AFAFAF" stroke-width="2"/>
-</svg>
-            <svg role="presentation" focusable="false" fill="none" width="50" height="50" viewBox="0 0 50 50">
-              <g {% if section.settings.cursor_direction == 'vertical' %}transform="rotate(90, 25, 25)"{% endif %}>
-                <rect width="50" height="50" rx="25" fill="{{ section.settings.cursor_background }}"/>
-                <path d="m19.25 19-6 6 6 6m11.5 0 6-6-6-6" stroke="{{ section.settings.cursor_arrows_color }}" stroke-width=".75" stroke-linecap="square"/>
-              </g>
+            <rect y="34" width="34" height="55" rx="17" transform="rotate(-90 0 34)" fill="{{ section.settings.cursor_background }}"/>
+            <path d="M18 9L11 17L18 25" stroke="#AFAFAF" stroke-width="2"/>
+            <path d="M37 25L44 17L37 9" stroke="#AFAFAF" stroke-width="2"/>
             </svg>
           </div>
         </before-after>
