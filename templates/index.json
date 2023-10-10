@@ -343,7 +343,7 @@
         "cursor_direction": "horizontal",
         "cursor_initial_position": 50,
         "cursor_background": "#ffffff",
-        "cursor_arrows_color": "#000000"
+        "cursor_arrows_color": "#afafaf"
       }
     }
   },
