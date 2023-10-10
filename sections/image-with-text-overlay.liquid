@@ -77,7 +77,10 @@
                 {%- when 'link' -%}
                   {%- if block.settings.text != blank -%}
                     <div {{ block.shopify_attributes }}>
-                      <a href="{{ block.settings.url }}">{{ block.settings.text }}</a>
+                      <a href="{{ block.settings.url }}" class="btn-hover-animation">
+                    {{ block.settings.text }}
+                    {%- render 'border-hover' -%}
+                      </a>
                     </div>
                   {%- endif -%}
               {%- endcase -%}
