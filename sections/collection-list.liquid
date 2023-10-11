@@ -70,7 +70,7 @@
             {%- assign collection_url = block.settings.button_link | default: collection.url -%}
 
             {%- capture collection_card_info -%}
-              <div class="collection-card__content prose prose--tight {{ block.settings.content_position }}" style="{% render 'surface', text_color: block.settings.text_color %}">
+              <div class="collection-card_animate show_up ad-{% cycle ' ', '1', '1-5', '2', '2-5' %}_content prose prose--tight {{ block.settings.content_position }}" style="{% render 'surface', text_color: block.settings.text_color %}">
                 {%- if block.settings.subheading != blank -%}
                   <p class="h6">{{- block.settings.subheading -}}</p>
                 {%- endif -%}
@@ -127,7 +127,7 @@
           <div class="floating-controls-container floating-controls-container--inside floating-controls-container--on-hover">
             {%- assign carousel_id = 'carousel-' | append: section.id -%}
 
-            <scroll-carousel id="{{ carousel_id }}" group-cells allow-drag class="collection-list scroll-area animate show_up ad-1 {% if section.settings.show_text_outside %}collection-list--text-outside{% endif %} bleed lg:unbleed">
+            <scroll-carousel id="{{ carousel_id }}" group-cells allow-drag class="collection-list scroll-area {% if section.settings.show_text_outside %}collection-list--text-outside{% endif %} bleed lg:unbleed">
               {{ collection_list }}
             </scroll-carousel>
 
