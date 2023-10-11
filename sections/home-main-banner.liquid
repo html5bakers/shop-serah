@@ -38,14 +38,15 @@
     #shopify-section-{{ section.id }} {
       --image-with-text-content-max-width: {% if section.settings.content_width == 'sm' %}430px{% elsif section.settings.content_width == 'md' %}780px{% else %}100%{% endif %};
     }
-    @media screen and (max-width: 699px){
+    @media screen and (max-width: 1000px){
       #shopify-section-{{ section.id }} .container:before{
         background-size: 100px;
         width: 100px;
-        height: 100%;
-        background-repeat: no-repeat;
+      }
+    }
+    @media screen and (max-width: 699px){
+      #shopify-section-{{ section.id }} .container:before{
         background-position: bottom;
-        left: -15px;
         bottom: 0;
       }
       #shopify-section-{{ section.id }} .container:after{
