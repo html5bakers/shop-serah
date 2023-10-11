@@ -69,7 +69,7 @@
   max-width: 1px;
   height: 300px;
 }
-.border-top .overlay {
+.border-top .border-inner {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -79,21 +79,11 @@
   height: 0;
   transition: .5s ease;
 }
-.border-top:hover .overlay {
+.border-top:hover .border-inner {
   bottom: 0;
   height: 100%;
 }
-.border-top .border-inner {
-  white-space: nowrap; 
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
+ 
 /* Left-right border*/
 .border-hover {
   position: relative;
@@ -105,7 +95,7 @@
   display: block;
   height: 2px;
 }
-.border-hover  .overlay {
+.border-hover  .border-inner {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -117,20 +107,11 @@
   transition: .5s ease;
   margin: 0;
 }
-.btn-hover-animation:hover .overlay {
+.btn-hover-animation:hover .border-inner {
   right: 1;
   width: 100%;
 }
-.border-hover .border-inner {
-  white-space: nowrap;
-  color: #afafaf;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-}
-
+ 
 .section-stack {
   gap: 2rem;
 }
