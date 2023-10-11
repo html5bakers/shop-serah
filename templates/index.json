@@ -304,6 +304,7 @@
           "type": "before",
           "settings": {
             "image": "shopify:\/\/shop_images\/end-of-summer_sale.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Dresses.jpg",
             "product_select": "off-white-crop-top-2",
             "text": "",
             "link_text": "VIEW PRODUCT",
@@ -318,6 +319,7 @@
           "type": "after",
           "settings": {
             "image": "shopify:\/\/shop_images\/collection-image-with-text.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Co-Ords.jpg",
             "product_select": "off-white-crop-top-1",
             "text": "",
             "link_text": "VIEW PRODUCT",
