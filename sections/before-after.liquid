@@ -10,8 +10,8 @@
 
 {%- if request.design_mode or section.blocks.size > 0 -%}
   <div class="section-spacing {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
-{% render 'border-hover', style:'bordertoplight' %}
     <div class="container container--lg">
+{% render 'border-hover', style:'bordertoplight' %}
       <div class="section-stack">
         {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content -%}
 
@@ -71,9 +71,9 @@
                         <div class="product-card__info empty:hidden">
                           <div class="v-stack justify-items-start gap-2">
                               {% if product.type != blank %}
-                              <span class="product-type h6 link-faded">{{ product.type }}</span>
+                              <span class="product-type h6 link-faded animate show_up ad-1 animated">{{ product.type }}</span>
                               {% endif %}
-                              <a href="{{ product.url }}" class="product-title {% if text_class != blank %}{{ text_class }}{% endif %} {% if settings.product_title_max_lines > 0 %}line-clamp{% endif %}" {% if settings.product_title_max_lines > 0 %}style="--line-clamp-count: {{ settings.product_title_max_lines }}"{% endif %} data-instant>
+                              <a href="{{ product.url }}" class="product-title {% if text_class != blank %}{{ text_class }}{% endif %} {% if settings.product_title_max_lines > 0 %}line-clamp{% endif %}" {% if settings.product_title_max_lines > 0 %}style="--line-clamp-count: {{ settings.product_title_max_lines }} animate show_up ad-1"{% endif %} data-instant>
                               {{- product.title -}}
                               </a>
                               {%- render 'price-list', product: product, context: 'card' -%}
