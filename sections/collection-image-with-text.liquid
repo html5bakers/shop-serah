@@ -77,7 +77,7 @@
               {%- endif -%}
 
             {%- when 'link' -%}
-              <a {% if block.settings.url %}href="{{ block.settings.url }}"{% endif %} class="link btn-hover-animation" {{ block.shopify_attributes }}>{{ block.settings.text | escape }}
+              <a {% if block.settings.url %}href="{{ block.settings.url }}"{% endif %} class="link btn-hover-animation animate show_up ad-1" {{ block.shopify_attributes }}>{{ block.settings.text | escape }}
                   {%- render 'border-hover' -%}
               </a>
 
