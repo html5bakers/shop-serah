@@ -88,42 +88,42 @@
         {{- 'lifestyle-1' | placeholder_svg_tag: 'placeholder' -}}
       {%- endif -%}
 
-      <div class="prose text-center sm:text-start  animate show_up ad-1">
+      <div class="prose text-center sm:text-start">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'subheading' -%}
               {%- if block.settings.text != blank -%}
-                <h3 class="h6" {{ block.shopify_attributes }}>{{ block.settings.text }}</h3>
+                <h3 class="h6 animate show_up ad-1" {{ block.shopify_attributes }}>{{ block.settings.text }}</h3>
               {%- endif -%}
 
             {%- when 'heading' -%}
               {%- if block.settings.text != blank -%}
-                <h2 class="{{ block.settings.heading_tag }} sec_heading" {{ block.shopify_attributes }}>{{ block.settings.text }}</h2>
+                <h2 class="{{ block.settings.heading_tag }} sec_heading animate show_up ad-1" {{ block.shopify_attributes }}>{{ block.settings.text }}</h2>
               {%- endif -%}
 
             {%- when 'richtext' -%}
               {%- if block.settings.content != blank -%}
-                <div {{ block.shopify_attributes }}>
+                <div {{ block.shopify_attributes }} class="animate show_up ad-1">
                   {{- block.settings.content -}}
                 </div>
               {%- endif -%}
 
             {%- when 'page' -%}
               {%- if block.settings.page.content != blank -%}
-                <div {{ block.shopify_attributes }}>
+                <div {{ block.shopify_attributes }} class="animate show_up ad-1">
                   {{- block.settings.page.content -}}
                 </div>
               {%- endif -%}
 
             {%- when 'liquid' -%}
               {%- if block.settings.liquid != blank -%}
-                <div {{ block.shopify_attributes }}>
+                <div {{ block.shopify_attributes }} class="animate show_up ad-1">
                   {{- block.settings.liquid -}}
                 </div>
               {%- endif -%}
 
             {%- when 'link' -%}
-          <a {% if block.settings.url %}href="{{ block.settings.url }}"{% endif %} class="link btn-hover-animation" {{ block.shopify_attributes }}>{{ block.settings.text | escape }}
+          <a {% if block.settings.url %}href="{{ block.settings.url }}"{% endif %} class="link btn-hover-animation animate show_up ad-1" {{ block.shopify_attributes }}>{{ block.settings.text | escape }}
               {%- render 'border-hover' , style:'dark' -%}
               </a>
             {%- when 'button' -%}
