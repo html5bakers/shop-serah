@@ -124,7 +124,7 @@ Supported variables
 {%- if href != blank -%}
   <a {{ attributes }} {{ block.shopify_attributes }}>
     {{- button_content -}}
-    {%- render 'border-hover' -%}
+    {%- render 'border-hover', style:'dark' -%}
   </a>
 {%- else -%}
   <button type="{{ type | default: 'button' }}" {{ attributes }} {{ block.shopify_attributes }}>
