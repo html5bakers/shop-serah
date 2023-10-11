@@ -10,7 +10,7 @@
 
 {%- if request.design_mode or section.blocks.size > 0 -%}
   <div class="section-spacing {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
-{% render 'border-hover', style:'bordertop' %}
+{% render 'border-hover', style:'bordertoplight' %}
     <div class="container container--lg">
       <div class="section-stack">
         {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content -%}
