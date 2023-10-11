@@ -70,7 +70,7 @@
             {%- assign collection_url = block.settings.button_link | default: collection.url -%}
 
             {%- capture collection_card_info -%}
-              <div class="collection-card_animate show_up ad-{% cycle ' ', '1', '1-5', '2', '2-5' %}_content prose prose--tight {{ block.settings.content_position }}" style="{% render 'surface', text_color: block.settings.text_color %}">
+              <div class="collection-card__content prose prose--tight animate show_up ad-{% cycle ' ', '1', '1-5', '2', '2-5' %} {{ block.settings.content_position }}" style="{% render 'surface', text_color: block.settings.text_color %}">
                 {%- if block.settings.subheading != blank -%}
                   <p class="h6">{{- block.settings.subheading -}}</p>
                 {%- endif -%}
