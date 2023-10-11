@@ -40,7 +40,7 @@
           "type": "collection",
           "settings": {
             "collection": "frontpage",
-            "products_count": 8,
+            "products_count": 4,
             "title": "BESTSELLERS",
             "link_url": "shopify:\/\/collections\/new-arrivals",
             "link_text": "SHOP BESTSELLERS"
