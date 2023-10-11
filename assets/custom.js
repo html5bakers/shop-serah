@@ -15,8 +15,16 @@ function isScrolledIntoView(elem){
 $('.animate').each(function(){
   $(this).addClass('animated');
 });
+$('.border-top').each(function(){
+  $(this).addClass('animated');
+});
 $(window).scroll(function(){
   $('.animate').each(function(){
+    if(isScrolledIntoView(this)){
+        $(this).addClass('animated');
+    }
+  });
+   $('.border-top').each(function(){
     if(isScrolledIntoView(this)){
         $(this).addClass('animated');
     }
