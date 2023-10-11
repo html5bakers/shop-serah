@@ -57,14 +57,14 @@
 
                 {%- when 'richtext' -%}
                   {%- if block.settings.content != blank -%}
-                    <div {{ block.shopify_attributes }}>
+                    <div {{ block.shopify_attributes }} class="animate show_up ad-1">
                       {{- block.settings.content -}}
                     </div>
                   {%- endif -%}
 
                 {%- when 'liquid' -%}
                   {%- if block.settings.liquid != blank -%}
-                    <div {{ block.shopify_attributes }}>
+                    <div {{ block.shopify_attributes }} class="animate show_up ad-1">
                       {{- block.settings.liquid -}}
                     </div>
                   {%- endif -%}
@@ -76,7 +76,7 @@
 
                 {%- when 'link' -%}
                   {%- if block.settings.text != blank -%}
-                    <div class="overlay-btn" {{ block.shopify_attributes }}>
+                    <div class="overlay-btn animate show_up ad-1" {{ block.shopify_attributes }} >
                       <a href="{{ block.settings.url }}" class="btn-hover-animation">
                     {{ block.settings.text }}
                     {%- render 'border-hover' -%}
