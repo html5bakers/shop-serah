@@ -64,14 +64,14 @@
 
             {%- when 'page' -%}
               {%- if block.settings.page.content != blank -%}
-                <div {{ block.shopify_attributes }}>
+                <div {{ block.shopify_attributes }} class="animate show_up ad-1">
                   {{- block.settings.page.content -}}
                 </div>
               {%- endif -%}
 
             {%- when 'liquid' -%}
               {%- if block.settings.liquid != blank -%}
-                <div {{ block.shopify_attributes }}>
+                <div {{ block.shopify_attributes }} class="animate show_up ad-1">
                   {{- block.settings.liquid -}}
                 </div>
               {%- endif -%}
