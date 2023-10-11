@@ -127,7 +127,7 @@
           <div class="floating-controls-container floating-controls-container--inside floating-controls-container--on-hover">
             {%- assign carousel_id = 'carousel-' | append: section.id -%}
 
-            <scroll-carousel id="{{ carousel_id }}" group-cells allow-drag class="collection-list scroll-area animate show_up ad-1 {% if section.settings.show_text_outside %}collection-list--text-outside{% endif %} bleed lg:unbleed">
+            <scroll-carousel id="{{ carousel_id }}" group-cells allow-drag class="collection-list scroll-area {% if section.settings.show_text_outside %}collection-list--text-outside{% endif %} bleed lg:unbleed">
               {{ collection_list }}
             </scroll-carousel>
 
