@@ -108,7 +108,7 @@
             {%- endcapture -%}
 
             {%- if collection_url != blank -%}
-              <a href="{{ collection_url }}" class="collection-card {% if block.settings.expand_collection %}grow{% endif %} {% unless section.settings.stack_collections %}shrink-0 snap-center{% endunless %} {% if forloop.first %}is-selected{% endif %} group" {{ block.shopify_attributes }}>
+              <a href="{{ collection_url }}" class="collection-card animate show_up ad-{% cycle ' ', '1', '1-5', '2', '2-5' %} {% if block.settings.expand_collection %}grow{% endif %} {% unless section.settings.stack_collections %}shrink-0 snap-center{% endunless %} {% if forloop.first %}is-selected{% endif %} group" {{ block.shopify_attributes }}>
                 {{- collection_card_content -}}
               </a>
             {%- else -%}
