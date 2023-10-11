@@ -76,7 +76,9 @@
                               <a href="{{ product.url }}" class="product-title {% if text_class != blank %}{{ text_class }}{% endif %} {% if settings.product_title_max_lines > 0 %}line-clamp{% endif %} animate show_up ad-1" {% if settings.product_title_max_lines > 0 %}style="--line-clamp-count: {{ settings.product_title_max_lines }}"{% endif %} data-instant>
                               {{- product.title -}}
                               </a>
-                              {%- render 'price-list', product: product, context: 'card' -%}
+                              <div class="animate show_up ad-1">
+                                {%- render 'price-list', product: product, context: 'card' -%}
+                              </div>
                               {%- if block.settings.link_text != blank -%}
                                 <div {{ block.shopify_attributes }} class="animate show_up ad-1">
                                   <a href="{{ block.settings.link_url }}" class="btn-before">
