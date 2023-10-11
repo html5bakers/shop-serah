@@ -27,6 +27,8 @@ $(window).scroll(function(){
    $('.border-top').each(function(){
     if(isScrolledIntoView(this)){
         $(this).addClass('animated');
+    }else{
+        $(this).removeClass('animated');
     }
   });
 });
