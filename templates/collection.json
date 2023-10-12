@@ -37,7 +37,7 @@
         "show_empty_filter_values": false,
         "show_filter_values_count": true,
         "show_color_swatch": false,
-        "open_filters_by_default": true
+        "open_filters_by_default": false
       }
     },
     "10e8e0fa-f114-4a8a-a239-983856ee39cc": {
