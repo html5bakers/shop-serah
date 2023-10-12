@@ -99,7 +99,7 @@
           "type": "heading",
           "settings": {
             "text": "The Serah Woman expresses her spirited individuality in all her choices. Naturally, this extends to clothes.",
-            "heading_tag": "h1"
+            "heading_tag": "h6"
           }
         },
         "template--21427137708341__04f0781d-6052-49cd-bb57-05f3b529d2b0-richtext-1": {
@@ -216,6 +216,8 @@
       ],
       "settings": {
         "separate_section_with_border": true,
+        "padding_top": 5,
+        "padding_bottom": 5,
         "desktop_row_height": 400,
         "mobile_row_height": 180,
         "section_width": "lg",
