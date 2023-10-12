@@ -45,7 +45,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Exclusively_yours.png",
             "title": "Exclusively yours",
-            "heading_tag": "h4",
+            "heading_tag": "h5",
             "content": "<p>Limited-edition pieces that are sure to turn heads.<\/p>",
             "link_url": "",
             "link_text": ""
@@ -56,7 +56,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Quality.png",
             "title": "Quality > Quantity",
-            "heading_tag": "h4",
+            "heading_tag": "h5",
             "content": "<p>We're not about trends. We're about creating timeless pieces that will never go out of style.<\/p>",
             "link_url": "",
             "link_text": ""
@@ -67,7 +67,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Versatile.png",
             "title": "Versatile",
-            "heading_tag": "h3",
+            "heading_tag": "h5",
             "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_url": "",
             "link_text": ""
