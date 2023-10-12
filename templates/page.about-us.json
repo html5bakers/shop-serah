@@ -123,12 +123,116 @@
         "content_width": "lg",
         "remove_vertical_spacing": false
       }
+    },
+    "b275c02e-03cc-4978-87c1-25cd35492f2f": {
+      "type": "media-grid",
+      "blocks": {
+        "template--21427137708341__b275c02e-03cc-4978-87c1-25cd35492f2f-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallary_image-1-1.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--21427137708341__b275c02e-03cc-4978-87c1-25cd35492f2f-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallary_image-2-1.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "1f8de276-5393-487c-b88c-e7ad5aec1333": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallary_image-3-1.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "749532e2-5fb7-497c-94b1-fa5eff514598": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallary_image-4-1.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--21427137708341__b275c02e-03cc-4978-87c1-25cd35492f2f-image-2",
+        "template--21427137708341__b275c02e-03cc-4978-87c1-25cd35492f2f-image-3",
+        "1f8de276-5393-487c-b88c-e7ad5aec1333",
+        "749532e2-5fb7-497c-94b1-fa5eff514598"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "desktop_row_height": 400,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "We say it’s handcrafted, but really, it comes from the heart.",
+        "content": "",
+        "background": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "86e248e8-d334-4076-93d5-32def551077a",
     "b7d30c7b-9f80-46ec-b24a-a4d5918d8cc1",
-    "04f0781d-6052-49cd-bb57-05f3b529d2b0"
+    "04f0781d-6052-49cd-bb57-05f3b529d2b0",
+    "b275c02e-03cc-4978-87c1-25cd35492f2f"
   ]
 }
