@@ -13,7 +13,7 @@ Supported variables
 * show_quick_buy: show or not the quick buy (which open a modal if the product contains more than 1 choice)
 {%- endcomment -%}
 
-<div class="horizontal-product-card">
+<div class="horizontal-product-card animate show_up ad-1-5">
   {%- if product.featured_media -%}
     <a href="{{ product.url }}" class="horizontal-product-card__figure" data-instant>
       {{- product.featured_media | image_url: width: product.featured_media.width | image_tag: loading: 'lazy', sizes: '100px', widths: '100,150,200,250,300', class: 'horizontal-product-card__image' -}}
@@ -29,7 +29,7 @@ Supported variables
       {%- render 'price-list', product: product, context: 'card' -%}
 
       {% if viewproduct == true %}
-        <div class="view-product">
+        <div class="view-product animate show_up ad-1-5">
         {%- render 'button-custom', href: product.url, content: 'View product', style: 'link',  text_color: '#1c1c1c' -%}
         </div>
       {% endif %}
