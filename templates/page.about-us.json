@@ -117,9 +117,10 @@
         "separate_section_with_border": true,
         "background1": "#2a2a2a",
         "font_color": "#ffffff",
+        "image": "shopify:\/\/shop_images\/side_image.jpg",
         "reveal_on_scroll": true,
         "image_position": "end",
-        "content_width": "sm",
+        "content_width": "lg",
         "remove_vertical_spacing": true
       }
     }
