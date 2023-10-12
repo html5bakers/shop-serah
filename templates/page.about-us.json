@@ -67,8 +67,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Versatile.png",
             "title": "Versatile",
-            "heading_tag": "h4",
-            "content": "<p>Clothes that are perfect for work, play, and everything in between.<\/p>",
+            "heading_tag": "h3",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -117,10 +117,9 @@
         "separate_section_with_border": true,
         "background1": "#2a2a2a",
         "font_color": "#ffffff",
-        "image": "shopify:\/\/shop_images\/side_image.jpg",
         "reveal_on_scroll": true,
         "image_position": "end",
-        "content_width": "lg",
+        "content_width": "sm",
         "remove_vertical_spacing": true
       }
     }
