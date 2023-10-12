@@ -7,9 +7,124 @@
         "show_title": true,
         "page_width": "xs"
       }
+    },
+    "86e248e8-d334-4076-93d5-32def551077a": {
+      "type": "page-image-with-text",
+      "blocks": {
+        "template--21427137708341__86e248e8-d334-4076-93d5-32def551077a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "CONSIDERED DesignRESPONSIBLE BusinessSUSTAINABLE Practices",
+            "heading_tag": "h1"
+          }
+        },
+        "template--21427137708341__86e248e8-d334-4076-93d5-32def551077a-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Serah is a slow fashion movement where every piece is as unique as its wearer.  We believe in the power of exclusivity, creating limited pieces of each of our designs, ensuring you shine in a crowd of your own.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21427137708341__86e248e8-d334-4076-93d5-32def551077a-heading-1",
+        "template--21427137708341__86e248e8-d334-4076-93d5-32def551077a-richtext-1"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "b7d30c7b-9f80-46ec-b24a-a4d5918d8cc1": {
+      "type": "multi-column",
+      "blocks": {
+        "template--21427137708341__b7d30c7b-9f80-46ec-b24a-a4d5918d8cc1-image_with_text-1": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Column title",
+            "heading_tag": "h3",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "template--21427137708341__b7d30c7b-9f80-46ec-b24a-a4d5918d8cc1-image_with_text-2": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Column title",
+            "heading_tag": "h3",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "template--21427137708341__b7d30c7b-9f80-46ec-b24a-a4d5918d8cc1-image_with_text-3": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Column title",
+            "heading_tag": "h3",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21427137708341__b7d30c7b-9f80-46ec-b24a-a4d5918d8cc1-image_with_text-1",
+        "template--21427137708341__b7d30c7b-9f80-46ec-b24a-a4d5918d8cc1-image_with_text-2",
+        "template--21427137708341__b7d30c7b-9f80-46ec-b24a-a4d5918d8cc1-image_with_text-3"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "md",
+        "subheading": "",
+        "title": "We aim to evoke that “just for me” feeling, making our wearer feel as good as they look.",
+        "content": "<p>Inspired by our wearer, at Serah you’ll find elevated separates, sartorial staples and striking daily wear. Seasonal injections of the latest colours and textures are also on offer to complete a contemporary wardrobe. Quality and design uncompromised by accessibility, Serah is for the woman who knows what she wants, but isn’t afraid to try styles imbued with a new season.Locally sourced and produced in the UAE, Serah is an exclusive, slow fashion brand grounded in the daily celebration of style, strength and confidence.<\/p>"
+      }
+    },
+    "04f0781d-6052-49cd-bb57-05f3b529d2b0": {
+      "type": "collection-image-with-text",
+      "blocks": {
+        "template--21427137708341__04f0781d-6052-49cd-bb57-05f3b529d2b0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "The Serah Woman expresses her spirited individuality in all her choices. Naturally, this extends to clothes.",
+            "heading_tag": "h1"
+          }
+        },
+        "template--21427137708341__04f0781d-6052-49cd-bb57-05f3b529d2b0-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>From my earliest days, fashion was my playground, and the dream of creating my own clothing line has been my North Star.I believe that fashion isn't just about clothes; it's a form of self-expression that speaks volumes about one's personality, one’s choices and one’s values.<\/p><p>At its core, Serah is a brand that is a reflection of the nuances of the modern day woman—the Serah woman.The Serah woman is independent and unique—she chooses her own path, without judgement or compromise. <\/p><p>Our community is united in the fact that they all have unique personalities, which are defined by all the choices they’re free and empowered to make.Whether you're a homemaker, a working mom, or an entrepreneur, at Serah, we've carefully crafted statement pieces for you that seamlessly transition from day to night.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21427137708341__04f0781d-6052-49cd-bb57-05f3b529d2b0-heading-1",
+        "template--21427137708341__04f0781d-6052-49cd-bb57-05f3b529d2b0-richtext-1"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "background1": "#2a2a2a",
+        "font_color": "#ffffff",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "86e248e8-d334-4076-93d5-32def551077a",
+    "b7d30c7b-9f80-46ec-b24a-a4d5918d8cc1",
+    "04f0781d-6052-49cd-bb57-05f3b529d2b0"
   ]
 }
