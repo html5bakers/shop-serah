@@ -51,7 +51,7 @@
 
             {%- when 'heading' -%}
               {%- if block.settings.text != blank -%}
-                <h2 class="sec_heading heading_font animate show_up ad-1 {{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</h2>
+                <h2 class="sec_heading {%- if block.settings.big_heading %} heading_font{% endif %} animate show_up ad-1 {{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</h2>
                 
               {%- endif -%}
 
@@ -232,11 +232,15 @@
             }
           ],
           "default": "h1"
+        },
+        {
+          "type": "checkbox",
+          "id": "big_heading",
+          "label": "Big Heading",
+          "default": true
         }
       ]
     },
-
-    
     {
       "type": "richtext",
       "name": "t:sections.image_with_text.blocks.paragraph.name",
