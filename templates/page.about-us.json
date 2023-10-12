@@ -216,7 +216,7 @@
         "749532e2-5fb7-497c-94b1-fa5eff514598"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "padding_top": 5,
         "padding_bottom": 5,
         "desktop_row_height": 400,
