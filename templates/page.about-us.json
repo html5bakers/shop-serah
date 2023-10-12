@@ -115,7 +115,7 @@
         "template--21427137708341__04f0781d-6052-49cd-bb57-05f3b529d2b0-richtext-1"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "background1": "#2a2a2a",
         "font_color": "#ffffff",
         "image": "shopify:\/\/shop_images\/side_image.jpg",
