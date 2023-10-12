@@ -337,6 +337,8 @@
       ],
       "settings": {
         "separate_section_with_border": false,
+        "padding_top": 0,
+        "padding_bottom": 20,
         "background1": "#2a2a2a",
         "font_color": "#ffffff",
         "subheading": "",
