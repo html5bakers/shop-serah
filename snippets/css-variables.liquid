@@ -46,7 +46,7 @@ note that this may have impact on different places.
 
     --section-with-border-vertical-spacing: {% if settings.section_vertical_spacing == 'xs' %}2rem{%- elsif settings.section_vertical_spacing == 'sm' %}2.25rem{% elsif settings.section_vertical_spacing == 'md' %}2.5rem{% elsif settings.section_vertical_spacing == 'lg' %}3rem{% else %}4rem{% endif %};
     --section-with-border-vertical-spacing-tight: {%- if settings.section_vertical_spacing == 'xs' %}2rem{% elsif section.settings_vertical_spacing == 'sm' %}2.25rem{% else %}2.5rem{% endif %};
-    --section-without-border-vertical-spacing: {%- if settings.section_vertical_spacing == 'xs' %}2.5rem{%- elsif settings.section_vertical_spacing == 'sm' %}3.375rem{% elsif settings.section_vertical_spacing == 'md' %}3.75rem{% elsif settings.section_vertical_spacing == 'lg' %}4.5rem{% else %}6rem{% endif %};
+    --section-without-border-vertical-spacing: {%- if settings.section_vertical_spacing == 'xs' %}2.5rem{%- elsif settings.section_vertical_spacing == 'sm' %}3.375rem{% elsif settings.section_vertical_spacing == 'md' %}6.25rem{% elsif settings.section_vertical_spacing == 'lg' %}4.5rem{% else %}6rem{% endif %};
     --section-without-border-vertical-spacing-tight: {%- if settings.section_vertical_spacing == 'xs' %}2rem{% elsif section.settings_vertical_spacing == 'sm' %}3.375rem{% else %}3.75rem{% endif %};
 
     --section-stack-gap: {%- if settings.section_vertical_spacing == 'xs' %}2.25rem{% elsif settings.section_vertical_spacing == 'sm' %}2.5rem{% elsif settings.section_vertical_spacing == 'md' %}3rem{% else %}4rem{% endif %};
