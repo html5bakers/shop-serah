@@ -130,10 +130,10 @@
         "remove_vertical_spacing": false
       }
     },
-    "b275c02e-03cc-4978-87c1-25cd35492f2f": {
-      "type": "media-grid",
+    "d96f99a4-3fe3-405f-972f-6b50c900ad8a": {
+      "type": "about-media-grid",
       "blocks": {
-        "template--21427137708341__b275c02e-03cc-4978-87c1-25cd35492f2f-image-2": {
+        "template--21427137708341__d96f99a4-3fe3-405f-972f-6b50c900ad8a-image-1": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/gallary_image-1-1.jpg",
@@ -153,7 +153,7 @@
             "overlay_opacity": 0
           }
         },
-        "template--21427137708341__b275c02e-03cc-4978-87c1-25cd35492f2f-image-3": {
+        "template--21427137708341__d96f99a4-3fe3-405f-972f-6b50c900ad8a-image-2": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/gallary_image-2-1.jpg",
@@ -173,7 +173,7 @@
             "overlay_opacity": 0
           }
         },
-        "1f8de276-5393-487c-b88c-e7ad5aec1333": {
+        "template--21427137708341__d96f99a4-3fe3-405f-972f-6b50c900ad8a-image-3": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/gallary_image-3-1.jpg",
@@ -193,7 +193,7 @@
             "overlay_opacity": 0
           }
         },
-        "749532e2-5fb7-497c-94b1-fa5eff514598": {
+        "0549838a-4744-42b7-9b08-720b0c23a750": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/gallary_image-4-1.jpg",
@@ -215,25 +215,25 @@
         }
       },
       "block_order": [
-        "template--21427137708341__b275c02e-03cc-4978-87c1-25cd35492f2f-image-2",
-        "template--21427137708341__b275c02e-03cc-4978-87c1-25cd35492f2f-image-3",
-        "1f8de276-5393-487c-b88c-e7ad5aec1333",
-        "749532e2-5fb7-497c-94b1-fa5eff514598"
+        "template--21427137708341__d96f99a4-3fe3-405f-972f-6b50c900ad8a-image-1",
+        "template--21427137708341__d96f99a4-3fe3-405f-972f-6b50c900ad8a-image-2",
+        "template--21427137708341__d96f99a4-3fe3-405f-972f-6b50c900ad8a-image-3",
+        "0549838a-4744-42b7-9b08-720b0c23a750"
       ],
       "settings": {
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "enableborder": true,
         "padding_top": 5,
         "padding_bottom": 5,
-        "desktop_row_height": 500,
-        "mobile_row_height": 400,
-        "section_width": "full",
-        "spacing": "xs",
+        "desktop_row_height": 400,
+        "mobile_row_height": 250,
+        "section_width": "lg",
+        "spacing": "md",
         "subheading": "",
-        "title": "We say it’s handcrafted, but really, it comes from the heart.",
+        "title": "Media grid",
         "content": "",
         "background": "",
-        "text_color": "#1c1c1c"
+        "text_color": ""
       }
     }
   },
@@ -242,6 +242,6 @@
     "86e248e8-d334-4076-93d5-32def551077a",
     "b7d30c7b-9f80-46ec-b24a-a4d5918d8cc1",
     "04f0781d-6052-49cd-bb57-05f3b529d2b0",
-    "b275c02e-03cc-4978-87c1-25cd35492f2f"
+    "d96f99a4-3fe3-405f-972f-6b50c900ad8a"
   ]
 }
