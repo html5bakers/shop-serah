@@ -14,8 +14,8 @@
         "template--21427137708341__86e248e8-d334-4076-93d5-32def551077a-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "CONSIDERED DesignRESPONSIBLE BusinessSUSTAINABLE Practices",
-            "heading_tag": "h1"
+            "text": "CONSIDERED <span>Design<\/span><br>\nRESPONSIBLE <span>Business<\/span><br>\nSUSTAINABLE <span>Practices<\/span>",
+            "heading_tag": "h3"
           }
         },
         "template--21427137708341__86e248e8-d334-4076-93d5-32def551077a-richtext-1": {
