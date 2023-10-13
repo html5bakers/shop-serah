@@ -50,7 +50,7 @@
 
             {%- when 'heading' -%}
               {%- if block.settings.text != blank -%}
-                <h2 class="{{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</h2>
+                               <h2 class="{%- if block.settings.big_heading %}sec_heading heading_font{% endif %} animate show_up ad-1 {{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</h2>
               {%- endif -%}
 
             {%- when 'richtext' -%}
