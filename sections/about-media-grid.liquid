@@ -9,9 +9,7 @@
         --collection-list-item-size: 55vw;
       {%- endif -%}
 
-      {%- if section.settings.space_items -%}
         --collection-list-gap: 1rem;
-      {%- endif -%}
     }
 
     @media screen and (min-width: 700px) {
@@ -29,9 +27,7 @@
         --collection-list-item-size: unset;
         --collection-list-items-per-row: {{ section.settings.collections_per_row_desktop }};
 
-        {%- if section.settings.space_items -%}
           --collection-list-gap: 1rem;
-        {%- endif -%}
       }
     }
   </style>
