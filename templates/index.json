@@ -68,7 +68,8 @@
           "type": "heading",
           "settings": {
             "text": "EXCLUSIVELY    <span> yours <\/span>",
-            "heading_tag": "h1"
+            "heading_tag": "h1",
+            "big_heading": true
           }
         },
         "template--20866689696053__6a1aed12-a625-42f7-b8e4-01589b079ca9-subheading-1": {
@@ -152,6 +153,9 @@
       ],
       "settings": {
         "separate_section_with_border": true,
+        "enableborder": false,
+        "padding_top": 5,
+        "padding_bottom": 5,
         "columns_per_row": 3,
         "stack_on_mobile": false,
         "overlap_image": false,
@@ -246,6 +250,7 @@
         "7db65e18-0864-43a9-a388-f3906b9f0f7f"
       ],
       "settings": {
+        "enableborder": true,
         "padding_top": 5,
         "padding_bottom": 20,
         "separate_section_with_border": false,
@@ -339,6 +344,7 @@
       ],
       "settings": {
         "separate_section_with_border": false,
+        "enableborder": true,
         "padding_top": 0,
         "padding_bottom": 20,
         "background1": "#2a2a2a",
