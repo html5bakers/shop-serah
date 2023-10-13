@@ -914,6 +914,14 @@ p.collection-toolbar__products-count {
   row-gap: var(--product-list-calculated-row-gap);
   display: grid;
 }
+.about-media-grid__item {
+  scroll-snap-align: start;
+  grid-template-columns: minmax(0,1fr);
+  align-content: start;
+  gap: 1.25rem;
+  display: grid;
+  position: relative;
+}
 @media screen and (max-width: 699px){
   .heading_about {
     line-height: 15px;
