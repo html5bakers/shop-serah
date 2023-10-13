@@ -26,8 +26,9 @@ Supported variables
         {%- if heading != blank -%}
           <h2 class="h2 sec_heading animate show_up ad-1">{{- heading -}}</h2>
         {%- endif -%}
-
-        {{- content -}}
+        <div class="animate show_up ad-1">
+          {{- content -}}
+        </div>
       </div>
     {%- endif -%}
   </div>
