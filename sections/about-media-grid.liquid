@@ -12,7 +12,39 @@
         --section-vertical-spacing-override: var(--media-grid-gap);
       {%- endif -%}
     }
+#shopify-section-{{ section.id }} {
+      {%- if section.settings.stack_collections -%}
+        --collection-list-items-per-row: 1;
 
+      {%- else -%}
+        --collection-list-item-size: 55vw;
+      {%- endif -%}
+
+      {%- if section.settings.space_items -%}
+        --collection-list-gap: 1rem;
+      {%- endif -%}
+    }
+
+    @media screen and (min-width: 700px) {
+      #shopify-section-{{ section.id }} {
+        {%- if section.settings.stack_collections -%}
+          --collection-list-items-per-row: {{ 2 | at_most: section.settings.collections_per_row_desktop }};
+        {%- else -%}
+          --collection-list-item-size: 30vw;
+        {%- endif -%}
+      }
+    }
+
+    @media screen and (min-width: 1150px) {
+      #shopify-section-{{ section.id }} {
+        --collection-list-item-size: unset;
+        --collection-list-items-per-row: {{ section.settings.collections_per_row_desktop }};
+
+        {%- if section.settings.space_items -%}
+          --collection-list-gap: 1rem;
+        {%- endif -%}
+      }
+    }
   </style>
 
   <div class="section-spacing {% if section.settings.background != blank and section.settings.background != 'rgba(0,0,0,0)' and section.settings.background != settings.background %}section-spacing--padded{% endif %} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}" style="{% render 'surface', background: section.settings.background, text_color: section.settings.text_color %}">
