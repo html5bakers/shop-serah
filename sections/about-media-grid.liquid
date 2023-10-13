@@ -21,7 +21,7 @@
       <div class="section-stack">
         {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content -%}
 
-        <scroll-carousel class="about-media-grid product-list product-list--carousel scroll-area bleed md:unbleed is-scrollable" allow-drag>
+        <scroll-carousel class="about-media-grid  scroll-area bleed md:unbleed is-scrollable" group-cells allow-drag>
           {%- for block in section.blocks -%}
             {%- capture block_content -%}
               <div class="content-over-media group" reveal-on-scroll="true" style="--content-over-media-overlay: {{ block.settings.overlay_color.rgb }} / {{ block.settings.overlay_opacity | divided_by: 100.0 }}; {% render 'surface', text_color: block.settings.text_color %}">
