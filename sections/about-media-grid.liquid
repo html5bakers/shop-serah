@@ -37,7 +37,7 @@
       {% render 'border-hover', style:'bordertop', top:section.settings.padding_top, bottom:section.settings.padding_bottom, enable: section.settings.enableborder %}
       <div class="section-stack">
         {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content -%}
-
+<div class="floating-controls-container floating-controls-container--inside floating-controls-container--on-hover">
         <scroll-carousel class="about-media-grid  scroll-area bleed md:unbleed is-scrollable" group-cells allow-drag>
           {%- for block in section.blocks -%}
             {%- capture block_content -%}
@@ -84,6 +84,7 @@
             {%- endif -%}
           {%- endfor -%}
         </scroll-carousel>
+</div>
       </div>
     </div>
   </div>
