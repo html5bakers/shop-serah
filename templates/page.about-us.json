@@ -225,7 +225,7 @@
         "enableborder": true,
         "padding_top": 5,
         "padding_bottom": 5,
-        "desktop_row_height": 400,
+        "desktop_row_height": 500,
         "mobile_row_height": 250,
         "section_width": "lg",
         "spacing": "md",
