@@ -11,7 +11,7 @@
 {%- if request.design_mode or section.blocks.size > 0 -%}
   <div class="section-spacing {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
     <div class="container container--lg">
-      {% render 'border-hover', style:'bordertoplight', top:section.settings.padding_top, bottom:section.settings.padding_bottom %}
+      {% render 'border-hover', style:'bordertoplight', top:section.settings.padding_top, bottom:section.settings.padding_bottom, enable: section.settings.enableborder %}
       <div class="section-stack">
         {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content -%}
 
@@ -139,6 +139,12 @@
     {
       "type": "header",
       "content": "Separate border with padding"
+    },
+    {
+      "type": "checkbox",
+      "id": "enableborder",
+      "label": "Enable Top Border",
+      "default": true
     },
     {
       "type": "range",
