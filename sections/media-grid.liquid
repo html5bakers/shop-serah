@@ -28,7 +28,7 @@
 
   <div class="section-spacing {% if section.settings.background != blank and section.settings.background != 'rgba(0,0,0,0)' and section.settings.background != settings.background %}section-spacing--padded{% endif %} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}" style="{% render 'surface', background: section.settings.background, text_color: section.settings.text_color %}">
     <div class="container {% unless section.settings.section_width == 'full' %}container--{{ section.settings.section_width }}{% endunless %}">
-      {% render 'border-hover', style:'bordertop', top:section.settings.padding_top, bottom:section.settings.padding_bottom %}
+      {% render 'border-hover', style:'bordertop', top:section.settings.padding_top, bottom:section.settings.padding_bottom, enable: section.settings.enableborder %}
       <div class="section-stack">
         {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content -%}
 
@@ -101,6 +101,12 @@
     {
       "type": "header",
       "content": "Separate border with padding"
+    },
+    {
+      "type": "checkbox",
+      "id": "enableborder",
+      "label": "Enable Top Border",
+      "default": true
     },
     {
       "type": "range",
