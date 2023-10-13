@@ -84,6 +84,9 @@
       ],
       "settings": {
         "separate_section_with_border": true,
+        "enableborder": true,
+        "padding_top": 5,
+        "padding_bottom": 30,
         "columns_per_row": 3,
         "stack_on_mobile": false,
         "overlap_image": false,
@@ -220,6 +223,7 @@
       ],
       "settings": {
         "separate_section_with_border": false,
+        "enableborder": true,
         "padding_top": 5,
         "padding_bottom": 5,
         "desktop_row_height": 400,
