@@ -39,7 +39,8 @@
         {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content -%}
 <div class="floating-controls-container floating-controls-container--inside floating-controls-container--on-hover">
   {%- assign carousel_id = 'carousel-' | append: section.id -%}
-        <scroll-carousel id="{{ carousel_id }}"  class="about-media-grid  scroll-area bleed md:unbleed is-scrollable" group-cells allow-drag>
+
+            <scroll-carousel id="{{ carousel_id }}" group-cells allow-drag class="about-media-grid collection-list scroll-area {% if section.settings.show_text_outside %}collection-list--text-outside{% endif %} bleed lg:unbleed">
           {%- for block in section.blocks -%}
             {%- capture block_content -%}
                 {%- if block.type == 'image' -%}
