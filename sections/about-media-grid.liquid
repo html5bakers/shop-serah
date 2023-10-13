@@ -38,10 +38,10 @@
       <div class="section-stack">
         {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content -%}
 <div class="floating-controls-container floating-controls-container--inside floating-controls-container--on-hover">
-        <scroll-carousel class="about-media-grid  scroll-area bleed md:unbleed is-scrollable" group-cells allow-drag>
+  {%- assign carousel_id = 'carousel-' | append: section.id -%}
+        <scroll-carousel id="{{ carousel_id }}"  class="about-media-grid  scroll-area bleed md:unbleed is-scrollable" group-cells allow-drag>
           {%- for block in section.blocks -%}
             {%- capture block_content -%}
-              <div class="content-over-media group "  style="--content-over-media-overlay: {{ block.settings.overlay_color.rgb }} / {{ block.settings.overlay_opacity | divided_by: 100.0 }}; {% render 'surface', text_color: block.settings.text_color %}">
                 {%- if block.type == 'image' -%}
                   {%- if block.settings.image -%}
                     {%- capture sizes_attribute -%}(max-width: 699px) 100vw, {{ 100.0 | divided_by: 12.0 | times: block.settings.column_count | round }}vw{%- endcapture -%}
@@ -70,7 +70,6 @@
                     {%- endif -%}
                   </div>
                 {%- endif -%}
-              </div>
             {%- endcapture -%}
 
             {%- if block.settings.link_url -%}
