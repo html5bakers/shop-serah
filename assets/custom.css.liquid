@@ -901,6 +901,19 @@ p.collection-toolbar__products-count {
 .shopify-section--media-grid .sec_heading {
   text-transform: uppercase;
 }
+.about-media-grid{
+  --product-list-items-per-row: 4;
+  --product-list-horizontal-spacing-factor: 0.2;
+  --product-list-vertical-spacing-factor: 1;
+  --product-list-max-items-per-row-allowed: 3;
+  --product-list-default-row-gap: 3rem;
+  --product-list-default-column-gap: 1.5rem;
+  grid: auto / repeat(auto-fit,var(--product-list-card-width));
+  align-items: start;
+  column-gap: var(--product-list-calculated-column-gap);
+  row-gap: var(--product-list-calculated-row-gap);
+  display: grid;
+}
 @media screen and (max-width: 699px){
   .heading_about {
     line-height: 15px;
