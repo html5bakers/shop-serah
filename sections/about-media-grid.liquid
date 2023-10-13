@@ -48,14 +48,14 @@
                     {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: sizes_attribute, widths: '200,300,400,500,600,800,1000,1200,1400,1600', class: 'zoom-image group-hover:zoom' -}}
                   {%- else -%}
                     {%- capture collection_image -%}collection-{% cycle '1', '2', '3', '4' %}{%- endcapture -%}
-                    {{- collection_image | placeholder_svg_tag: 'placeholder placeholder--invert zoom-image group-hover:zoom' -}}
+                    {{- collection_image | placeholder_svg_tag: 'placeholder placeholder--invert' -}}
                   {%- endif -%}
                 {%- else -%}
                   {%- if block.settings.video -%}
                     {%- render 'media', media: block.settings.video, autoplay: block.settings.autoplay, loop: true, controls: block.settings.show_controls -%}
                   {%- else -%}
                     {%- capture collection_image -%}collection-{% cycle '1', '2', '3', '4' %}{%- endcapture -%}
-                    {{- collection_image | placeholder_svg_tag: 'placeholder placeholder--invert zoom-image group-hover:zoom' -}}
+                    {{- collection_image | placeholder_svg_tag: 'placeholder placeholder--invert ' -}}
                   {%- endif -%}
                 {%- endif -%}
 
