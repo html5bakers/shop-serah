@@ -15,7 +15,8 @@
           "type": "heading",
           "settings": {
             "text": "CONSIDERED <span>Design<\/span><br>\nRESPONSIBLE <span>Business<\/span><br>\nSUSTAINABLE <span>Practices<\/span>",
-            "heading_tag": "h3"
+            "heading_tag": "h3",
+            "big_heading": true
           }
         },
         "template--21427137708341__86e248e8-d334-4076-93d5-32def551077a-richtext-1": {
@@ -224,7 +225,7 @@
         "enableborder": true,
         "padding_top": 5,
         "padding_bottom": 5,
-        "desktop_row_height": 400,
+        "desktop_row_height": 500,
         "mobile_row_height": 400,
         "section_width": "full",
         "spacing": "xs",
