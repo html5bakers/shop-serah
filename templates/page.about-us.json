@@ -216,7 +216,7 @@
         "separate_section_with_border": true,
         "enableborder": true,
         "padding_top": 5,
-        "padding_bottom": 5,
+        "padding_bottom": 20,
         "stack_collections": false,
         "collections_per_row_desktop": 4,
         "section_width": "lg",
