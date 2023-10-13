@@ -14,8 +14,8 @@
           {%- render 'banner', status: 'error', content: content -%}
         {%- endif -%}
 
-        <div class="fieldset">
-          <div class="fieldset-row">
+        <div class="fieldset animate show_up ad-1">
+          <div class="fieldset-row animate show_up ad-1">
             {%- assign label  = 'contact.form.name' | t -%}
             {%- render 'input', type: 'text', name: 'contact[name]', label: label, value: customer.name, required: true, autocomplete: 'name' -%}
 
