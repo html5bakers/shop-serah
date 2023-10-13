@@ -31,6 +31,9 @@
     "show_quick_buy": false,
     "social_instagram": "https:\/\/www.instagram.com\/",
     "instagram_title": "@NAMEOFPAGE",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo.svg",
+    "checkout_accent_color": "#1c1c1c",
+    "checkout_button_color": "#1c1c1c",
     "heading_color": "#303030",
     "content_for_index": [
 
