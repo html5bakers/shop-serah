@@ -30,7 +30,7 @@
         "template--21427137708341__86e248e8-d334-4076-93d5-32def551077a-richtext-1"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "image": "shopify:\/\/shop_images\/about-us.png",
         "reveal_on_scroll": true,
         "image_position": "start",
