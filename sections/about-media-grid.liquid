@@ -39,7 +39,7 @@
         {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content -%}
 <div class="floating-controls-container floating-controls-container--inside floating-controls-container--on-hover">
   {%- assign carousel_id = 'carousel-' | append: section.id -%}
-         <scroll-carousel id="{{ carousel_id }}" group-cells allow-drag class="collection-list scroll-area {% if section.settings.show_text_outside %}collection-list--text-outside{% endif %} bleed lg:unbleed">
+        <scroll-carousel id="{{ carousel_id }}"  class="about-media-grid  scroll-area bleed md:unbleed is-scrollable" group-cells allow-drag>
           {%- for block in section.blocks -%}
             {%- capture block_content -%}
                 {%- if block.type == 'image' -%}
@@ -73,26 +73,16 @@
             {%- endcapture -%}
 
             {%- if block.settings.link_url -%}
-                           <a href="{{ collection_url }}" class="collection-card animate show_up ad-{% cycle ' ', '1', '1-5', '2', '2-5' %} {% if block.settings.expand_collection %}grow{% endif %} {% unless section.settings.stack_collections %}shrink-0 snap-center{% endunless %} {% if forloop.first %}is-selected{% endif %} group" {{ block.shopify_attributes }}>
+              <a href="{{ block.settings.link_url }}" class="about-media-grid__item" {{ block.shopify_attributes }}>
                 {{- block_content -}}
               </a>
             {%- else -%}
-                          <a href="{{ collection_url }}" class="collection-card animate show_up ad-{% cycle ' ', '1', '1-5', '2', '2-5' %} {% if block.settings.expand_collection %}grow{% endif %} {% unless section.settings.stack_collections %}shrink-0 snap-center{% endunless %} {% if forloop.first %}is-selected{% endif %} group" {{ block.shopify_attributes }}>
+              <div class="about-media-grid__item" {{ block.shopify_attributes }}>
                 {{- block_content -}}
-              </a>
+              </div>
             {%- endif -%}
           {%- endfor -%}
         </scroll-carousel>
-  
-            <button is="carousel-prev-button" type="button" class="prev-next-button prev-next-button--prev circle-button circle-button--lg hover:animate-icon-inline" aria-controls="{{ carousel_id }}" disabled style="{{ circle_button_style }}">
-              <span class="sr-only">{{ 'general.accessibility.previous' | t }}</span>
-              {%- render 'icon' with 'arrow-left', direction_aware: true -%}
-            </button>
-
-            <button is="carousel-next-button" type="button" class="prev-next-button prev-next-button--next circle-button circle-button--lg hover:animate-icon-inline" aria-controls="{{ carousel_id }}" style="{{ circle_button_style }}">
-              <span class="sr-only">{{ 'general.accessibility.next' | t }}</span>
-              {%- render 'icon' with 'arrow-right', direction_aware: true -%}
-            </button>
 </div>
       </div>
     </div>
