@@ -33,6 +33,9 @@
         {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content -%}
 
         <media-grid class="media-grid">
+            {%- assign carousel_id = 'carousel-' | append: section.id -%}
+            <scroll-carousel id="{{ carousel_id }}" group-cells allow-drag class="collection-list scroll-area {% if section.settings.show_text_outside %}collection-list--text-outside{% endif %} bleed lg:unbleed">
+          
           {%- for block in section.blocks -%}
             {%- capture block_content -%}
               <div class="content-over-media group" reveal-on-scroll="true" style="--content-over-media-overlay: {{ block.settings.overlay_color.rgb }} / {{ block.settings.overlay_opacity | divided_by: 100.0 }}; {% render 'surface', text_color: block.settings.text_color %}">
@@ -77,6 +80,7 @@
               </div>
             {%- endif -%}
           {%- endfor -%}
+            </scroll-carousel>
         </media-grid>
       </div>
     </div>
