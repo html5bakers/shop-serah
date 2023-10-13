@@ -32,6 +32,8 @@
       "settings": {
         "separate_section_with_border": true,
         "image": "shopify:\/\/shop_images\/about-us-1.jpg",
+        "image2": "shopify:\/\/shop_images\/about-us-2.jpg",
+        "image3": "shopify:\/\/shop_images\/about-us-3.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
