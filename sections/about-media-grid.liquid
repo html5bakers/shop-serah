@@ -32,9 +32,8 @@
       <div class="section-stack">
         {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content -%}
 
-        <media-grid class="media-grid">
             {%- assign carousel_id = 'carousel-' | append: section.id -%}
-            <scroll-carousel id="{{ carousel_id }}" group-cells allow-drag class="collection-list scroll-area {% if section.settings.show_text_outside %}collection-list--text-outside{% endif %} bleed lg:unbleed">
+            <scroll-carousel id="{{ carousel_id }}" group-cells allow-drag class="media-grid collection-list scroll-area {% if section.settings.show_text_outside %}collection-list--text-outside{% endif %} bleed lg:unbleed">
           
           {%- for block in section.blocks -%}
             {%- capture block_content -%}
@@ -81,7 +80,6 @@
             {%- endif -%}
           {%- endfor -%}
             </scroll-carousel>
-        </media-grid>
       </div>
     </div>
   </div>
