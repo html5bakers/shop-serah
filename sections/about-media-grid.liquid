@@ -13,17 +13,6 @@
       {%- endif -%}
     }
 
-    @media screen and (min-width: 700px) {
-      #shopify-section-{{ section.id }} {
-        --media-grid-row-height: {{ section.settings.desktop_row_height }}px;
-      }
-    }
-
-    @media screen and (min-width: 1150px) {
-      #shopify-section-{{ section.id }} {
-        --media-grid-gap: {% if section.settings.spacing == 'xs' %}0.75rem{% elsif section.settings.spacing == 'sm' %}1.25rem{% elsif section.settings.spacing == 'md' %}1.875rem{% elsif section.settings.spacing == 'lg' %}2.5rem{% else %}0rem{% endif %};
-      }
-    }
   </style>
 
   <div class="section-spacing {% if section.settings.background != blank and section.settings.background != 'rgba(0,0,0,0)' and section.settings.background != settings.background %}section-spacing--padded{% endif %} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}" style="{% render 'surface', background: section.settings.background, text_color: section.settings.text_color %}">
@@ -125,26 +114,6 @@
       "unit": "px",
       "default": 5,
       "label": "separate border at bottom"
-    },
-    {
-      "type": "range",
-      "id": "desktop_row_height",
-      "min": 100,
-      "max": 500,
-      "step": 10,
-      "unit": "px",
-      "label": "t:sections.media_grid.desktop_row_height",
-      "default": 290
-    },
-    {
-      "type": "range",
-      "id": "mobile_row_height",
-      "min": 100,
-      "max": 400,
-      "step": 10,
-      "unit": "px",
-      "label": "t:sections.media_grid.mobile_row_height",
-      "default": 180
     },
     {
       "type": "select",
