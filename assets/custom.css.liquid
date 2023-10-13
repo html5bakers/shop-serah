@@ -929,9 +929,12 @@ p.collection-toolbar__products-count {
 .shopify-section--contact .main-btn{
   text-align: right;  
 }
-.shopify-section--contact .section-spacing:not(.section-spacing--padded) {
-  margin-block-start: var(--section-stack-gap);
+@media screen and (min-width: 769px){
+  .shopify-section--contact .section-spacing:not(.section-spacing--padded) {
+    margin-block-start: var(--section-stack-gap);
+  }  
 }
+
 
 /* Account */
 
