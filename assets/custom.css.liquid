@@ -914,6 +914,7 @@ p.collection-toolbar__products-count {
   gap: 1.25rem;
   display: grid;
   position: relative;
+  flex-basis: var(--collection-list-item-size, calc(100% / var(--collection-list-items-per-row) - var(--collection-list-gap, 0px) * (var(--collection-list-items-per-row) - 1) / var(--collection-list-items-per-row)));
 }
 @media screen and (max-width: 699px){
   .heading_about {
