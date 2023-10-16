@@ -57,7 +57,7 @@
 
             {%- when 'richtext' -%}
               {%- if block.settings.content != blank -%}
-                <div {{ block.shopify_attributes }} class="image-content animate show_up ad-1">
+                <div {{ block.shopify_attributes }} class="image-content {% if block.settings.addspace %}content-bottom{% endif %} animate show_up ad-1">
                   {{- block.settings.content -}}
                 </div>
               {%- endif -%}
@@ -250,6 +250,12 @@
           "id": "content",
           "label": "t:global.text.content",
           "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+        },
+        {
+          "type": "checkbox",
+          "id": "addspace",
+          "label": "Add Space Bottom",
+          "default": true
         }
       ]
     },
