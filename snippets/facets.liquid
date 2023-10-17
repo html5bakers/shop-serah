@@ -55,7 +55,7 @@ Supported variables
         {%- capture filter_content -%}
           {%- if filter.type == 'boolean' or filter.param_name == 'filter.v.availability' -%}
             {%- if filter.param_name == 'filter.v.availability' -%}
-              <div class="checkbox-control {% if filter.active_values.size %}active_link{% endif %}">
+              <div class="checkbox-control 33333 {% if filter.active_values.size %}active_link{% endif %}">
                 <input id="{{ id_prefix }}-{{ filter.param_name }}" type="checkbox" class="switch" name="{{ filter.param_name }}" value="1" {% if filter.active_values.size > 0 %}checked{% endif %}>
                 <label for="{{ id_prefix }}-{{ filter.param_name }}" class="text-subdued">{{- 'collection.faceting.in_stock_only' | t -}}</label>
               </div>
@@ -70,7 +70,7 @@ Supported variables
                     endif
                   -%}
 
-                  <div class="checkbox-control {% if filter_value.active %}active_link{% endif %}">
+                  <div class="checkbox-control 111231 {% if filter_value.active %}active_link{% endif %}">
                     {%- capture boolean_index -%}{% increment filter_boolean %}{%- endcapture -%}
 
                     <input id="{{ id_prefix }}-{{ filter_value.param_name }}-{{ boolean_index }}" type="checkbox" class="switch " name="{{ filter_value.param_name }}" value="{{ filter_value.value }}" {% if filter_value.active %}checked{% endif %}>
