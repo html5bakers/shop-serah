@@ -1761,8 +1761,8 @@ onFormSubmitted_fn = function(event) {
       url: __privateMethod(this, _buildUrl, buildUrl_fn).call(this)
     }
   }));
-  alert('ddd');
   __privateSet(this, _isDirty, false);
+  alert('dddddd');
 };
 if (!window.customElements.get("facets-form")) {
   window.customElements.define("facets-form", FacetsForm, { extends: "form" });
