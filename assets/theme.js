@@ -1762,7 +1762,6 @@ onFormSubmitted_fn = function(event) {
     }
   }));
   __privateSet(this, _isDirty, false);
-  alert('dddddd');
 };
 if (!window.customElements.get("facets-form")) {
   window.customElements.define("facets-form", FacetsForm, { extends: "form" });
