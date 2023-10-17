@@ -84,12 +84,12 @@
             {%- endif -%}
           {%- endfor -%}
         </scroll-carousel>
-       <button is="carousel-prev-button" type="button" class="prev-next-button prev-next-button--prev circle-button hover:animate-icon-inline" aria-controls="{{ product_carousel_id }}" disabled>
+       <button is="carousel-prev-button" type="button" class="prev-next-button prev-next-button--prev circle-button hover:animate-icon-inline" aria-controls="{{ carousel_id }}" disabled>
                     <span class="sr-only">{{ 'general.accessibility.previous' | t }}</span>
                     {%- render 'icon' with 'arrow-left', direction_aware: true -%}
                   </button>
 
-                  <button is="carousel-next-button" type="button" class="prev-next-button prev-next-button--next circle-button hover:animate-icon-inline" aria-controls="{{ product_carousel_id }}">
+                  <button is="carousel-next-button" type="button" class="prev-next-button prev-next-button--next circle-button hover:animate-icon-inline" aria-controls="{{ carousel_id }}">
                     <span class="sr-only">{{ 'general.accessibility.next' | t }}</span>
                     {%- render 'icon' with 'arrow-right', direction_aware: true -%}
                   </button>
