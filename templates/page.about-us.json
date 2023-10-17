@@ -214,7 +214,7 @@
         "0549838a-4744-42b7-9b08-720b0c23a750"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "enableborder": true,
         "padding_top": 5,
         "padding_bottom": 40,
