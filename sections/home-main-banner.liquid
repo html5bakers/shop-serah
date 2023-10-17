@@ -124,7 +124,7 @@
 
             {%- when 'link' -%}
           <a {% if block.settings.url %}href="{{ block.settings.url }}"{% endif %} class="link btn-hover-animation animate show_up ad-1" {{ block.shopify_attributes }}>{{ block.settings.text | escape }}
-              {%- render 'border-hover' , style:'dark' -%}
+              {%- render 'border-hover' , style:'dark', enable: true -%}
               </a>
             {%- when 'button' -%}
               {%- if block.settings.text != blank -%}
