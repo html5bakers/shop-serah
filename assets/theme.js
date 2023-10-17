@@ -2353,7 +2353,6 @@ document.addEventListener("facet:update", async (event) => {
       requestAnimationFrame(scrollToProductList);
     }
     if($('.active_link').length > 0 ){
-      alert('ddddd');
      $('.active_link').closest('.accordion').attr('aria-expanded', true).attr('open',true)
     }
   } catch (e) {
