@@ -79,9 +79,9 @@ $(window).scroll(function(){
       }
   }
 $(document).ready(function(){
- if($('.active_link').length > 0 ){
-   $('.active_link').closest('.accordion').attr('aria-expanded', true).attr('open',true)
- }
+    if($('.active_link').length > 0 ){
+     $('.active_link').closest('.accordion').attr('aria-expanded', true).attr('open',true)
+    }
     $('body').on('click', '.show_more',function(){
       if(document.querySelector(".collections")){
         $.doTimeout( 'scroll', pInfScrDelay, pInfScrExecute);
