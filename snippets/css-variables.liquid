@@ -234,9 +234,9 @@ note that this may have impact on different places.
       /* Spacing settings */
       --container-gutter: 3rem;
 
-      --section-with-border-vertical-spacing: {% if settings.section_vertical_spacing == 'xs' %}3rem{%- elsif settings.section_vertical_spacing == 'sm' %}3.5rem{% elsif settings.section_vertical_spacing == 'md' %}4rem{% elsif settings.section_vertical_spacing == 'lg' %}5rem{% else %}7rem{% endif %};
+      --section-with-border-vertical-spacing: {% if settings.section_vertical_spacing == 'xs' %}3rem{%- elsif settings.section_vertical_spacing == 'sm' %}3.5rem{% elsif settings.section_vertical_spacing == 'md' %}4rem{% elsif settings.section_vertical_spacing == 'lg' %}6.25rem{% else %}7rem{% endif %};
       --section-with-border-vertical-spacing-tight: {% if settings.section_vertical_spacing == 'xs' %}3rem{%- elsif settings.section_vertical_spacing == 'sm' %}3.5rem{% else %}4rem{% endif %};
-      --section-without-border-vertical-spacing: {% if settings.section_vertical_spacing == 'xs' %}3.5rem{%- elsif settings.section_vertical_spacing == 'sm' %}5.25rem{% elsif settings.section_vertical_spacing == 'md' %}6rem{% elsif settings.section_vertical_spacing == 'lg' %}7.5rem{% else %}10.5rem{% endif %};
+      --section-without-border-vertical-spacing: {% if settings.section_vertical_spacing == 'xs' %}3.5rem{%- elsif settings.section_vertical_spacing == 'sm' %}5.25rem{% elsif settings.section_vertical_spacing == 'md' %}6rem{% elsif settings.section_vertical_spacing == 'lg' %}6.25rem{% else %}10.5rem{% endif %};
       --section-without-border-vertical-spacing-tight: {% if settings.section_vertical_spacing == 'xs' %}3rem{%- elsif settings.section_vertical_spacing == 'sm' %}5.25rem{% else %}6rem{% endif %};
 
       --section-stack-gap: {%- if settings.section_vertical_spacing == 'xs' %}2.25rem{% elsif settings.section_vertical_spacing == 'sm' %}2.5rem{% elsif settings.section_vertical_spacing == 'md' %}3rem{% else %}4rem{% endif %};
