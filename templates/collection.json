@@ -22,7 +22,7 @@
       "settings": {
         "show_breadcrumb": true,
         "hide_product_information": false,
-        "products_per_page": 12,
+        "products_per_page": 8,
         "products_per_row_mobile": "2",
         "products_size_desktop": "large",
         "show_grid_mode_selector": true,
@@ -47,7 +47,8 @@
           "type": "heading",
           "settings": {
             "text": "Exclusively      <span> yours <\/span>",
-            "heading_tag": "h1"
+            "heading_tag": "h1",
+            "big_heading": true
           }
         },
         "template--20866689237301__10e8e0fa-f114-4a8a-a239-983856ee39cc-subheading-1": {
@@ -59,7 +60,8 @@
         "template--20866689237301__10e8e0fa-f114-4a8a-a239-983856ee39cc-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Serah is an slow fashion movement where every piece is as unique as its wearer. We believe in the power of exclusivity, creating limited pieces of each of our designs, ensuring you shine in a crowd of your own.<\/p>"
+            "content": "<p>Serah is an slow fashion movement where every piece is as unique as its wearer. We believe in the power of exclusivity, creating limited pieces of each of our designs, ensuring you shine in a crowd of your own.<\/p>",
+            "addspace": true
           }
         },
         "1aea4c35-ba7f-4eb4-b63a-7573a08d9dea": {
