@@ -670,7 +670,12 @@ p.collection-toolbar__products-count {
 .product-card__info .product-title.h6 {
   font-weight: bold;
 }
-
+.dot-checkbox:checked~label {
+  transform: none;
+}
+.dot-checkbox:checked {
+  opacity: 0;
+}
 @media screen and (min-width: 700px){
   .collection-toolbar__layout-switch-list {
     padding-inline: 0;
