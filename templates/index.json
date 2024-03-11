@@ -26,7 +26,7 @@
         "separate_section_with_border": false,
         "bg_image1": "shopify:\/\/shop_images\/home-left-svg.svg",
         "bg_image2": "shopify:\/\/shop_images\/home-right-svg.svg",
-        "image": "shopify:\/\/shop_images\/home-banner.png",
+        "image": "shopify:\/\/shop_images\/main-banner.png",
         "reveal_on_scroll": false,
         "image_position": "end",
         "content_width": "lg",
@@ -103,7 +103,7 @@
         "separate_section_with_border": true,
         "background1": "#2a2a2a",
         "font_color": "#ffffff",
-        "image": "shopify:\/\/shop_images\/collection-image-with-text.jpg",
+        "image": "shopify:\/\/shop_images\/DSC_4091.jpg",
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "lg",
@@ -311,8 +311,7 @@
         "before": {
           "type": "before",
           "settings": {
-            "image": "shopify:\/\/shop_images\/end-of-summer_sale.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Dresses.jpg",
+            "image": "shopify:\/\/shop_images\/DSC_4391.jpg",
             "product_select": "off-white-crop-top-2",
             "text": "",
             "link_text": "VIEW PRODUCT",
@@ -326,7 +325,7 @@
         "after": {
           "type": "after",
           "settings": {
-            "image": "shopify:\/\/shop_images\/collection-image-with-text.jpg",
+            "image": "shopify:\/\/shop_images\/DSC_3483.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Co-Ords.jpg",
             "product_select": "off-white-crop-top-1",
             "text": "",
