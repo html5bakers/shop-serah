@@ -81,7 +81,8 @@
         "template--20866689696053__6a1aed12-a625-42f7-b8e4-01589b079ca9-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Best to write some short description for Sets here.<\/p>"
+            "content": "<p>Best to write some short description for Sets here.<\/p>",
+            "addspace": true
           }
         },
         "b94f3341-9dea-41b5-be4c-82a38665eb2d": {
@@ -292,7 +293,7 @@
       ],
       "settings": {
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/end-of-summer_sale.jpg",
+        "image": "shopify:\/\/shop_images\/Frame_37.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": true,
