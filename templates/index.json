@@ -25,7 +25,6 @@
       "settings": {
         "separate_section_with_border": false,
         "bg_image1": "shopify:\/\/shop_images\/home-left-svg.svg",
-        "bg_image2": "shopify:\/\/shop_images\/home-right-svg.svg",
         "image": "shopify:\/\/shop_images\/Serah-HomeBanner.png",
         "reveal_on_scroll": false,
         "image_position": "end",
