@@ -2,11 +2,11 @@
   "current": {
     "section_vertical_spacing": "lg",
     "text_color": "#1c1c1c",
-    "background": "#fdecda",
+    "background": "#fff6ed",
     "secondary_background": "#ffffff",
     "success_color": "#307a07",
     "error_color": "#cb2b2b",
-    "header_background": "#fdecda",
+    "header_background": "#fff6ed",
     "header_text_color": "#1c1c1c",
     "footer_background": "#f5f4ed",
     "footer_text_color": "#1c1c1c",
