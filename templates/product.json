@@ -92,6 +92,17 @@
             "page": ""
           }
         },
+        "accordion_9HBXQN": {
+          "type": "accordion",
+          "settings": {
+            "open": false,
+            "show_below_gallery": true,
+            "icon": "none",
+            "title": "Fit",
+            "content": "<p>{{ block.settings.page.metafields.custom.fit | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
         "complementary_products": {
           "type": "complementary_products",
           "settings": {
@@ -115,6 +126,7 @@
         "464d3b1e-9e98-405a-a459-3ecde5b0d8e6",
         "225d4566-c117-4fb4-861e-1d0b18c4b8e6",
         "75818f52-a09e-4bb1-9142-1a7ad2c4ccb0",
+        "accordion_9HBXQN",
         "complementary_products"
       ],
       "settings": {
