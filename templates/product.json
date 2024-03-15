@@ -37,7 +37,7 @@
           "settings": {
             "hide_sold_out_variants": false,
             "selector_type": "block",
-            "color_selector_type": "color",
+            "color_selector_type": "block",
             "size_chart_title": "Size Chart",
             "size_chart_page": "",
             "size_chart_content": "dsrfsdfsdfasdfsdf"
