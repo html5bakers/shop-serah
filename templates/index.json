@@ -310,7 +310,7 @@
         "before": {
           "type": "before",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_4391.jpg",
+            "image": "shopify:\/\/shop_images\/DS_W.webp",
             "product_select": "off-white-crop-top-2",
             "text": "",
             "link_text": "VIEW PRODUCT",
@@ -324,8 +324,8 @@
         "after": {
           "type": "after",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_3483.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Co-Ords.jpg",
+            "image": "shopify:\/\/shop_images\/D3r.webp",
+            "mobile_image": "shopify:\/\/shop_images\/D3r.webp",
             "product_select": "off-white-crop-top-1",
             "text": "",
             "link_text": "VIEW PRODUCT",
