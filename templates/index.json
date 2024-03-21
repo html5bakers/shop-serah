@@ -174,7 +174,7 @@
           "type": "collection",
           "settings": {
             "collection": "dresses",
-            "image": "shopify:\/\/shop_images\/Dresses.jpg",
+            "image": "shopify:\/\/shop_images\/DSC_3521.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "Dresses",
@@ -192,7 +192,7 @@
           "type": "collection",
           "settings": {
             "collection": "tops",
-            "image": "shopify:\/\/shop_images\/Tops.jpg",
+            "image": "shopify:\/\/shop_images\/DSC_3828.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "Tops",
@@ -210,10 +210,10 @@
           "type": "collection",
           "settings": {
             "collection": "co-ords",
-            "image": "shopify:\/\/shop_images\/Co-Ords.jpg",
+            "image": "shopify:\/\/shop_images\/DSC_3768.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
-            "subheading": "Co-Ords",
+            "subheading": "Co-Ords Sets",
             "title": "",
             "button_text": "",
             "button_link": "",
@@ -227,8 +227,8 @@
         "7db65e18-0864-43a9-a388-f3906b9f0f7f": {
           "type": "collection",
           "settings": {
-            "collection": "bottoms",
-            "image": "shopify:\/\/shop_images\/Bottoms.jpg",
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/DSC_3640.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "Bottoms",
