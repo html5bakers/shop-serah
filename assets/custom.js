@@ -15,9 +15,11 @@ function isScrolledIntoView(elem){
 $('.animate').each(function(){
   $(this).addClass('animated');
 });
+
 $('.border-top').each(function(){
   $(this).addClass('animated');
 });
+
 $(window).scroll(function(){
   $('.animate').each(function(){
     if(isScrolledIntoView(this)){
@@ -79,22 +81,36 @@ $(window).scroll(function(){
       }
   }
 $(document).ready(function(){
-    if($('.active_link').length > 0 ){
-     $('.active_link').closest('.accordion').attr('aria-expanded', true).attr('open',true)
-    }
-    $('body').on('click', '.show_more',function(){
-      if(document.querySelector(".collections")){
-        $.doTimeout( 'scroll', pInfScrDelay, pInfScrExecute);
-        var elm = document.querySelector('.collections');
-        var scrollHeight = elm.scrollHeight;
-        var scrollTop = elm.scrollTop;
-        var clientHeight = elm.clientHeight;
-        console.log(clientHeight);
-        if(scrollHeight-scrollTop == clientHeight){
-          pInfScrDelay = 100;
-        }
+  if($('.loader').length > 0 && $('body.index'){
+    $('body').addClass('overflow-hidden');
+    //$('.loader .svg-wrap').css({'background-color':'#fff'});
+    setTimeout(function(){
+      $('.loader').addClass('scale');
+    }, 1500);
+    setTimeout(function(){
+      $('.loader').fadeOut();
+      $('body').removeClass('overflow-hidden');
+    }, 2000);
+  }else{
+    $('body').removeClass('overflow-hidden');
+  }
+  
+  if($('.active_link').length > 0 ){
+   $('.active_link').closest('.accordion').attr('aria-expanded', true).attr('open',true)
+  }
+  $('body').on('click', '.show_more',function(){
+    if(document.querySelector(".collections")){
+      $.doTimeout( 'scroll', pInfScrDelay, pInfScrExecute);
+      var elm = document.querySelector('.collections');
+      var scrollHeight = elm.scrollHeight;
+      var scrollTop = elm.scrollTop;
+      var clientHeight = elm.clientHeight;
+      console.log(clientHeight);
+      if(scrollHeight-scrollTop == clientHeight){
+        pInfScrDelay = 100;
       }
-  });
+    }
+});
 
 
 });
