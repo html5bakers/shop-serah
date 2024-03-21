@@ -170,6 +170,24 @@
     "fd2d0b7e-103c-4c5a-91be-7bed0d5b6866": {
       "type": "collection-list",
       "blocks": {
+        "7db65e18-0864-43a9-a388-f3906b9f0f7f": {
+          "type": "collection",
+          "settings": {
+            "collection": "blazers",
+            "image": "shopify:\/\/shop_images\/DSC_3640.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "Blazers",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#2a2a2a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "#ffffff",
+            "button_text_color": "#000000"
+          }
+        },
         "template--20866689696053__fd2d0b7e-103c-4c5a-91be-7bed0d5b6866-collection-1": {
           "type": "collection",
           "settings": {
@@ -183,24 +201,6 @@
             "button_link": "",
             "text_color": "#2a2a2a",
             "overlay_color": "#ffffff",
-            "overlay_opacity": 0,
-            "button_background": "#ffffff",
-            "button_text_color": "#000000"
-          }
-        },
-        "template--20866689696053__fd2d0b7e-103c-4c5a-91be-7bed0d5b6866-collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "tops",
-            "image": "shopify:\/\/shop_images\/DSC_3828.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "Tops",
-            "title": "",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#2a2a2a",
-            "overlay_color": "#000000",
             "overlay_opacity": 0,
             "button_background": "#ffffff",
             "button_text_color": "#000000"
@@ -224,14 +224,14 @@
             "button_text_color": "#000000"
           }
         },
-        "7db65e18-0864-43a9-a388-f3906b9f0f7f": {
+        "template--20866689696053__fd2d0b7e-103c-4c5a-91be-7bed0d5b6866-collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "blazers",
-            "image": "shopify:\/\/shop_images\/DSC_3640.jpg",
+            "collection": "tops",
+            "image": "shopify:\/\/shop_images\/DSC_3828.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
-            "subheading": "Bottoms",
+            "subheading": "Tops",
             "title": "",
             "button_text": "",
             "button_link": "",
@@ -244,10 +244,10 @@
         }
       },
       "block_order": [
+        "7db65e18-0864-43a9-a388-f3906b9f0f7f",
         "template--20866689696053__fd2d0b7e-103c-4c5a-91be-7bed0d5b6866-collection-1",
-        "template--20866689696053__fd2d0b7e-103c-4c5a-91be-7bed0d5b6866-collection-2",
         "template--20866689696053__fd2d0b7e-103c-4c5a-91be-7bed0d5b6866-collection-3",
-        "7db65e18-0864-43a9-a388-f3906b9f0f7f"
+        "template--20866689696053__fd2d0b7e-103c-4c5a-91be-7bed0d5b6866-collection-2"
       ],
       "settings": {
         "enableborder": true,
