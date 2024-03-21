@@ -78,7 +78,7 @@
     endif
   %}
 
-  <body class="{{ features_class }} cms-{{ page.handle }} {{ template.name }}">
+  <body class="{{ features_class }} cms-{{ page.handle }} {{ template.name }} {{ template }}">
     {%- render 'shadow-dom-templates' -%}
 
     <loading-bar class="loading-bar" aria-hidden="true"></loading-bar>
