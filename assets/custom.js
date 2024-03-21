@@ -83,6 +83,7 @@ $(window).scroll(function(){
 $(document).ready(function(){
   if($('.loader').length > 0 && $('body.index'){
     $('body').addClass('overflow-hidden');
+     $('.loader').fadeIn();
     //$('.loader .svg-wrap').css({'background-color':'#fff'});
     setTimeout(function(){
       $('.loader').addClass('scale');
