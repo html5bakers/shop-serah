@@ -82,6 +82,9 @@ $(window).scroll(function(){
   }
 $(document).ready(function(){
 console.log($('.loader').length);
+  if($('body.index')){
+    $('body').addClass('overflow-hidden');
+  }
   if($('.loader').length > 0){
     $('body').addClass('overflow-hidden');
     setTimeout(function(){
