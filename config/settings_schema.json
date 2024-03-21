@@ -905,7 +905,7 @@
       {
         "type": "checkbox",
         "id": "show_preloader",
-        "label": "Show Preloader"
+        "label": "Show Preloader only on homepage"
       },
       {
         "type": "checkbox",
