@@ -227,7 +227,7 @@
         "7db65e18-0864-43a9-a388-f3906b9f0f7f": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "blazers",
             "image": "shopify:\/\/shop_images\/DSC_3640.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
