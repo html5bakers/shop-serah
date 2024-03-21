@@ -90,7 +90,7 @@ console.log($('.loader').length);
     setTimeout(function(){
       $('.loader').fadeOut();
       $('body').removeClass('overflow-hidden');
-    }, 1800);
+    }, 2000);
   }else{
     $('body').removeClass('overflow-hidden');
   }
