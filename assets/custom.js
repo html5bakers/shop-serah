@@ -91,7 +91,7 @@ $(document).ready(function(){
     setTimeout(function(){
       $('.loader').fadeOut();
       $('body').removeClass('overflow-hidden');
-    }, 2000);
+    }, 1800);
   }else{
     $('body').removeClass('overflow-hidden');
   }
