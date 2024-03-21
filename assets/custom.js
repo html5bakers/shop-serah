@@ -81,7 +81,7 @@ $(window).scroll(function(){
       }
   }
 $(document).ready(function(){
-  if($('.loader').length > 0 && $('body.index'){
+  if($('.loader').length > 0 && $('body.index')){
     $('body').addClass('overflow-hidden');
      $('.loader').fadeIn();
     //$('.loader .svg-wrap').css({'background-color':'#fff'});
