@@ -89,8 +89,8 @@ $(document).ready(function(){
       $('.loader').addClass('scale');
     }, 1500);
     setTimeout(function(){
-     // $('.loader').fadeOut();
-     // $('body').removeClass('overflow-hidden');
+      $('.loader').fadeOut();
+      $('body').removeClass('overflow-hidden');
     }, 2000);
   }else{
     $('body').removeClass('overflow-hidden');
