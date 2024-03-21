@@ -85,7 +85,7 @@ console.log($('.loader').length);
   if($('.loader').length > 0){
     $('body').addClass('overflow-hidden');
     setTimeout(function(){
-      //$('.loader').addClass('scale');
+      $('.loader').addClass('scale');
     }, 1500);
     setTimeout(function(){
      // $('.loader').fadeOut();
