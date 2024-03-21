@@ -84,6 +84,18 @@
     <loading-bar class="loading-bar" aria-hidden="true"></loading-bar>
     <a href="#main" allow-hash-change class="skip-to-content sr-only">{{ 'general.accessibility.skip_to_content' | t }}</a>
 
+    {% comment %}Pre Loader{% endcomment %}
+    {% if settings.show_preloader %}
+      {% if settings.show_preloader_only_on_all_pages %}
+        {% render 'preloader' %}
+      {% else %}
+        {% if template == 'index' %}
+          {% render 'preloader' %}
+        {% endif %}
+      {% endif %}
+    {% endif %}
+
+    
     {%- if request.page_type != 'password' -%}
       {%- sections 'header-group' -%}
       {%- sections 'overlay-group' -%}
