@@ -85,8 +85,9 @@
     <a href="#main" allow-hash-change class="skip-to-content sr-only">{{ 'general.accessibility.skip_to_content' | t }}</a>
 
     {% comment %}Pre Loader{% endcomment %}
-{% render 'preloader' %}
-
+    {% if template.name == 'index' %}
+      {% render 'preloader' %}
+    {% endif %}
     
     {%- if request.page_type != 'password' -%}
       {%- sections 'header-group' -%}
