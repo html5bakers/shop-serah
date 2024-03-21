@@ -115,7 +115,7 @@
         "column-1": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Exclusively_yours.png",
+            "image": "shopify:\/\/shop_images\/Layer_1-1.svg",
             "title": "Exclusively yours",
             "heading_tag": "h5",
             "content": "<p>Limited-edition pieces that are sure to turn heads.<\/p>",
@@ -126,7 +126,7 @@
         "column-2": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Quality.png",
+            "image": "shopify:\/\/shop_images\/Layer_1.svg",
             "title": "Quality > Quantity",
             "heading_tag": "h5",
             "content": "<p>We're not about trends. We're about creating timeless pieces that will never go out of style<\/p>",
@@ -137,7 +137,7 @@
         "column-3": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Versatile.png",
+            "image": "shopify:\/\/shop_images\/Layer_1-2.svg",
             "title": "Versatile",
             "heading_tag": "h5",
             "content": "<p>Clothes that are perfect for work, play, and everything in between.<\/p>",
