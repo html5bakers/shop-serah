@@ -32,7 +32,7 @@
         "quick_links_menu": "categories",
         "show_sort_by": true,
         "show_filters": true,
-        "show_results_count": true,
+        "show_results_count": false,
         "show_filter_group_name": false,
         "show_empty_filter_values": false,
         "show_filter_values_count": true,
