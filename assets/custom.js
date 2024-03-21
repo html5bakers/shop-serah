@@ -82,14 +82,11 @@ $(window).scroll(function(){
   }
 $(document).ready(function(){
 console.log($('.loader').length);
-  if($('body.index')){
-    $('body').addClass('overflow-hidden');
-  }
   if($('.loader').length > 0){
     $('body').addClass('overflow-hidden');
     setTimeout(function(){
       //$('.loader').addClass('scale');
-    }, 1000);
+    }, 1500);
     setTimeout(function(){
      // $('.loader').fadeOut();
      // $('body').removeClass('overflow-hidden');
