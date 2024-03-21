@@ -45,7 +45,7 @@
         "template--21427137708341__b7d30c7b-9f80-46ec-b24a-a4d5918d8cc1-image_with_text-1": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Exclusively_yours.png",
+            "image": "shopify:\/\/shop_images\/Layer_1-1.svg",
             "title": "Exclusively yours",
             "heading_tag": "h5",
             "content": "<p>Limited-edition pieces that are sure to turn heads.<\/p>",
@@ -56,7 +56,7 @@
         "template--21427137708341__b7d30c7b-9f80-46ec-b24a-a4d5918d8cc1-image_with_text-2": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Quality.png",
+            "image": "shopify:\/\/shop_images\/Layer_1.svg",
             "title": "Quality > Quantity",
             "heading_tag": "h5",
             "content": "<p>We're not about trends. We're about creating timeless pieces that will never go out of style.<\/p>",
@@ -67,7 +67,7 @@
         "template--21427137708341__b7d30c7b-9f80-46ec-b24a-a4d5918d8cc1-image_with_text-3": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Versatile.png",
+            "image": "shopify:\/\/shop_images\/Layer_1-2.svg",
             "title": "Versatile",
             "heading_tag": "h5",
             "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
