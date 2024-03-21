@@ -90,6 +90,7 @@
  .border-top.border-top-light .border-inner {
   background-color: #fff;
  }
+ 
 /* Left-right border*/
 .border-hover {
   position: relative;
@@ -139,6 +140,32 @@
   }
 
 }
+/* Preloader */
+.loader{
+  position: fixed; 
+  top: 0;
+  left: 0;
+  background-color: #02417d;
+  width: 100%;
+  height: 100%;
+  z-index: 11;
+}
+.loader-logo-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.loader .svg-wrap{
+  max-width: 130px;
+  border-radius: 64px 64px 0 0;
+  transition: background 1.2s;
+}
+.loader.scale .svg-wrap{
+  transform: scale(20);
+  transition: transform 2s;
+}
+
 /* Heading */
 .sec_heading {
   text-transform: none;
