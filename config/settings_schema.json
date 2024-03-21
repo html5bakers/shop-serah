@@ -898,5 +898,20 @@
         "info": "t:theme_settings.favicon.image_info"
       }
     ]
+  },
+  {
+    "name": "Custom Options",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_preloader",
+        "label": "Show Preloader"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_preloader_only_on_all_pages",
+        "label": "Show Preloader on all pages"
+      }
+    ]
   }
 ]
