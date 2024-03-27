@@ -120,6 +120,7 @@
         "template--21427137708341__04f0781d-6052-49cd-bb57-05f3b529d2b0-heading-1",
         "template--21427137708341__04f0781d-6052-49cd-bb57-05f3b529d2b0-richtext-1"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": false,
         "background1": "#2a2a2a",
@@ -128,6 +129,47 @@
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "lg",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_mb4Adx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LqVTKQ": {
+          "type": "heading",
+          "settings": {
+            "text": "The Serah Woman expresses her spirited individuality in all her choices. Naturally, this extends to clothes.",
+            "heading_tag": "h5"
+          }
+        },
+        "richtext_etLb9L": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>From my earliest days, fashion was my playground, and the dream of creating my own clothing line has been my North Star.I believe that fashion isn't just about clothes; it's a form of self-expression that speaks volumes about one's personality, one’s choices and one’s values.<\/p><p>At its core, Serah is a brand that is a reflection of the nuances of the modern day woman—the Serah woman.The Serah woman is independent and unique—she chooses her own path, without judgement or compromise. <\/p><p>Our community is united in the fact that they all have unique personalities, which are defined by all the choices they’re free and empowered to make.Whether you're a homemaker, a working mom, or an entrepreneur, at Serah, we've carefully crafted statement pieces for you that seamlessly transition from day to night.<\/p>"
+          }
+        },
+        "image_i3Kk9V": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hasmitha-sign_1.svg",
+            "width_mode": "custom",
+            "max_width": 220,
+            "mobile_max_width": 170
+          }
+        }
+      },
+      "block_order": [
+        "heading_LqVTKQ",
+        "richtext_etLb9L",
+        "image_i3Kk9V"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
         "remove_vertical_spacing": false
       }
     },
@@ -236,6 +278,7 @@
     "86e248e8-d334-4076-93d5-32def551077a",
     "b7d30c7b-9f80-46ec-b24a-a4d5918d8cc1",
     "04f0781d-6052-49cd-bb57-05f3b529d2b0",
+    "rich_text_mb4Adx",
     "d96f99a4-3fe3-405f-972f-6b50c900ad8a"
   ]
 }
