@@ -96,6 +96,7 @@
         },
         "complementary_products": {
           "type": "complementary_products",
+          "disabled": true,
           "settings": {
             "title": "Buy It With",
             "products_count": 2,
