@@ -122,7 +122,7 @@
       ],
       "settings": {
         "container_size": "lg",
-        "product_info_size": 50,
+        "product_info_size": 55,
         "show_sticky_add_to_cart": false,
         "center_basic_info": true,
         "desktop_media_layout": "grid",
