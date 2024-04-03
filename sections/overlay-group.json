@@ -4,18 +4,16 @@
   "sections": {
     "cart-drawer": {
       "type": "cart-drawer",
-      "disabled": true,
       "settings": {
         "show_cart_note": true,
         "show_shipping_text": true,
-        "show_view_cart_button": false,
+        "show_view_cart_button": true,
         "show_checkout_button": true,
         "show_price_in_checkout_button": true
       }
     },
     "newsletter-popup": {
       "type": "newsletter-popup",
-      "disabled": true,
       "settings": {
         "apparition_delay": 5,
         "show_only_on_index": true,
@@ -32,7 +30,6 @@
     },
     "privacy-banner": {
       "type": "privacy-banner",
-      "disabled": true,
       "settings": {
         "title": "🍪 Cookie policy",
         "content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>",
