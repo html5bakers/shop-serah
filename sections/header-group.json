@@ -8,14 +8,13 @@
         "message-1": {
           "type": "message",
           "settings": {
-            "text": "Announce something here"
+            "text": "15% of All First Orders | Avail at Checkout"
           }
         }
       },
       "block_order": [
         "message-1"
       ],
-      "disabled": true,
       "settings": {
         "enable_sticky": false,
         "autoplay": true,
