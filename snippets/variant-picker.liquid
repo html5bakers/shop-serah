@@ -55,7 +55,7 @@ Supported variables
       
           </div>
       {% if size_chart_content != '' or  size_chart_page != '' or  product.metafields.custom.size_chart != '' %}
-        {% comment %}  {%- if color_label_list contains option_downcase -%} {% endcomment %}
+         {%- if color_label_list contains option_downcase -%}
             {%- capture id -%}size-chart-{{ section.id }}-{{ block.id }}{%- endcapture -%}
             <button type="button" class="size_chart" aria-controls="{{ id | escape }}" aria-expanded="false">
               {{- 'product.general.size_chart' | t -}}
@@ -75,7 +75,7 @@ Supported variables
                 {% endif %}
                   </div>
             </x-modal>
-      {% comment %}    {%- endif -%} {% endcomment %}
+     {%- endif -%}
           {%- endif -%}
         </div>
 
