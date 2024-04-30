@@ -39,7 +39,8 @@
             "selector_type": "block",
             "color_selector_type": "block",
             "size_chart_title": "Size Chart",
-            "size_chart_page": "",
+            "size_chart_page": "about-us",
+            "size_chart": "",
             "size_chart_content": "vbgfnhgnjh"
           }
         },
