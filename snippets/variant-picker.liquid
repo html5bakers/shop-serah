@@ -69,7 +69,7 @@ Supported variables
               <div class="prose">
             
 
-            {% if product.metafields.custom.size_chart %}
+            {% if product.metafields.custom.size_chart.value %}
               <img src="{{ product.metafields.custom.size_chart | img_url:'master' }}">
               {% else %}
               {% if size_chart_page != '' %}
