@@ -28,7 +28,7 @@
     "round_color_swatches": false,
     "color_swatch_config": "Black:#1C1C1C\nGrey:#AFAFAF",
     "product_color_display": "hide",
-    "show_quick_buy": true,
+    "show_quick_buy": false,
     "social_facebook": "https:\/\/www.facebook.com\/",
     "social_instagram": "https:\/\/www.instagram.com\/shop_serah\/",
     "instagram_title": "",
