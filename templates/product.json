@@ -38,10 +38,7 @@
             "hide_sold_out_variants": false,
             "selector_type": "block",
             "color_selector_type": "block",
-            "size_chart_title": "Size Chart",
-            "size_chart_page": "",
-            "size_chart": "",
-            "size_chart_content": ""
+            "size_chart_page": ""
           }
         },
         "quantity_selector": {
@@ -52,7 +49,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": false,
+            "show_payment_button": true,
             "show_gift_card_recipient": true,
             "atc_button_background": "rgba(0,0,0,0)",
             "atc_button_text_color": "rgba(0,0,0,0)",
