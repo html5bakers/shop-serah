@@ -30,6 +30,7 @@
         "vertical_spacing_factor": 1,
         "filter_layout": "sidebar",
         "quick_links_menu": "categories",
+        "custom_quick_menu_heading": "By Category",
         "show_sort_by": true,
         "show_filters": true,
         "show_results_count": false,
