@@ -39,6 +39,11 @@ Supported variables
 
   <div class="accordion-list">
     {%- if quick_links_menu.links.size > 0 -%}
+      {% if section.settings.custom_quick_menu_heading != blank %}
+      {% assign quick_link_heading = section.settings.custom_quick_menu_heading %}
+      {% else %}
+      {% assign quick_link_heading = quick_links_menu.title %}
+      {% endif %}
       {%- capture filter_content -%}
         <div class="v-stack gap-2.5">
           {%- for link in quick_links_menu.links -%}
@@ -47,7 +52,7 @@ Supported variables
         </div>
       {%- endcapture -%}
 
-      {%- render 'accordion', title: quick_links_menu.title, content: filter_content, open: open_filters_by_default, show_arrow: false -%}
+      {%- render 'accordion', title: quick_link_heading, content: filter_content, open: open_filters_by_default, show_arrow: false -%}
     {%- endif -%}
 
     {%- if show_filters -%}
