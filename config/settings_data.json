@@ -29,6 +29,7 @@
     "color_swatch_config": "Black:#1C1C1C\nGrey:#AFAFAF",
     "product_color_display": "hide",
     "show_quick_buy": false,
+    "cart_free_shipping_threshold": "",
     "social_facebook": "https:\/\/www.facebook.com\/",
     "social_instagram": "https:\/\/www.instagram.com\/shop_serah\/",
     "instagram_title": "",
