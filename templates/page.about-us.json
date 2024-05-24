@@ -151,10 +151,10 @@
         "image_i3Kk9V": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hasmita-sign-new.svg",
+            "image": "shopify:\/\/shop_images\/Hasmitha-sign_1_1.svg",
             "width_mode": "custom",
-            "max_width": 260,
-            "mobile_max_width": 190
+            "max_width": 370,
+            "mobile_max_width": 260
           }
         }
       },
