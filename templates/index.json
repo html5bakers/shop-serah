@@ -98,6 +98,9 @@
         "template--20866689696053__6a1aed12-a625-42f7-b8e4-01589b079ca9-richtext-1",
         "b94f3341-9dea-41b5-be4c-82a38665eb2d"
       ],
+      "custom_css": [
+        "p {font-size: 16px;}"
+      ],
       "settings": {
         "separate_section_with_border": true,
         "background1": "#2a2a2a",
