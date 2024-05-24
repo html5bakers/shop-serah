@@ -74,7 +74,12 @@
 
             {%- when 'link' -%}
               <a {% if block.settings.url %}href="{{ block.settings.url }}"{% endif %} class="link" {{ block.shopify_attributes }}>{{ block.settings.text | escape }}
-              {%- render 'border-hover', style:'dark', enable: true -%}
+           <div class="main-border" style="padding: px 0 px 0">
+  <div class="border-hover border-dark ">
+  <div class="border-outer"></div>
+  <div class="border-inner"></div>
+</div>
+</div>
               </a>
 
             {%- when 'button' -%}
