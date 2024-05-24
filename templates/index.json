@@ -73,6 +73,7 @@
         },
         "template--20866689696053__6a1aed12-a625-42f7-b8e4-01589b079ca9-subheading-1": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "text": "products you won’t find everywhere."
           }
@@ -80,7 +81,7 @@
         "template--20866689696053__6a1aed12-a625-42f7-b8e4-01589b079ca9-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "",
+            "content": "<p>products you won’t find everywhere.<\/p>",
             "addspace": true
           }
         },
