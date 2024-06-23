@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "f19bed77-8f06-4351-a1c9-776c14ca3494": {
@@ -315,10 +324,10 @@
           "type": "before",
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_1.png",
-            "product_select": "off-white-crop-top-4",
+            "product_select": "boucle-crop-top-skirt",
             "text": "",
             "link_text": "VIEW PRODUCT",
-            "link_url": "shopify:\/\/products\/off-white-crop-top-4",
+            "link_url": "shopify:\/\/products\/boucle-crop-top-skirt",
             "link_style": "link",
             "text_color": "#1c1c1c",
             "button_background": "#ffffff",
