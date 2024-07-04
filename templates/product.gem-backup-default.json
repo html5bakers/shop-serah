@@ -1,0 +1,165 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "686e31a9-6ed0-4008-9394-ef4a49f42376": {
+          "type": "type",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_type": "block",
+            "color_selector_type": "block",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "464d3b1e-9e98-405a-a459-3ecde5b0d8e6": {
+          "type": "product_usps",
+          "settings": {
+            "background": "#f5f4ed",
+            "text_color": "#afafaf",
+            "border_color": "#afafaf",
+            "heading_1": "<p>Manufactured in UAE<\/p>",
+            "heading_2": "<p>Free Shipping Available<\/p>",
+            "heading_3": "<p>14-Day Return Policy<\/p>"
+          }
+        },
+        "225d4566-c117-4fb4-861e-1d0b18c4b8e6": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "open": true,
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Shipping",
+            "content": "<p>For orders placed before 7am IST, we endeavour to process the same business day. Orders placed after 11am IST will be processed the next business day.<\/p>",
+            "page": ""
+          }
+        },
+        "75818f52-a09e-4bb1-9142-1a7ad2c4ccb0": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "open": false,
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Returns",
+            "content": "<p>You can choose between a refund or a credit note on full priced items.<br\/><\/p><ul><li>Item(s) must be returned in their original condition and packaging: unworn, unwashed and with all tags attached.<\/li><li>Earrings cannot be returned due to health and safety reasons.<\/li><li>Return shipping methods and associated costs are the responsibility of the customer.<\/li><li>Sale items can not be refunded for change of mind.<\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "complementary_products": {
+          "type": "complementary_products",
+          "disabled": true,
+          "settings": {
+            "title": "Buy It With",
+            "products_count": 2,
+            "show_below_gallery": false,
+            "stack_products": false,
+            "show_quick_buy": true
+          }
+        }
+      },
+      "block_order": [
+        "686e31a9-6ed0-4008-9394-ef4a49f42376",
+        "title",
+        "price",
+        "separator",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "464d3b1e-9e98-405a-a459-3ecde5b0d8e6",
+        "225d4566-c117-4fb4-861e-1d0b18c4b8e6",
+        "75818f52-a09e-4bb1-9142-1a7ad2c4ccb0",
+        "complementary_products"
+      ],
+      "settings": {
+        "container_size": "lg",
+        "product_info_size": 50,
+        "show_sticky_add_to_cart": false,
+        "center_basic_info": true,
+        "desktop_media_layout": "grid",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
+      }
+    },
+    "12e836dd-8ecd-43ca-961e-fc53dcb659c0": {
+      "type": "related-products",
+      "settings": {
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 10,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "You Might Also Like",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "12e836dd-8ecd-43ca-961e-fc53dcb659c0"
+  ]
+}
