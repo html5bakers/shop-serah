@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "section_vertical_spacing": "lg",
@@ -46,7 +55,15 @@
     "heading_color": "#303030",
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "6478312753674380289": {
+        "type": "shopify:\/\/apps\/gempages-builder\/blocks\/embed-gp-script-head\/20b379d4-1b20-474c-a6ca-665c331919f3",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Allure": {
