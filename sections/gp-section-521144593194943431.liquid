@@ -39,7 +39,7 @@
 {%- assign gpBkProduct = product -%}
 {%- assign gpBkProducts = products -%}
 {%- liquid
-      assign productHandles = 'shes-charming-shorts'| split: ','
+      assign productHandles = 'shes-confident-set,shes-suave-set,shes-kind-shorts,shes-sassy-dress,shes-fierce-top'| split: ','
       assign products = null
       assign target_collection = null
       assign productSrc = 'PickProduct'
@@ -176,7 +176,7 @@
             endfor
             assign limit = products.length
           else
-            if 1 == 0
+            if 5 == 0
               paginate collections.all.products by 100000
                 assign products = collections.all.products  | sort : "created_at"  | reverse
               endpaginate
@@ -201,7 +201,7 @@
       -%}
         
     {%- if products == null -%}
-    {%- if count == 0 and 1 == 0 -%}
+    {%- if count == 0 and 5 == 0 -%}
       {% if 'PickProduct' == 'RelatedProduct' -%}
           <div>{{ "gempages.ProductList.no_related_products" | t }}</div>
         {% else %}
@@ -1670,7 +1670,7 @@
             </gp-product>
         {%- endif -%}
         {% endfor %}
-        {%- if count == 0 and 1 == 0 -%}
+        {%- if count == 0 and 5 == 0 -%}
           {% if 'PickProduct' == 'RelatedProduct' -%}
               <div>{{ "gempages.ProductList.no_related_products" | t }}</div>
             {% else %}
