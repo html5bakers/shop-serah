@@ -49,6 +49,10 @@ Supported variables
           {%- endif -%}
         {%- endif -%}
 
+      {% if card_product.tags contains 'new' %}
+  <span class="badge">Best Seller</span>
+{% endif %}
+
       {%- when 'discount' -%}
         {%- if settings.show_discount -%}
           {%- assign is_variant_on_sale = false -%}
