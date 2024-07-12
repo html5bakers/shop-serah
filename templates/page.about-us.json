@@ -212,6 +212,9 @@
         "richtext_8xe9YN",
         "liquid_jzcRtQ"
       ],
+      "custom_css": [
+        "{padding-left: 0;}"
+      ],
       "settings": {
         "separate_section_with_border": true,
         "image": "shopify:\/\/shop_images\/Hasmitha_-_Founder_-_Serah.png",
