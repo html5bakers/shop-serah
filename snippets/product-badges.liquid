@@ -49,10 +49,6 @@ Supported variables
           {%- endif -%}
         {%- endif -%}
 
-{%- if card_product.tags contains 'new' -%}
-  <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">New</span>
-{%- endif -%} 
-
       {%- when 'discount' -%}
         {%- if settings.show_discount -%}
           {%- assign is_variant_on_sale = false -%}

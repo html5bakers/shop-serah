@@ -55,9 +55,6 @@ Supported variables
     <div class="product-card__figure">
       {%- if show_badges -%}
         {%- render 'product-badges', product: product, vertical: true -%}
-        {% if card_product.tags contains 'best-seller' %}
-  <span class="badge">Best Seller</span>
-{% endif %}
       {%- endif -%}
 
       <a href="{{ product.url }}" class="product-card__media" data-instant>
@@ -116,14 +113,12 @@ Supported variables
     {%- endif -%}
 
     {%- if show_title or show_prices or show_vendor and product.vendor != blank -%}
-      <div class="v-stack justify-items-center gap-1">
+      <div class="v-stack justify-items-center gap-2">
         {%- if show_vendor and product.vendor != blank -%}
           {%- capture vendor_class -%}smallcaps {% if settings.product_card_text_font == 'heading' %}heading{% endif %}{% endcapture %}
           {%- render 'vendor' with product.vendor, class: vendor_class -%}
         {%- endif -%}
-      {% if product.type != blank %}
-        <span class="product-type h6 link-faded">{{ product.type }}</span>
-      {% endif %}
+
         {%- if show_title or show_prices -%}
           <div class="v-stack justify-items-center gap-1">
             {%- if show_title -%}
