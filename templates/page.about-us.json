@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -163,6 +172,7 @@
         "richtext_etLb9L",
         "image_i3Kk9V"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -170,6 +180,44 @@
         "separate_section_with_border": true,
         "content_width": "sm",
         "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "page_image_with_text_GDD9bG": {
+      "type": "page-image-with-text",
+      "blocks": {
+        "heading_MdQLaJ": {
+          "type": "heading",
+          "settings": {
+            "text": "THE SERAH WOMAN EXPRESSES HER SPIRITED INDIVIDUALITY IN ALL HER CHOICES. NATURALLY, THIS EXTENDS TO CLOTHES.",
+            "heading_tag": "h3",
+            "big_heading": false
+          }
+        },
+        "richtext_8xe9YN": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>From my earliest days, fashion was my playground, and the dream of creating my own clothing line has been my North Star. I believe that fashion isn't just about clothes; it's a form of self-expression that speaks volumes about one's personality, one’s choices and one’s values.<br\/><br\/>At its core, Serah is a brand that is a reflection of the nuances of the modern day woman—the Serah woman. The Serah woman is independent and unique—she chooses her own path, without judgement or compromise.<br\/><br\/>Our community is united in the fact that they all have unique personalities, which are defined by all the choices they’re free and empowered to make.Whether you're a homemaker, a working mom, or an entrepreneur, at Serah, we've carefully crafted statement pieces for you that seamlessly transition from day to night.<\/p>"
+          }
+        },
+        "liquid_jzcRtQ": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.serah-section {\n  display: flex;\n  justify-content: center;\n  align-items: center;\nvertical-align: center;\n  padding: 3px;\n}\n\n.serah-container {\n  display: flex;\n  flex-wrap: wrap;\n  max-width: 1200px;\n  width: 100%;\n}\n\n.serah-image {\n  flex: 1;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 3px;\n}\n\n.serah-image img {\n  max-width: 80%;\n  height: auto;\n}\n\n@media (max-width: 768px) {\n  .serah-container {\n    flex-direction: column;\n  }\n\n  .serah-image {\n    padding: 3px;\n  }\n}\n\n<\/style>\n\n<div class=\"serah-section\">\n  <div class=\"serah-container\">\n    <div class=\"serah-content\">\n      \n    <\/div>\n    <div class=\"serah-image\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0823\/0302\/5461\/files\/Hasmitha-sign_1_1.svg?v=1711616141&width=370\" alt=\"Serah Woman\">\n    <\/div>\n  <\/div>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MdQLaJ",
+        "richtext_8xe9YN",
+        "liquid_jzcRtQ"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "image": "shopify:\/\/shop_images\/Hasmitha_-_Founder_-_Serah.png",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "lg",
         "remove_vertical_spacing": false
       }
     },
@@ -271,6 +319,17 @@
         "background": "",
         "text_color": ""
       }
+    },
+    "custom_liquid_cqjtm4": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n.serah-section {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 20px;\n  background-color: ;\n}\n\n.serah-container {\n  display: flex;\n  flex-wrap: wrap;\n  max-width: 1200px;\n  width: 100%;\n}\n\n.serah-content {\n  flex: 1;\n  padding: 20px;\n  font-family: inherit;\n  font-size: 16px;\n  color: #333;\n}\n\n.serah-image {\n  flex: 1;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 20px;\n}\n\n.serah-image img {\n  max-width: 100%;\n  height: auto;\n}\n\n@media (max-width: 768px) {\n  .serah-container {\n    flex-direction: column;\n  }\n\n  .serah-content, .serah-image {\n    padding: 10px;\n  }\n}\n<\/style>\n\n<div class=\"serah-section\">\n  <div class=\"serah-container\">\n    <div class=\"serah-content\">\n      <p>THE SERAH WOMAN EXPRESSES HER SPIRITED INDIVIDUALITY IN ALL HER CHOICES. NATURALLY, THIS EXTENDS TO CLOTHES.<\/p><br>\n      <p>From my earliest days, fashion was my playground, and the dream of creating my own clothing line has been my North Star. I believe that fashion isn't just about clothes; it's a form of self-expression that speaks volumes about one's personality, one’s choices and one’s values.<\/p><br>\n      <p>At its core, Serah is a brand that is a reflection of the nuances of the modern day woman—the Serah woman. The Serah woman is independent and unique—she chooses her own path, without judgement or compromise.<\/p> <br>\n      <p>Our community is united in the fact that they all have unique personalities, which are defined by all the choices they’re free and empowered to make. Whether you're a homemaker, a working mom, or an entrepreneur, at Serah, we've carefully crafted statement pieces for you that seamlessly transition from day to night.<\/p><div class=\"serah-image\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0823\/0302\/5461\/files\/Hasmitha-sign_1_1.svg?v=1711616141&width=370\" alt=\"Serah Woman\">\n    <\/div>\n    <\/div>\n    <div class=\"serah-image\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0823\/0302\/5461\/files\/Hasmitha_-_Founder_-_Serah.jpg?v=1720815215\" alt=\"Serah Woman\">\n    <\/div>\n  <\/div>\n<\/div>",
+        "text_alignment": "start"
+      }
     }
   },
   "order": [
@@ -279,6 +338,8 @@
     "b7d30c7b-9f80-46ec-b24a-a4d5918d8cc1",
     "04f0781d-6052-49cd-bb57-05f3b529d2b0",
     "rich_text_mb4Adx",
-    "d96f99a4-3fe3-405f-972f-6b50c900ad8a"
+    "page_image_with_text_GDD9bG",
+    "d96f99a4-3fe3-405f-972f-6b50c900ad8a",
+    "custom_liquid_cqjtm4"
   ]
 }
