@@ -55,6 +55,9 @@ Supported variables
     <div class="product-card__figure">
       {%- if show_badges -%}
         {%- render 'product-badges', product: product, vertical: true -%}
+        {% if card_product.tags contains 'best-seller' %}
+  <span class="badge">Best Seller</span>
+{% endif %}
       {%- endif -%}
 
       <a href="{{ product.url }}" class="product-card__media" data-instant>
