@@ -31,7 +31,7 @@
       "settings": {
         "separate_section_with_border": true,
         "blog": "latest",
-        "posts_count": 3,
+        "posts_count": 9,
         "stack_on_mobile": false,
         "show_category": true,
         "show_excerpt": true,
