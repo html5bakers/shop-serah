@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-blog",
+      "disabled": true,
       "settings": {
         "show_blog_title": true,
         "show_rss_feed": false,
@@ -24,9 +25,27 @@
         "show_excerpt": true,
         "show_read_more": true
       }
+    },
+    "blog_posts_GwmVBp": {
+      "type": "blog-posts",
+      "settings": {
+        "separate_section_with_border": true,
+        "blog": "latest",
+        "posts_count": 3,
+        "stack_on_mobile": false,
+        "show_category": true,
+        "show_excerpt": true,
+        "show_read_more": false,
+        "subheading": "",
+        "title": "Latest",
+        "content": "",
+        "button_link": "",
+        "button_text": "Read more"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "blog_posts_GwmVBp"
   ]
 }
