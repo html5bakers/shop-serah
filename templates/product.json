@@ -29,12 +29,6 @@
             "show_taxes_notice": false
           }
         },
-        "liquid_jN7ATj": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "{% render 'tabby-installments'%}"
-          }
-        },
         "separator": {
           "type": "separator",
           "settings": {
@@ -123,7 +117,6 @@
         "686e31a9-6ed0-4008-9394-ef4a49f42376",
         "title",
         "price",
-        "liquid_jN7ATj",
         "separator",
         "description",
         "variant_picker",
