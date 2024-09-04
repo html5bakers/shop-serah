@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -18,6 +27,12 @@
           "type": "price",
           "settings": {
             "show_taxes_notice": false
+          }
+        },
+        "liquid_p6AXQQ": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% render 'tabby-installments'%}"
           }
         },
         "separator": {
@@ -108,6 +123,7 @@
         "686e31a9-6ed0-4008-9394-ef4a49f42376",
         "title",
         "price",
+        "liquid_p6AXQQ",
         "separator",
         "description",
         "variant_picker",
