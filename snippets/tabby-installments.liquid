@@ -47,7 +47,7 @@
       const lang = '{{ lang }}';
       const sectionId = '{{ shopify-section-template--20866689630517__main }}';
       // this works for the default theme, for custom themes sometimes you have to search for a price element manually
-      const priceElement = window[`price-${sectionId}`];
+      const priceElement = window[`price-${shopify-section-template--20866689630517__main}`];
 
       const initializeTabbyPromo = ({ element }) => {
         const [layoutPrice] = element.textContent?.match(priceRegExp) || [];
