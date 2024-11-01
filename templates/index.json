@@ -12,32 +12,38 @@
     "gp_section_521144593178166215": {
       "type": "gp-section-521144593178166215",
       "settings": {
-        "section_preload": "true"
+        "section_preload": "true",
+        "checksum": "30bacdb7b1f23e2be59c0118277bd877fc0bcff4dfa4d0b35a6aea331c6947e8_1"
       }
     },
     "gp_section_521467761566680236": {
       "type": "gp-section-521467761566680236",
       "settings": {
+        "checksum": "287e9c4cd4c249dca4228430c8e572705d87197fb643d69cd3de5e5ecd18bda5_1"
       }
     },
     "gp_section_521144593194943431": {
       "type": "gp-section-521144593194943431",
       "settings": {
+        "checksum": "_1"
       }
     },
     "gp_section_521144593211720647": {
       "type": "gp-section-521144593211720647",
       "settings": {
+        "checksum": "_1"
       }
     },
     "gp_section_521144593228497863": {
       "type": "gp-section-521144593228497863",
       "settings": {
+        "checksum": "_1"
       }
     },
     "gp_section_521144593161388999": {
       "type": "gp-section-521144593161388999",
       "settings": {
+        "checksum": "_1"
       }
     }
   },
