@@ -24,13 +24,13 @@
     "newsletter-popup": {
       "type": "newsletter-popup",
       "settings": {
-        "apparition_delay": 5,
+        "apparition_delay": 2,
         "show_only_on_index": true,
         "hide_for_account_holders": true,
         "show_only_once": true,
-        "title": "Signup for our newsletter",
-        "content": "Describe what your customers will receive when subscribing to your newsletter.",
-        "button_text": "Subscribe",
+        "title": "Sign up and get 10% Off",
+        "content": "Join our community and stay up to date with the latest fashion trends and releases. While also enjoying exclusive discounts!",
+        "button_text": "Sign Up",
         "background": "#1c1c1c",
         "text_color": "#ffffff",
         "button_background": "#ffffff",
