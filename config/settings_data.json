@@ -38,6 +38,7 @@
     "round_color_swatches": false,
     "color_swatch_config": "Black:#1C1C1C\nGrey:#AFAFAF",
     "product_image_aspect_ratio": "tall_crop",
+    "show_secondary_image": false,
     "product_color_display": "hide",
     "show_quick_buy": false,
     "show_discount": true,
