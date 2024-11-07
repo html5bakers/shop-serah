@@ -8,51 +8,375 @@
  * ------------------------------------------------------------
  */
 {
+  "order": [
+    "f19bed77-8f06-4351-a1c9-776c14ca3494",
+    "featured-collections",
+    "6a1aed12-a625-42f7-b8e4-01589b079ca9",
+    "multi-column",
+    "fd2d0b7e-103c-4c5a-91be-7bed0d5b6866",
+    "14bb2704-8916-410d-81e4-459b99962071",
+    "before-after"
+  ],
   "sections": {
-    "gp_section_521144593178166215": {
-      "type": "gp-section-521144593178166215",
+    "14bb2704-8916-410d-81e4-459b99962071": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "adc4b965-0bf0-4154-b29b-05a680141b48": {
+          "type": "link",
+          "settings": {
+            "text": "EXPLORE",
+            "url": "shopify:\/\/collections\/brunch-club"
+          }
+        },
+        "template--20866689696053__14bb2704-8916-410d-81e4-459b99962071-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "The Brunch Club",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--20866689696053__14bb2704-8916-410d-81e4-459b99962071-heading-1",
+        "adc4b965-0bf0-4154-b29b-05a680141b48"
+      ],
       "settings": {
-        "section_preload": "true",
-        "checksum": "d0a7b82d6765bce6d965a2804a689f606aaec32b19d33cca5008accdb6977317_1"
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/brunch-club.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "lg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-end-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
-    "gp_section_521467761566680236": {
-      "type": "gp-section-521467761566680236",
+    "6a1aed12-a625-42f7-b8e4-01589b079ca9": {
+      "type": "collection-image-with-text",
+      "blocks": {
+        "b94f3341-9dea-41b5-be4c-82a38665eb2d": {
+          "type": "link",
+          "settings": {
+            "text": "EXPLORE SETS",
+            "url": "shopify:\/\/collections\/co-ord-sets"
+          }
+        },
+        "template--20866689696053__6a1aed12-a625-42f7-b8e4-01589b079ca9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "EXCLUSIVELY    <span> yours <\/span>",
+            "heading_tag": "h1",
+            "big_heading": true
+          }
+        },
+        "template--20866689696053__6a1aed12-a625-42f7-b8e4-01589b079ca9-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>products you won’t find everywhere.<\/p>",
+            "addspace": true
+          }
+        },
+        "template--20866689696053__6a1aed12-a625-42f7-b8e4-01589b079ca9-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "products you won’t find everywhere."
+          }
+        }
+      },
+      "block_order": [
+        "template--20866689696053__6a1aed12-a625-42f7-b8e4-01589b079ca9-heading-1",
+        "template--20866689696053__6a1aed12-a625-42f7-b8e4-01589b079ca9-subheading-1",
+        "template--20866689696053__6a1aed12-a625-42f7-b8e4-01589b079ca9-richtext-1",
+        "b94f3341-9dea-41b5-be4c-82a38665eb2d"
+      ],
+      "custom_css": [
+        "p {font-size: 16px;}"
+      ],
       "settings": {
-        "checksum": "b20a6a6b6ab5cbbb52942ce57e4a9ae3f7b6733f5c493898fa51d0bd83ad93ef_1"
+        "separate_section_with_border": true,
+        "background1": "#2a2a2a",
+        "font_color": "#ffffff",
+        "image": "shopify:\/\/shop_images\/DSC_4091.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "lg",
+        "remove_vertical_spacing": true
       }
     },
-    "gp_section_521144593194943431": {
-      "type": "gp-section-521144593194943431",
+    "before-after": {
+      "type": "before-after",
+      "blocks": {
+        "after": {
+          "type": "after",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_2.png",
+            "product_select": "",
+            "text": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_color": "#1c1c1c",
+            "button_background": "#ffffff",
+            "button_text_color": "#1c1c1c"
+          }
+        },
+        "before": {
+          "type": "before",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1.png",
+            "product_select": "boucle-crop-top-skirt",
+            "text": "",
+            "link_text": "VIEW PRODUCT",
+            "link_url": "shopify:\/\/products\/boucle-crop-top-skirt",
+            "link_style": "link",
+            "text_color": "#1c1c1c",
+            "button_background": "#ffffff",
+            "button_text_color": "#1c1c1c"
+          }
+        }
+      },
+      "block_order": [
+        "before",
+        "after"
+      ],
       "settings": {
-        "checksum": "_1"
+        "separate_section_with_border": false,
+        "enableborder": true,
+        "padding_top": 0,
+        "padding_bottom": 20,
+        "background1": "#2a2a2a",
+        "font_color": "#ffffff",
+        "subheading": "",
+        "title": "DAY CHIC to <em>Night Glam<\/em>",
+        "content": "",
+        "cursor_direction": "horizontal",
+        "cursor_initial_position": 50,
+        "cursor_background": "#ffffff",
+        "cursor_arrows_color": "#afafaf"
       }
     },
-    "gp_section_521144593211720647": {
-      "type": "gp-section-521144593211720647",
+    "f19bed77-8f06-4351-a1c9-776c14ca3494": {
+      "type": "home-main-banner",
+      "blocks": {
+        "022fb175-851f-4b49-a52a-2bb44bed1df3": {
+          "type": "heading",
+          "settings": {
+            "text": "<span>The<\/span>\n<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"200\" height=\"97\" viewbox=\"0 0 228 97\" fill=\"none\">\n<path d=\"M37.9658 39.5685L32.5219 47.43C32.5219 37.0789 26.8073 30.2669 17.8268 30.2669C14.8341 29.874 11.9756 30.7917 9.79754 32.7564C7.61951 34.7212 6.39512 37.4719 6.39512 40.3544C6.39512 57.6492 43.2707 58.6963 43.2707 79.9207C43.2707 90.14 34.8341 96.9544 22.3146 96.9544C13.4707 97.4791 4.89757 93.4178 0 86.3422L5.44388 78.4807C5.17312 83.0668 6.80485 87.5211 10.2049 90.7965C13.4707 94.0719 18.0975 95.7755 22.8609 95.5144C26.6707 95.9073 30.4804 94.7285 33.339 92.3707C36.1975 89.8812 37.8292 86.3422 37.8292 82.6762C37.8292 63.2848 0.953637 62.8918 0.953637 43.1099C0.953637 34.5942 7.75609 28.9587 17.9634 28.9587C26.1268 28.6975 33.7463 32.7588 37.9658 39.5709V39.5685Z\" fill=\"black\"><\/path>\n<path d=\"M54.9731 54.2424C54.5657 56.8637 54.4292 59.6144 54.4292 62.2357C54.4292 82.0201 62.5926 95.1218 74.9755 95.1218C84.3633 95.1218 92.7999 87.5238 95.795 75.9939L97.1559 76.2575C94.9779 87.7874 84.773 96.4348 72.6633 96.8278C57.695 96.8278 47.6267 83.2013 47.6267 62.8946C47.6267 42.5879 57.8316 28.9614 73.073 28.9614C85.3193 28.9614 94.1632 39.0513 95.6608 54.2472H54.9755L54.9731 54.2424ZM73.2072 30.1355C63.9535 30.1355 57.2877 39.0465 55.1096 52.9341H90.2169C88.9925 39.3077 82.3242 30.1355 73.2072 30.1355Z\" fill=\"black\"><\/path>\n<path d=\"M163.971 51.3598V83.5918C163.971 89.3568 166.149 92.6322 169.415 91.5827L169.822 92.8934L157.168 96.8229V89.2226C153.359 94.0698 147.371 96.8229 140.976 96.8229C136.622 97.0841 132.266 95.6441 129 92.7616C125.734 89.8791 123.829 85.8178 123.829 81.4952C123.829 63.2827 157.166 61.4497 157.166 48.6091C157.437 43.5007 155.398 38.6511 151.588 35.1145C147.778 31.5755 142.607 29.7425 137.437 30.1354C126.007 30.1354 115.663 36.8181 111.583 47.0373V86.3425C111.583 91.0604 113.895 95.6417 117.434 95.6417V96.9523H98.9293V95.6417C102.466 95.6417 104.781 90.9286 104.781 86.0813V42.0583C104.781 36.2933 102.602 33.0179 99.339 34.065L98.9317 32.7543L111.585 28.8248V43.7595C116.893 34.1944 127.371 28.4294 138.527 28.8248C153.088 28.8248 163.973 37.8652 163.973 51.3598H163.971ZM157.168 53.3246C151.317 61.972 130.498 64.8545 130.498 80.4458C130.227 84.1141 131.451 87.7825 134.037 90.5356C136.622 93.2863 140.161 94.9899 143.971 95.1217C149.412 94.8605 154.449 91.9781 157.171 87.392V53.327L157.168 53.3246Z\" fill=\"black\"><\/path>\n<path d=\"M209.144 95.6392C212.683 95.6392 214.859 90.9262 214.859 86.0789V48.6067C214.859 37.7333 208.19 30.9189 200.434 30.9189C191.181 31.7048 184.242 39.4346 185.059 48.4749V86.3377C185.059 91.0555 187.371 95.6368 190.91 95.6368V96.9475H172.403V95.6368C175.942 95.6368 178.254 90.9238 178.254 86.0765V13.2335C178.254 7.46856 176.076 4.19313 172.81 5.24261L172.403 3.93195L185.061 0V40.877C187.783 33.5402 194.995 28.693 203.159 28.8248C208.193 28.693 212.956 30.6601 216.493 34.065C220.032 37.604 221.937 42.3194 221.663 47.1667V86.3401C221.663 91.0579 223.976 95.6392 227.515 95.6392V96.9499H209.144V95.6392Z\" fill=\"black\"><\/path>\n<\/svg>\n<span>Woman<\/span>",
+            "heading_tag": "h2"
+          }
+        },
+        "48dfc529-b254-4e1b-87f8-2307a4bd808b": {
+          "type": "link",
+          "settings": {
+            "text": "EXPLORE COLLECTION",
+            "url": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "022fb175-851f-4b49-a52a-2bb44bed1df3",
+        "48dfc529-b254-4e1b-87f8-2307a4bd808b"
+      ],
       "settings": {
-        "checksum": "_1"
+        "separate_section_with_border": false,
+        "bg_image1": "shopify:\/\/shop_images\/Layer_1_1.svg",
+        "image": "shopify:\/\/shop_images\/Serah-HomeBanner.png",
+        "reveal_on_scroll": false,
+        "image_position": "end",
+        "content_width": "lg",
+        "remove_vertical_spacing": false
       }
     },
-    "gp_section_521144593228497863": {
-      "type": "gp-section-521144593228497863",
+    "fd2d0b7e-103c-4c5a-91be-7bed0d5b6866": {
+      "type": "collection-list",
+      "blocks": {
+        "7db65e18-0864-43a9-a388-f3906b9f0f7f": {
+          "type": "collection",
+          "settings": {
+            "collection": "blazers",
+            "image": "shopify:\/\/shop_images\/DSC_3640.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "Blazers",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#2a2a2a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "#ffffff",
+            "button_text_color": "#000000"
+          }
+        },
+        "template--20866689696053__fd2d0b7e-103c-4c5a-91be-7bed0d5b6866-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "dresses-1",
+            "image": "shopify:\/\/shop_images\/DSC_3521.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "Dresses",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#2a2a2a",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0,
+            "button_background": "#ffffff",
+            "button_text_color": "#000000"
+          }
+        },
+        "template--20866689696053__fd2d0b7e-103c-4c5a-91be-7bed0d5b6866-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "tops",
+            "image": "shopify:\/\/shop_images\/DSC_3828.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "Tops",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#2a2a2a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "#ffffff",
+            "button_text_color": "#000000"
+          }
+        },
+        "template--20866689696053__fd2d0b7e-103c-4c5a-91be-7bed0d5b6866-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "co-ord-sets",
+            "image": "shopify:\/\/shop_images\/DSC_3768.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "Co-Ord Sets",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#2a2a2a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "#ffffff",
+            "button_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "7db65e18-0864-43a9-a388-f3906b9f0f7f",
+        "template--20866689696053__fd2d0b7e-103c-4c5a-91be-7bed0d5b6866-collection-1",
+        "template--20866689696053__fd2d0b7e-103c-4c5a-91be-7bed0d5b6866-collection-3",
+        "template--20866689696053__fd2d0b7e-103c-4c5a-91be-7bed0d5b6866-collection-2"
+      ],
       "settings": {
-        "checksum": "_1"
+        "enableborder": true,
+        "padding_top": 5,
+        "padding_bottom": 20,
+        "separate_section_with_border": false,
+        "image_size": "auto",
+        "show_text_outside": true,
+        "space_items": true,
+        "stack_collections": false,
+        "collections_per_row_desktop": 4,
+        "subheading": "",
+        "title": "SHOP BY CATEGORY",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c",
+        "link_url": "",
+        "link_text": "Shop all"
       }
     },
-    "gp_section_521144593161388999": {
-      "type": "gp-section-521144593161388999",
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage",
+            "products_count": 4,
+            "title": "BESTSELLERS",
+            "link_url": "shopify:\/\/collections\/all",
+            "link_text": "SHOP BESTSELLERS"
+          }
+        }
+      },
+      "block_order": [
+        "collection-1"
+      ],
       "settings": {
-        "checksum": "_1"
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.2,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "multi-column": {
+      "type": "multi-column",
+      "blocks": {
+        "column-1": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_1-1.svg",
+            "title": "Exclusively yours",
+            "heading_tag": "h5",
+            "content": "<p>Limited-edition pieces that are sure to turn heads.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "column-2": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_1.svg",
+            "title": "Quality > Quantity",
+            "heading_tag": "h5",
+            "content": "<p>We're not about trends. We're about creating timeless pieces that will never go out of style<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "column-3": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_1-2.svg",
+            "title": "Versatile",
+            "heading_tag": "h5",
+            "content": "<p>Clothes that are perfect for work, play, and everything in between.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "column-1",
+        "column-2",
+        "column-3"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "enableborder": false,
+        "padding_top": 5,
+        "padding_bottom": 5,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
       }
     }
-  },
-  "order": [
-    "gp_section_521144593178166215",
-    "gp_section_521467761566680236",
-    "gp_section_521144593194943431",
-    "gp_section_521144593211720647",
-    "gp_section_521144593228497863",
-    "gp_section_521144593161388999"
-  ]
+  }
 }
