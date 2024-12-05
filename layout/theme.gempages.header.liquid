@@ -96,6 +96,45 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-MKXVBDD8');</script>
 <!-- End Google Tag Manager -->
+
+<script>
+// Check if the user is on Instagram's in-app browser
+function isInstagramInAppBrowser() {
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    return userAgent.includes("Instagram");
+}
+
+// Attempt to play the video when on Instagram in-app browser
+function playVideoOnInstagram() {
+    const video = document.getElementById('gp-video-gb4Me1-XPL'); // Using the specific video ID
+    if (video && isInstagramInAppBrowser()) {
+        // Try to play the video
+        video.play().catch(error => {
+            console.log("Auto-play might be blocked:", error);
+            // Optional: Provide feedback or a manual play button if needed
+        });
+    }
+}
+
+// Set up a MutationObserver in case GEMPages dynamically loads the video
+function setupObserver() {
+    const observer = new MutationObserver(() => {
+        playVideoOnInstagram(); // Try playing video whenever DOM changes
+    });
+
+    // Observe changes in the body or a specific GEMPages container
+    observer.observe(document.body, { childList: true, subtree: true });
+}
+
+// Initialize observer after page load
+document.addEventListener("DOMContentLoaded", function() {
+    if (isInstagramInAppBrowser()) {
+        setupObserver();
+    }
+});
+</script>
+
+    
   </head>
 
   {% liquid
@@ -145,5 +184,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     {%- if request.page_type != 'password' -%}
       
     {%- endif -%}
+
+
   </body>
 </html>

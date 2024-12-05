@@ -14,8 +14,7 @@
       "blocks": {
         "686e31a9-6ed0-4008-9394-ef4a49f42376": {
           "type": "type",
-          "settings": {
-          }
+          "settings": {}
         },
         "title": {
           "type": "title",
@@ -31,8 +30,7 @@
         },
         "separator": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "description": {
           "type": "description",
@@ -52,8 +50,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
