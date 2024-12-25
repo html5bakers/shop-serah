@@ -58,15 +58,17 @@
     "checkout_accent_color": "#1c1c1c",
     "checkout_button_color": "#1c1c1c",
     "heading_color": "#303030",
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "6478312753674380289": {
         "type": "shopify://apps/gempages-builder/blocks/embed-gp-script-head/20b379d4-1b20-474c-a6ca-665c331919f3",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
+      },
+      "776302416715791028": {
+        "type": "shopify://apps/bucks/blocks/app-embed/4f0a9b06-9da4-4a49-b378-2de9d23a3af3",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
