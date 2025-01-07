@@ -70,6 +70,20 @@
         "type": "shopify://apps/nova-multi-currency-converter/blocks/app-embed/a5be3c35-cbd0-46a1-ac3a-1ace57a9c1ce",
         "disabled": false,
         "settings": {}
+      },
+      "15683396631634586217": {
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
+        "settings": {
+          "button_color": "#fff6ed",
+          "secondary_color": "#1c1c1c",
+          "ternary_color": "#1c1c1c",
+          "button_icon": "chat_bubble",
+          "button_text": "chat_with_us",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "lowest",
+          "greeting_message": ""
+        }
       }
     }
   },
