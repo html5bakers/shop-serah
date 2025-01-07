@@ -46,6 +46,7 @@
       class="gC0GfrAZuF gp-relative gp-flex gp-flex-col"
     >
       
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
   <gp-text data-id="gE4J6mpxMy">
     <div
       enableLazyloadImage="true" parentTag="Col"
@@ -58,11 +59,12 @@
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
           style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--c:#242424;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans'), var(--g-font-heading, heading);--weight:700;--ls:normal;--size:20px;--size-tablet:18px;--size-mobile:18px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;word-break:break-word;--radius:var(--g-radius-small);overflow:hidden"
-        >{{ section.settings.ggE4J6mpxMy_text }}</h2>
+        >{{ section.settings.ggE4J6mpxMy_text | replace: '$locationOrigin', locationOrigin }}</h2>
       </div>
     </div>
     </gp-text>
     
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
   <gp-text data-id="g9fQZ09NUn">
     <div
       enableLazyloadImage="true" parentTag="Col"
@@ -75,7 +77,7 @@
           data-gp-text
           class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
           style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--c:#242424;--fs:normal;--ff:var(--g-font-DM-Sans, 'DM Sans'), var(--g-font-heading, heading);--weight:700;--ls:normal;--size:15px;--size-tablet:14px;--size-mobile:14px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;word-break:break-word;--radius:var(--g-radius-small);overflow:hidden"
-        >{{ section.settings.gg9fQZ09NUn_text }}</h2>
+        >{{ section.settings.gg9fQZ09NUn_text | replace: '$locationOrigin', locationOrigin }}</h2>
       </div>
     </div>
     </gp-text>
