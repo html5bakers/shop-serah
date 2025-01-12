@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header group",
@@ -8,7 +17,7 @@
         "message-1": {
           "type": "message",
           "settings": {
-            "text": "10% OFF on All First Orders | Avail at Checkout"
+            "text": "10% OFF on All First Orders | Avail at Checkout | Pay in 4 with Tabby"
           }
         }
       },
@@ -33,11 +42,11 @@
           "settings": {
             "menu_item": "Shop",
             "images_position": "right",
-            "image_1": "shopify:\/\/shop_images\/megamenu-banner.jpg",
+            "image_1": "shopify://shop_images/megamenu-banner.jpg",
             "image_1_heading": "10% off",
             "image_1_text": "on your first order",
             "image_1_btn": "Explore",
-            "image_1_link": "shopify:\/\/collections\/all",
+            "image_1_link": "shopify://collections/all",
             "image_2_heading": "",
             "image_2_text": "",
             "image_2_link": "",
@@ -52,7 +61,7 @@
         "enable_sticky": true,
         "show_separation_border": true,
         "reduce_padding": true,
-        "logo": "shopify:\/\/shop_images\/logo.svg",
+        "logo": "shopify://shop_images/logo.svg",
         "logo_max_width": 100,
         "logo_mobile_max_width": 100,
         "menu": "main-menu",
@@ -68,7 +77,7 @@
         "show_country_flag": false,
         "show_locale_selector": false,
         "transparent_header_text_color": "#ffffff",
-        "transparent_logo": "shopify:\/\/shop_images\/logo.svg"
+        "transparent_logo": "shopify://shop_images/logo.svg"
       }
     }
   },
