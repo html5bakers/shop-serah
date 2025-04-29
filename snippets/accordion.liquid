@@ -24,7 +24,7 @@ Supported parameters
 * block: an optional block to output theme editor attributes
 {%- endcomment -%}
 
-<details class="accordion animate show_up ad-1  {% if size %}accordion--{{ size }}{% endif %} group {% if bleed %}bleed sm:unbleed{% endif %}" is="{{ is | default: 'accordion-disclosure' }}" {% if open %}open aria-expanded="true"{% else %}aria-expanded="false"{% endif %} {{ block.shopify_attributes }}>
+<details class="accordion animate show_up animate-1  {% if size %}accordion--{{ size }}{% endif %} group {% if bleed %}bleed sm:unbleed{% endif %}" is="{{ is | default: 'accordion-disclosure' }}" {% if open %}open aria-expanded="true"{% else %}aria-expanded="false"{% endif %} {{ block.shopify_attributes }}>
   <summary>
     {%- comment -%}iOS 14 does not support flex on the summary itself, so we have to use this extra div{%- endcomment -%}
     <span class="accordion__toggle {% if show_title_as_text %}text-lg{% else %}h6{% endif %}">
