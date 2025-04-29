@@ -62,7 +62,7 @@
               {%- else -%}
                 {%- assign product_carousel_id = 'featured-collections-product-list-carousel-' | append: block.id -%}
 
-                <product-list class="floating-controls-container floating-controls-container--inside floating-controls-container--on-hover animate show_up ad-1">
+                <product-list class="floating-controls-container floating-controls-container--inside floating-controls-container--on-hover animate show_up animate-1">
                   <scroll-carousel id="{{ product_carousel_id }}" group-cells allow-drag class="product-list {% if section.settings.hide_product_information %}product-list--compact{% endif %} product-list--carousel scroll-area bleed md:unbleed">
                     {{- product_list -}}
                   </scroll-carousel>
