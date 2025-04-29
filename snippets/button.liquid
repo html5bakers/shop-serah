@@ -122,14 +122,14 @@ Supported variables
 {%- endcapture -%}
 
 {%- if href != blank -%}
-   <div class="animate show_up ad-1">
+   <div class="animate show_up animate-1">
   <a {{ attributes }} {{ block.shopify_attributes }}>
     {{- button_content -}}
     {%- render 'border-hover', style:'dark' -%}
   </a>
    </div>
 {%- else -%}
-   <div class="main-btn animate show_up ad-1">
+   <div class="main-btn animate show_up animate-1">
   <button type="{{ type | default: 'button' }}" {{ attributes }} {{ block.shopify_attributes }}>
     {{- button_content -}}
   </button>
