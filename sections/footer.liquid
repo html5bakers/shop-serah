@@ -38,26 +38,26 @@
                     {%- capture sizes -%}{{ block.settings.image_width }}px{%- endcapture -%}
                     {%- capture widths -%}{{ block.settings.image_width }}, {{ block.settings.image_width | times: 2 | at_most: block.settings.image.width }}{%- endcapture -%}
                     {%- capture style -%}--image-max-width: {{ block.settings.image_width }}px{%- endcapture -%}
-                    <div class="footer_logo animate show_up ad-1">
+                    <div class="footer_logo animate show_up animate-1">
                       <a href="{{ shop.url }}">
                         {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: sizes: sizes, widths: widths, style: style, class: 'constrained-image' -}}
                       </a>
                     </div>
                   {%- endif -%}
                   {%- if block.settings.title != blank or block.settings.content != blank or shop.features.follow_on_shop? and block.settings.enable_follow_on_shop -%}
-                    <div class="v-stack gap-4 sm:gap-5 animate show_up ad-1">
+                    <div class="v-stack gap-4 sm:gap-5 animate show_up animate-1">
                       {%- if block.settings.title != blank -%}
                         <p class="h6">{{ block.settings.title }}</p>
                       {%- endif -%}
 
                       {%- if block.settings.content != blank -%}
-                        <div class="prose text-subdued animate show_up ad-1">
+                        <div class="prose text-subdued animate show_up animate-1">
                           {{- block.settings.content -}}
                         </div>
                       {%- endif -%}
 
                       {%- if shop.features.follow_on_shop? and block.settings.enable_follow_on_shop -%}
-                        <div class="follow-on-shop animate show_up ad-1">
+                        <div class="follow-on-shop animate show_up animate-1">
                           {{- shop | login_button: action: 'follow' -}}
                         </div>
                       {%- endif -%}
@@ -68,7 +68,7 @@
                   {%- assign menu = block.settings.menu -%}
 
                   {%- if menu != blank and menu.links.size > 0 -%}
-                    <div class="v-stack gap-4 sm:gap-5 animate show_up ad-1">
+                    <div class="v-stack gap-4 sm:gap-5 animate show_up animate-1">
                       {%- if block.settings.show_menu_title != blank -%}
                         <p class="h6">{{ menu.title }}</p>
                       {%- endif -%}
@@ -124,7 +124,7 @@
             {%- endcapture -%}
 
             {%- if block_content != blank -%}
-              <div class="footer__block footer__block--{{ block.type }} animate show_up ad-1" {{ block.shopify_attributes }}>
+              <div class="footer__block footer__block--{{ block.type }} animate show_up animate-1" {{ block.shopify_attributes }}>
                 {{- block_content -}}
               </div>
             {%- endif -%}
@@ -134,7 +134,7 @@
 
   <div class="middle-footer">
     <div class="footer-share">
-      <div class="footer-instagram animate show_up ad-1">
+      <div class="footer-instagram animate show_up animate-1">
    {%- comment -%}
       ------------------------------------------------------------------------------------------------------------------
       FOOTER SOCIAL MEDIA
@@ -146,7 +146,7 @@
       {%- endif -%}
       </div>
         {%- if section.settings.show_payment_icons  -%}
-          <div class="payment-methods animate show_up ad-1">
+          <div class="payment-methods animate show_up animate-1">
             <p class="text-xs">We Accept</p>
             {%- for block in section.blocks -%}
               {%- case block.type -%}
@@ -179,7 +179,7 @@
       ------------------------------------------------------------------------------------------------------------------
       {%- endcomment -%}
 
-      <div class="footer__aside animate show_up ad-1">
+      <div class="footer__aside animate show_up animate-1">
         {%- if section.settings.show_country_selector and localization.available_countries.size > 1 -%}
           {%- assign show_country_selector = true -%}
         {%- endif -%}
